@@ -2,11 +2,11 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-header_words = 'words without punctuation'
+header_words = 'words'
 header_matches = 'vocabulary matches'
 header_sentence_perc = 'vocabulary matches percentage'
 
-example_file = 'Boufflers_Reine'
+example_file = 'Abbes_Voyage'
 
 
 def create_plot(header, data, filepath=None, dir=None):
@@ -19,6 +19,7 @@ def create_plot(header, data, filepath=None, dir=None):
     else:
         plt.plot(data[header])
         plt.savefig(filepath)
+        plt.close()
 
 
 def create_boxplot(header, data, filepath=None, dir=None):
@@ -31,6 +32,7 @@ def create_boxplot(header, data, filepath=None, dir=None):
     else:
         plt.boxplot(data[header])
         plt.savefig(filepath)
+        plt.close()
 
 
 def density_range(dens_range, data, restrict_same_paragraph=False):
@@ -115,13 +117,18 @@ def load_data():
             dfs.append(dataframe)
             dataframes[filename.replace('.tsv', '')] = dataframe
     df = pd.concat(dfs, axis=0, ignore_index=True)
-    df_no_zeros = df[df['vocabulary matches percentage'] != 0]
+    df_no_zeros = df[df[header_sentence_perc] != 0]
     return df, df_no_zeros, dataframes
 
 
 if __name__ == '__main__':
     df, df_no_zeros, dataframes = load_data()
     df_example = dataframes[example_file]
-    density_range(9, df_example)
-    create_plot('density (range=9,same_paragraph=False)', df_example, 'plot.png')
+    density_range(3, df_example)
+    density_range(5, df_example)
+    create_plot('density (range=3,same_paragraph=False)', df_example, 'plot_r3.png')
+    create_plot('density (range=5,same_paragraph=False)', df_example, 'plot_r5.png')
+    create_boxplot('density (range=3,same_paragraph=False)', df_example, 'boxplot_r3.png')
+    create_plot(header_sentence_perc, df_example, 'plot.png')
+    create_boxplot(header_sentence_perc, df_example, 'boxplot.png')
     print(df_example)
