@@ -1,6 +1,10 @@
 # DescriptionDetector
 Skripte zur Identifikation von Beschreibungspassagen in Texten auf Basis eines Vokabulars.
 
+Das Projekt am besten in einem virtuellen Environment ausführen. Mit folgendem Befehl können dann alle benötigten Pakete installiert werden:\
+`pip install -r requirements.txt`\
+Es wird unter Anderem das franzöische spaCy-Modell **fr_core_news_sm** heruntergeladen und verwendet. Wenn gewünscht, kann dieses durch andere/größere Modelle ersetzt werden (siehe [spacy.io/models/fr](https://spacy.io/models/fr)).
+
 ### config.py
 Konfigurations-Datei, welche Konstanten für Dateipfade sowie Header der TSV-Dateien enthält. Das Ändern von Headern oder Dateiepfaden kann dazu führen, dass die einzelnen Skripte nicht erwartungsgemäß funktionieren.
 
