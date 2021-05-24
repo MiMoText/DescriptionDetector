@@ -8,7 +8,7 @@ def create_plot(header, data, filepath=None, dir=None):
     if type(data) == dict:
         for key in data.keys():
             if dir is None:
-                create_plot(header, data[key], key)
+                create_plot(header, data[key], key + '.png')
             else:
                 if not os.path.exists(dir):
                     os.makedirs(dir)
@@ -23,7 +23,7 @@ def create_boxplot(header, data, filepath=None, dir=None):
     if type(data) == dict:
         for key in data.keys():
             if dir is None:
-                create_boxplot(header, data[key], key)
+                create_boxplot(header, data[key], key + '.png')
             else:
                 if not os.path.exists(dir):
                     os.makedirs(dir)
@@ -38,7 +38,7 @@ def save_dataframes(data, filepath=None, dir=None):
     if type(data) == dict:
         for key in data.keys():
             if dir is None:
-                save_dataframes(data[key], key)
+                save_dataframes(data[key], key + '.tsv')
             else:
                 if not os.path.exists(dir):
                     os.makedirs(dir)
@@ -181,13 +181,17 @@ def paragraph_dataframe(data):
     sentences = []
     words = []
     matches = []
+    densities = []
     medians = []
     stds = []
     for i in range(paragraphs_nr[len(paragraphs_nr)-1] + 1):
         paragraphs.append(i)
         sentences.append(max(data[config.h_sentence_nr_paragraph][data[config.h_paragraph_nr] == i]) + 1)
-        words.append(sum(data[config.h_words][data[config.h_paragraph_nr] == i]))
-        matches.append(sum(data[config.h_matches][data[config.h_paragraph_nr] == i]))
+        w = sum(data[config.h_words][data[config.h_paragraph_nr] == i])
+        words.append(w)
+        m = sum(data[config.h_matches][data[config.h_paragraph_nr] == i])
+        matches.append(m)
+        densities.append(m / w)
         medians.append(max(data[config.h_paragraph_median(False)][data[config.h_paragraph_nr] == i]))
         stds.append(max(data[config.h_paragraph_std(False)][data[config.h_paragraph_nr] == i]))
     df = pd.DataFrame()
@@ -196,6 +200,7 @@ def paragraph_dataframe(data):
     df[config.h_sentences] = sentences
     df[config.h_words] = words
     df[config.h_matches] = matches
+    df[config.h_paragraph_density] = densities
     df[config.h_paragraph_median(False)] = medians
     df[config.h_paragraph_std(False)] = stds
     return df
