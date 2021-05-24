@@ -6,6 +6,7 @@ import os
 import re
 import string
 import csv
+import config
 
 
 def split_sentences_and_lemmatize_text(text):
@@ -28,24 +29,24 @@ def split_sentences_and_lemmatize_text(text):
     return sentences, processed_sentences
 
 
-def read_vocab():
-    filepath = os.path.join('data', 'vocabulaire.txt')
-    with open(filepath) as f:
-        vocab = f.read().split('\n')
-    vocab = list(set(vocab))
-    vocab.remove('')
-    return vocab
-
-
 def read_lemmatized_vocab():
+    lemmas_to_delete = [['faire']]
+
+    def read_vocab():
+        with open(config.fp_vocab_txt) as f:
+            vocab = f.read().split('\n')
+        vocab.remove('')
+        return vocab
+
     vocab = read_vocab()
     nlp = spacy.load("fr_core_news_sm")
     lemmatized_vocab = []
     for v in vocab:
         doc = nlp(v)
         lemmatized = [token.lemma_.lower() for token in doc]
-        if not lemmatized in lemmatized_vocab:
+        if lemmatized not in lemmatized_vocab and lemmatized not in lemmas_to_delete:
             lemmatized_vocab.append(lemmatized)
+    lemmatized_vocab.sort()
     return lemmatized_vocab
 
 
@@ -70,37 +71,38 @@ def count_vocab_words_in_text(vocab, sentence):
 
 def compute_density(vocab, text):
     results = []
-    results_header = ['sentence nr', 'sentence', 'paragraph nr', 'sentence nr in paragraph', 'words',
-                      'vocabulary matches', 'vocabulary matches percentage', 'vocabulary words found']
+    results_header = [config.h_sentence_nr, config.h_sentence, config.h_paragraph_nr, config.h_sentence_nr_paragraph,
+                      config.h_words, config.h_matches, config.h_sentence_density, config.h_voc_matches]
     paragraphs = text.split('\n')
     total_sentence_count = 0
+    p_index_written = 0
     for p_index in range(len(paragraphs)):
-        print('\r', (p_index+1), '/', len(paragraphs), end='')
+        print('\r', (p_index + 1), '/', len(paragraphs), end='')
         paragraph = paragraphs[p_index].strip()
         sentences, processed_sentences = split_sentences_and_lemmatize_text(paragraph)
-        if len(sentences) != len(processed_sentences):
-            print('ERROR: sentence-len')
         for s_index in range(len(sentences)):
             sentence = sentences[s_index]
             processed_sentence = processed_sentences[s_index]
 
             sentence_result = {}
-            sentence_result['sentence nr'] = total_sentence_count
-            sentence_result['sentence'] = sentence
-            sentence_result['paragraph nr'] = p_index
-            sentence_result['sentence nr in paragraph'] = s_index
-            sentence_result['words'] = len(processed_sentence)
+            sentence_result[config.h_sentence_nr] = total_sentence_count
+            sentence_result[config.h_sentence] = sentence
+            sentence_result[config.h_paragraph_nr] = p_index_written
+            sentence_result[config.h_sentence_nr_paragraph] = s_index
+            sentence_result[config.h_words] = len(processed_sentence)
 
             matches, found_vocabs = count_vocab_words_in_text(vocab, processed_sentence)
-            sentence_result['vocabulary matches'] = matches
+            sentence_result[config.h_matches] = matches
             if len(processed_sentence) == 0:
-                sentence_result['vocabulary matches percentage'] = 0
+                sentence_result[config.h_sentence_density] = 0
             else:
-                sentence_result['vocabulary matches percentage'] = matches / len(processed_sentence)
-            sentence_result['vocabulary words found'] = found_vocabs
+                sentence_result[config.h_sentence_density] = matches / len(processed_sentence)
+            sentence_result[config.h_voc_matches] = found_vocabs
 
             results.append(sentence_result)
             total_sentence_count += 1
+        if len(sentences) > 0:
+            p_index_written += 1
     return results_header, results
 
 
@@ -109,18 +111,16 @@ if __name__ == '__main__':
 
     vocab = read_lemmatized_vocab()
 
-    text_dir = os.path.join('data', 'plain', 'files')
-    results_dir = os.path.join('data', 'results', 'files')
-    if not os.path.exists(results_dir):
-        os.makedirs(results_dir)
-    for filename in os.listdir(text_dir):
+    if not os.path.exists(config.fp_processed_dir):
+        os.makedirs(config.fp_processed_dir)
+    for filename in os.listdir(config.fp_plain_dir):
         if filename.endswith('.txt'):
-            results_filename = os.path.join(results_dir, filename.replace('.txt', '.tsv'))
+            results_filename = os.path.join(config.fp_processed_dir, filename.replace('.txt', '.tsv'))
             if not RE_ANALYZE and os.path.exists(results_filename):
                 continue
             print('\n' + filename)
-            with open(os.path.join(text_dir, filename)) as file:
-                text = file.read()
+            with open(os.path.join(config.fp_plain_dir, filename)) as file:
+                text = file.read().strip()
             results_header, results = compute_density(vocab, text)
             with open(results_filename, 'w') as file:
                 writer = csv.writer(file, delimiter='\t')
