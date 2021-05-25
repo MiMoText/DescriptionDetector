@@ -80,34 +80,35 @@ def compute_density(vocab, text):
         print('\r', (p_index + 1), '/', len(paragraphs), end='')
         paragraph = paragraphs[p_index].strip()
         sentences, processed_sentences = split_sentences_and_lemmatize_text(paragraph)
+        s_index_written = 0
         for s_index in range(len(sentences)):
             sentence = sentences[s_index]
             processed_sentence = processed_sentences[s_index]
+            if len(processed_sentence) == 0:
+                continue
 
             sentence_result = {}
             sentence_result[config.h_sentence_nr] = total_sentence_count
             sentence_result[config.h_sentence] = sentence
             sentence_result[config.h_paragraph_nr] = p_index_written
-            sentence_result[config.h_sentence_nr_paragraph] = s_index
+            sentence_result[config.h_sentence_nr_paragraph] = s_index_written
             sentence_result[config.h_words] = len(processed_sentence)
 
             matches, found_vocabs = count_vocab_words_in_text(vocab, processed_sentence)
             sentence_result[config.h_matches] = matches
-            if len(processed_sentence) == 0:
-                sentence_result[config.h_sentence_density] = 0
-            else:
-                sentence_result[config.h_sentence_density] = matches / len(processed_sentence)
+            sentence_result[config.h_sentence_density] = matches / len(processed_sentence)
             sentence_result[config.h_voc_matches] = found_vocabs
 
             results.append(sentence_result)
             total_sentence_count += 1
+            s_index_written += 1
         if len(sentences) > 0:
             p_index_written += 1
     return results_header, results
 
 
 if __name__ == '__main__':
-    RE_ANALYZE = True
+    RE_ANALYZE = False
 
     vocab = read_lemmatized_vocab()
 

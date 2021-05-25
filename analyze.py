@@ -4,6 +4,42 @@ import matplotlib.pyplot as plt
 import config
 
 
+def load_data():
+    dataframes = {}
+    for filename in os.listdir(config.fp_processed_dir):
+        if filename.endswith('tsv'):
+            dataframe = pd.read_csv(os.path.join(config.fp_processed_dir, filename), sep='\t')
+            dataframe.insert(0, config.h_filename, filename.replace('.tsv', ''))
+            dataframes[filename.replace('.tsv', '')] = dataframe
+    df = concat_dataframes(dataframes)
+    df_no_zeros = df[df[config.h_sentence_density] != 0]
+    return df, df_no_zeros, dataframes
+
+
+def save_data(data, filepath=None, dir=None):
+    if type(data) == dict:
+        for key in data.keys():
+            if dir is None:
+                save_data(data[key], key + '.tsv')
+            else:
+                if not os.path.exists(dir):
+                    os.makedirs(dir)
+                save_data(data[key], os.path.join(dir, key + '.tsv'))
+    else:
+        data.to_csv(filepath, sep='\t', index=False)
+
+
+def concat_dataframes(data_dict):
+    keys = []
+    for key in data_dict.keys():
+        keys.append(key)
+    keys.sort()
+    dfs = []
+    for key in keys:
+        dfs.append(data_dict[key])
+    return pd.concat(dfs, axis=0, ignore_index=True)
+
+
 def create_plot(header, data, filepath=None, dir=None):
     if type(data) == dict:
         for key in data.keys():
@@ -34,19 +70,6 @@ def create_boxplot(header, data, filepath=None, dir=None):
         plt.close()
 
 
-def save_dataframes(data, filepath=None, dir=None):
-    if type(data) == dict:
-        for key in data.keys():
-            if dir is None:
-                save_dataframes(data[key], key + '.tsv')
-            else:
-                if not os.path.exists(dir):
-                    os.makedirs(dir)
-                save_dataframes(data[key], os.path.join(dir, key + '.tsv'))
-    else:
-        data.to_csv(filepath, sep='\t', index=False)
-
-
 def density_range(dens_range, data, restrict_same_paragraph=False):
     if dens_range % 2 == 0:
         print('Not able to compute the density for range=' + str(dens_range) + '. Only possible for odd ranges.')
@@ -67,7 +90,10 @@ def density_range(dens_range, data, restrict_same_paragraph=False):
                         words = words[1:]
                         matches_sum -= matches[0]
                         matches = matches[1:]
-                    density.append(matches_sum / words_sum)
+                    if words_sum == 0:
+                        density.append(0)
+                    else:
+                        density.append(matches_sum / words_sum)
                 words = []
                 matches = []
                 words_sum = 0
@@ -87,13 +113,19 @@ def density_range(dens_range, data, restrict_same_paragraph=False):
                 matches_sum -= matches[0]
                 matches = matches[1:]
             if compute_density:
-                density.append(matches_sum / words_sum)
+                if words_sum == 0:
+                    density.append(0)
+                else:
+                    density.append(matches_sum / words_sum)
         while len(density) < len(data[config.h_words]):
             words_sum -= words[0]
             words = words[1:]
             matches_sum -= matches[0]
             matches = matches[1:]
-            density.append(matches_sum / words_sum)
+            if words_sum == 0:
+                density.append(0)
+            else:
+                density.append(matches_sum / words_sum)
         header = config.h_density_range(dens_range, restrict_same_paragraph)
         data[header] = pd.Series(density)
 
@@ -109,7 +141,10 @@ def density_paragraph(data):
     for i in range(1, len(paragraphs)):
         if paragraphs[i] != paragraphs[i - 1]:
             for p_index in range(paragraph_start, i):
-                paragraph_density.append(matches_sum / words_sum)
+                if words_sum == 0:
+                    paragraph_density.append(0)
+                else:
+                    paragraph_density.append(matches_sum / words_sum)
             words_sum = words_count[i]
             matches_sum = matches_count[i]
             paragraph_start = i
@@ -117,7 +152,10 @@ def density_paragraph(data):
             words_sum += words_count[i]
             matches_sum += matches_count[i]
     while len(paragraph_density) < len(paragraphs):
-        paragraph_density.append(matches_sum / words_sum)
+        if words_sum == 0:
+            paragraph_density.append(0)
+        else:
+            paragraph_density.append(matches_sum / words_sum)
     data[config.h_paragraph_density] = pd.Series(paragraph_density)
 
 
@@ -159,20 +197,6 @@ def median_density_per_paragraph(data, skip_one_sentence_paragraphs=False):
     return pd.Series(medians).median()
 
 
-def load_data():
-    dataframes = {}
-    dfs = []
-    for filename in os.listdir(config.fp_processed_dir):
-        if filename.endswith('tsv'):
-            dataframe = pd.read_csv(os.path.join(config.fp_processed_dir, filename), sep='\t')
-            dataframe.insert(0, config.h_filename, filename.replace('.tsv', ''))
-            dfs.append(dataframe)
-            dataframes[filename.replace('.tsv', '')] = dataframe
-    df = pd.concat(dfs, axis=0, ignore_index=True)
-    df_no_zeros = df[df[config.h_sentence_density] != 0]
-    return df, df_no_zeros, dataframes
-
-
 def paragraph_dataframe(data):
     paragraphs_nr = data[config.h_paragraph_nr]
     if config.h_paragraph_median(False) not in data.columns:
@@ -195,8 +219,8 @@ def paragraph_dataframe(data):
         medians.append(max(data[config.h_paragraph_median(False)][data[config.h_paragraph_nr] == i]))
         stds.append(max(data[config.h_paragraph_std(False)][data[config.h_paragraph_nr] == i]))
     df = pd.DataFrame()
-    df[config.h_paragraph_nr] = paragraphs
     df[config.h_filename] = data[config.h_filename][0]
+    df[config.h_paragraph_nr] = paragraphs
     df[config.h_sentences] = sentences
     df[config.h_words] = words
     df[config.h_matches] = matches
@@ -217,12 +241,26 @@ if __name__ == '__main__':
         density_paragraph(dataframe)
         paragraphs_dfs[key] = paragraph_dataframe(dataframe)
 
-    save_dataframes(dataframes, dir=config.fp_analyzed_dir)
-    save_dataframes(paragraphs_dfs, dir=config.fp_analyzed_paragraphs_dir)
+    save_data(dataframes, dir=config.fp_analysis_files_dir)
+    save_data(paragraphs_dfs, dir=config.fp_analysis_paragraphs_dir)
+
+    df_all_sentences = concat_dataframes(dataframes)
+    df_all_paragraphs = concat_dataframes(paragraphs_dfs)
+    save_data(df_all_sentences, filepath=os.path.join(config.fp_analysis_dir, 'sentences.tsv'))
+    save_data(df_all_paragraphs, filepath=os.path.join(config.fp_analysis_dir, 'paragraphs.tsv'))
+
+    create_boxplot(config.h_paragraph_median(False), df_all_paragraphs,
+                os.path.join(config.fp_analysis_dir, 'paragraphs_median_boxplot.png'))
+    create_plot(config.h_paragraph_median(False), df_all_paragraphs,
+                   os.path.join(config.fp_analysis_dir, 'paragraphs_median_plot.png'))
+    create_boxplot(config.h_paragraph_density, df_all_paragraphs,
+                os.path.join(config.fp_analysis_dir, 'paragraphs_density_boxplot.png'))
+    create_plot(config.h_paragraph_density, df_all_paragraphs,
+                   os.path.join(config.fp_analysis_dir, 'paragraphs_density_plot.png'))
 
     # Auswahl bestimmter Datei
     example_file = 'Abbes_Voyage'
-    df_example = dataframes[example_file] # Anmerkung: die Dateien der dataframes-Liste wurde bereits analysiert
+    df_example = dataframes[example_file]
     p_df_example = paragraphs_dfs[example_file]
 
     # Erstellen und Speichern von Boxplots und Plots
@@ -237,5 +275,5 @@ if __name__ == '__main__':
                    os.path.join('examples', example_file + '_paragraph_medianDensity_plot.png'))
 
     # Abspeichern der Dataframes
-    save_dataframes(df_example, os.path.join('examples', example_file + '_df.tsv'))
-    save_dataframes(p_df_example, os.path.join('examples', example_file + '_paragraphs_df.tsv'))
+    save_data(df_example, os.path.join('examples', example_file + '_df.tsv'))
+    save_data(p_df_example, os.path.join('examples', example_file + '_paragraphs_df.tsv'))

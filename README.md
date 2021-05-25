@@ -40,17 +40,20 @@ lädt die TSV-Dateien.
 * `df_no_zeros`: DataFrame wie `df`, nur ohne `sentence_density==0`
 * `dataframes`: Dictionary von DataFrames der einzelnen TSV-Dateien, mit dem Dateinamen (ohne Endung) als Key
 
+#### save_data(data, filepath=None, dir=None)
+Speichert ein oder mehrere DataFrames ab.\
+Handelt es sich bei `data` um ein DataFrame, wird dieses unter `filepath` gespeichert.\
+Ist `data` ein Python-Dictionary, werden alle DataFrames unter dem Key abgespeichert. Dann kann auch ein Ordner über den Parameter `dir` angegeben werden, wo die DataFrames gespeichert werden sollen.
+
+#### concat_dataframes(data_dict) `return df`
+Konkateniert die DataFrames des Python-Dictionaries `data_dict` und gibt das zusammengesetzte DataFrame `df` zurück. Bedeutet alle Zeilen der einzelnen DataFrames werden in einem großen DataFrame gespeichert. 
+
 #### create_plot(header, data, filepath=None, dir=None)
 Handelt es sich bei `data` um ein Python-Dictionary (mit String als Key und DataFrame als Value) wird für jedes DataFrame und dem angegeben `header` ein Plot erstellt und unter dem Key abgespeichtert. Wird dem Parameter `dir` ein Ordner übergeben, werden die Plots in diesem gespeichert.\
 Dem Parameter `data` kann auch nur ein DataFrame übergeben werden, welches dann unter dem angegeben Parameter `filepath` abgespeichert wird.
 
 #### create_boxplot(header, data, filepath=None, dir=None)
 (*siehe create_plot(), jedoch wird hier ein Boxplot erstellt*)
-
-#### save_dataframes(data, filepath=None, dir=None)
-Speichert ein oder mehrere DataFrames ab.\
-Handelt es sich bei `data` um ein DataFrame, wird dieses unter `filepath` gespeichert.\
-Ist `data` ein Python-Dictionary, werden alle DataFrames unter dem Key abgespeichert. Dann kann auch ein Ordner über den Parameter `dir` angegeben werden, wo die DataFrames gespeichert werden sollen.
 
 #### density_paragraph(data)
 Berechnet für das in `data` übergegebene DataFrame den Dichte-Score je Paragraph und fügt diesen dann dem DataFrame in einer weiteren Spalte hinzu. Diese Spalte erhält den Header `paragraph density`.
