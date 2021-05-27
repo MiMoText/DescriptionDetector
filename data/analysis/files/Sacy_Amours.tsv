@@ -1,0 +1,998 @@
+filename	sentence nr	sentence	paragraph nr	sentence nr in paragraph	words	matches	sentence density	vocabulary words matched	density (range=3,same_paragraph=True)	density (range=3,same_paragraph=False)	paragraph density	paragraph density median	paragraph density std
+Sacy_Amours	0	A MADAME D	0	0	3	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	1	...	0	1	0	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	2	MADAME, Un Ouvrage composé de Tableaux, où, sous des formes variées, on n'a peint que l'Amour, la Beauté, les Graces;	1	0	22	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	3	vous appartient à ce seul titre.	1	1	6	0	0.0	[]	0.0	0.02857142857142857	0.0	0.0	0.0
+Sacy_Amours	4	Vos droits se lisent dans vos yeux;	2	0	7	1	0.1428571428571428	[['droit']]	0.06666666666666667	0.047619047619047616	0.09375	0.1176470588235294	0.07625018257039885
+Sacy_Amours	5	ils sont écrits sur la plus aimable figure.	2	1	8	0	0.0	[]	0.09375	0.09375	0.09375	0.1176470588235294	0.07625018257039885
+Sacy_Amours	6	Dirai-je tous ceux que vous donnent encore un goût délicat, un sentiment fin, un jugement sûr?	2	2	17	2	0.1176470588235294	[['délicat'], ['fin']]	0.08	0.06666666666666667	0.09375	0.1176470588235294	0.07625018257039885
+Sacy_Amours	7	ce serait presque vous nommer.	3	0	5	0	0.0	[]	0.0	0.045454545454545456	0.0	0.0	0.0
+Sacy_Amours	8	L'Auteur se serait empressé, sans doute, à vous en faire lui-même l'hommage, s'il avait le bonheur de vous connaître.	4	0	22	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	9	Ainsi, en vous l'offrant, Ma- dame, je préviens ses intentions;	5	0	11	0	0.0	[]	0.02857142857142857	0.017543859649122806	0.02857142857142857	0.0208333333333333	0.029462782549439435
+Sacy_Amours	10	je paye le tribut que sa plume doit aux agrément qui sont l'objet d'un Écrit fait pour l'amusement du beau Sèxe.	5	1	24	1	0.0416666666666666	[['beau']]	0.02857142857142857	0.022727272727272728	0.02857142857142857	0.0208333333333333	0.029462782549439435
+Sacy_Amours	11	Je suis avec bien du respect, MADAME, Votre très	6	0	9	0	0.0	[]	0.0	0.027777777777777776	0.0	0.0	0.0
+Sacy_Amours	12	-humble et très	6	1	3	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	13	-	6	2	0	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	14	obéissant serviteur ***.	6	3	4	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	15	CHANT I.	7	0	2	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	16	LES AMOURS DE MIRTIL.	8	0	4	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	17	CHANT PREMIER.	9	0	2	0	0.0	[]	0.0	0.08695652173913043	0.0	0.0	0.0
+Sacy_Amours	18	VÉNUS pleurait encore la triste destinée du Chasseur Adonis, et ses longs gémissement faisaient retentir les forêts.	10	0	17	2	0.1176470588235294	[['triste'], ['long']]	0.13793103448275862	0.12903225806451613	0.04807692307692308	0.0	0.06678779247276685
+Sacy_Amours	19	La Déesse affligée, négligeant les doux parfums qui brûlaient dans ses Temples	10	1	12	2	0.1666666666666666	[['dou'], ['brûler']]	0.09523809523809523	0.09523809523809523	0.04807692307692308	0.0	0.06678779247276685
+Sacy_Amours	20	, ne se plaisait que dans les lieux où elle avait vu son Amant.	10	2	13	0	0.0	[]	0.05263157894736842	0.05263157894736842	0.04807692307692308	0.0	0.06678779247276685
+Sacy_Amours	21	Là, elle n'est occupée que de ses regrets et de sa douleur;	10	3	13	0	0.0	[]	0.0	0.0	0.04807692307692308	0.0	0.06678779247276685
+Sacy_Amours	22	elle s'abandonne aux plus violence transports.	10	4	7	0	0.0	[]	0.0	0.0	0.04807692307692308	0.0	0.06678779247276685
+Sacy_Amours	23	Tantôt d'un pas rapide elle parcourt les lieux qui furent témoins de ses plaisirs;	10	5	15	0	0.0	[]	0.0	0.0	0.04807692307692308	0.0	0.06678779247276685
+Sacy_Amours	24	tantôt elle appelle Adonis: elle le demande aux cieux, elle le demande aux enfers;	10	6	14	0	0.0	[]	0.023809523809523808	0.023809523809523808	0.04807692307692308	0.0	0.06678779247276685
+Sacy_Amours	25	mais les voyant sourds à sa voix, elle se plaint d'être immortelle.	10	7	13	1	0.0769230769230769	[['voix']]	0.037037037037037035	0.016666666666666666	0.04807692307692308	0.0	0.06678779247276685
+Sacy_Amours	26	Les larmes des Amours, les soins empressés des Graces, la tristesse de toute la Nature, rien ne peut bannir du cœur de Vénus le souvenir d'un mortel qui lui fut si cher.	11	0	33	0	0.0	[]	0.031746031746031744	0.039473684210526314	0.022988505747126436	0.0	0.03849001794597501
+Sacy_Amours	27	Comme elle, sans doute, ses regrets, ses tendres regrets auraient été éternels, si elle ne se fût aperçu qu'elle portait dans son sein un précieux gage de ses amours;	11	1	30	2	0.0666666666666666	[['tendre'], ['sein']]	0.022988505747126436	0.022988505747126436	0.022988505747126436	0.0	0.03849001794597501
+Sacy_Amours	28	ce dépôt heureux la consola de la perte d'Adonis, et bientôt elle donna au monde un fils, la vivante image de son père.	11	2	24	0	0.0	[]	0.037037037037037035	0.0410958904109589	0.022988505747126436	0.0	0.03849001794597501
+Sacy_Amours	29	Non loin du Temple d'Amathonte, est un Vallon délicieux où jamais les cruels Aquilons ne soufflèrent les frimas;	12	0	19	1	0.0526315789473684	[['délicieux']]	0.03333333333333333	0.018518518518518517	0.0392156862745098	0.0476190476190476	0.029048184880056314
+Sacy_Amours	30	les Zéphirs y carressent continuellement les airs de leur souffle amoureux.	12	1	11	0	0.0	[]	0.0392156862745098	0.0392156862745098	0.0392156862745098	0.0476190476190476	0.029048184880056314
+Sacy_Amours	31	Flore ne quitte ces lieux qu'à regret, et le fidèle Vertumne y soupire sans cesse auprès de la belle Pomone.	12	2	21	1	0.0476190476190476	[['bel']]	0.03125	0.023255813953488372	0.0392156862745098	0.0476190476190476	0.029048184880056314
+Sacy_Amours	32	Sur le sommet du Vallon, est un hameau consacré à Vénus.	13	0	11	0	0.0	[]	0.0	0.020833333333333332	0.018018018018018018	0.0	0.01549711365268844
+Sacy_Amours	33	Tous les jours les Bergers et les Bergères, couronnés de fleurs nouvelles, y chantent ses louanges.	13	1	16	0	0.0	[]	0.0	0.0	0.018018018018018018	0.0	0.01549711365268844
+Sacy_Amours	34	La Déesse se plaît à les entendre;	13	2	7	0	0.0	[]	0.0	0.0	0.018018018018018018	0.0	0.01549711365268844
+Sacy_Amours	35	elle aime leurs chants inspirés par la simple nature;	13	3	9	0	0.0	[]	0.0	0.0	0.018018018018018018	0.0	0.01549711365268844
+Sacy_Amours	36	elle protège ce hameau fortuné;	13	4	5	0	0.0	[]	0.022222222222222223	0.022222222222222223	0.018018018018018018	0.0	0.01549711365268844
+Sacy_Amours	37	elle en a banni pour jamais l'inquiète ambition et la triste indigence: favorable aux amours des Bergers, elle éloigne du cœur des innocentes Bergères et l'inconstance et l'artifice.	13	5	31	1	0.032258064516129	[['triste']]	0.029411764705882353	0.029411764705882353	0.018018018018018018	0.0	0.01549711365268844
+Sacy_Amours	38	Jamais les amant heureux et tranquilles n'y furent en proie aux fureurs de la noire jalousie; toujours amoureux et toujours aimés, ils coulent des heures filées par les mains du Plaisir.	13	6	32	1	0.03125	[['main']]	0.031746031746031744	0.025974025974025976	0.018018018018018018	0.0	0.01549711365268844
+Sacy_Amours	39	C'est dans ces lieux que la Déesse d'Amathonte déposa son cher fils;	14	0	14	0	0.0	[]	0.03125	0.03125	0.01639344262295082	0.0	0.03207501495497917
+Sacy_Amours	40	un vieux Berger nommé Palémon, dont elle connaissait les talents et le zèle, fut chargé de son éducation.	14	1	18	1	0.0555555555555555	[['vieux']]	0.01639344262295082	0.01639344262295082	0.01639344262295082	0.0	0.03207501495497917
+Sacy_Amours	41	A peine le jeune Mirtil commençait à balbutier, qu'on lui faisait répéter le nom de sa Mère: bientôt plus avancé en âge, on lui fit connaître sa naissance.	14	2	29	0	0.0	[]	0.02127659574468085	0.03333333333333333	0.01639344262295082	0.0	0.03207501495497917
+Sacy_Amours	42	Souvent le vieux Palémon lui chantait les amours de Vénus et d'Adonis.	15	0	13	1	0.0769230769230769	[['vieux']]	0.05555555555555555	0.02127659574468085	0.028985507246376812	0.0128205128205128	0.036261886214694734
+Sacy_Amours	43	Mirtil écoutait avidement ses chansons;	15	1	5	0	0.0	[]	0.03333333333333333	0.03333333333333333	0.028985507246376812	0.0128205128205128	0.036261886214694734
+Sacy_Amours	44	déjà même il connaissait l'avantage d'être né d'une Immortelle.	15	2	12	0	0.0	[]	0.017857142857142856	0.017857142857142856	0.028985507246376812	0.0128205128205128	0.036261886214694734
+Sacy_Amours	45	Enfin parvenu à cet âge où les jeunes cœurs commencent à sentir qu'ils sont faits pour aimer, il chantait avec les Bergers les louanges de sa Mère, et Vénus écoutait avec complaisance les accent naïfs de son fils.	15	3	39	1	0.0256410256410256	[['accent']]	0.0196078431372549	0.019230769230769232	0.028985507246376812	0.0128205128205128	0.036261886214694734
+Sacy_Amours	46	O!	16	0	1	0	0.0	[]	0.0	0.016129032258064516	0.021739130434782608	0.0	0.02510218561694024
+Sacy_Amours	47	vous qui règnez sur tous les cœurs, fille immortelle de l'Océan, vous dont les attraits surpassent ceux de toutes les Déesses;	16	1	22	0	0.0	[]	0.021739130434782608	0.021739130434782608	0.021739130434782608	0.0	0.02510218561694024
+Sacy_Amours	48	si le souvenir d'Adonis flatte encore votre cœur, envoyez-moi votre ceinture par la main des Graces, je vais chanter votre fils.	16	2	23	1	0.0434782608695652	[['main']]	0.022222222222222223	0.046875	0.021739130434782608	0.0	0.02510218561694024
+Sacy_Amours	49	Et vous, chaste Muse! vous qui d'une main délicate cueillez des fleurs champêtres, semez-les sur mes écrits.	17	0	19	2	0.1052631578947368	[['main'], ['délicat']]	0.10526315789473684	0.06578947368421052	0.10526315789473684	0.1052631578947368	0.0
+Sacy_Amours	50	Un Jour que le jeune Mirtil conduisait dans la prairie les troupeaux de Palémon, il vit deux Colombes plus blanches que la neige, qui fendaient d'un vol rapide le vaste espace des airs.	18	0	34	2	0.0588235294117647	[['blanc'], ['vaste']]	0.045454545454545456	0.06349206349206349	0.04597701149425287	0.02941176470588235	0.03636713135488509
+Sacy_Amours	51	Ces oiseaux, consacrés à sa Mère, lui rappellèrent son origine;	18	1	10	0	0.0	[]	0.05405405405405406	0.05405405405405406	0.04597701149425287	0.02941176470588235	0.03636713135488509
+Sacy_Amours	52	son jeune cœur en fut ému, il soupira, et accordant l'harmonie de ses chants aux doux sons de son haut-bois, il chanta les amours auxquels il devait la naissance.	18	2	30	2	0.0666666666666666	[['émouvoir'], ['dou']]	0.03773584905660377	0.03773584905660377	0.04597701149425287	0.02941176470588235	0.03636713135488509
+Sacy_Amours	53	Vénus en fut touchée: elle détacha de sa suite le talent de plaire.	18	3	13	0	0.0	[]	0.046511627906976744	0.03773584905660377	0.04597701149425287	0.02941176470588235	0.03636713135488509
+Sacy_Amours	54	Allez, dit-elle, soumettez tous les cœurs à mon fils.	19	0	10	0	0.0	[]	0.06896551724137931	0.047619047619047616	0.09433962264150944	0.1052631578947368	0.06719979581598491
+Sacy_Amours	55	Aussitôt, docile à sa voix, cette Divinité déploie ses ailes argentées, et dirige son vol auprès du jeune Berger.	19	1	19	2	0.1052631578947368	[['voix'], ['argenter']]	0.09433962264150944	0.09433962264150944	0.09433962264150944	0.1052631578947368	0.06719979581598491
+Sacy_Amours	56	A son aspect il sent une tendre émotion, son cœur forme déjà des désirs, bientôt il triomphera de la plus belle Bergère du hameau.	19	2	24	3	0.125	[['tendre'], ['triompher'], ['bel']]	0.11627906976744186	0.08	0.09433962264150944	0.1052631578947368	0.06719979581598491
+Sacy_Amours	57	Pour se mettre à l'abri de la chaleur, les Bergères étaient entrées dans un bois de myrte, dont les rameaux verdoyans ombrageaient une onde pure qui erroit lentement dans la prairie.	20	0	32	1	0.03125	[['pur']]	0.0196078431372549	0.05333333333333334	0.03225806451612903	0.01515151515151515	0.04841383540478035
+Sacy_Amours	58	Mirtil, guidé sans doute par l'Amour, y porte ses pas: il paraît, et toutes désirent de lui plaire;	20	1	19	0	0.0	[]	0.04477611940298507	0.04477611940298507	0.03225806451612903	0.01515151515151515	0.04841383540478035
+Sacy_Amours	59	il parle, et les doux sons de sa voix font naître la tendresse et l'amour.	20	2	16	2	0.125	[['dou'], ['voix']]	0.0425531914893617	0.0425531914893617	0.03225806451612903	0.01515151515151515	0.04841383540478035
+Sacy_Amours	60	Chacune en secret forme le projet de l'arrêter dans ses liens;	20	3	12	0	0.0	[]	0.04918032786885246	0.04918032786885246	0.03225806451612903	0.01515151515151515	0.04841383540478035
+Sacy_Amours	61	elles détestent, pour la première fois, les attraits de leurs compagnes, et la crainte de voir le beau Mirtil passer sous l'empire d'une autre, introduit dans leurs cœurs la funeste jalousie.	20	4	33	1	0.0303030303030303	[['beau']]	0.017543859649122806	0.017543859649122806	0.03225806451612903	0.01515151515151515	0.04841383540478035
+Sacy_Amours	62	Mais c'est à toi, jeune Amarillis, que le triomphe est réservé.	20	5	12	0	0.0	[]	0.022222222222222223	0.016666666666666666	0.03225806451612903	0.01515151515151515	0.04841383540478035
+Sacy_Amours	63	En effet, le fils de Vénus ne put résister aux charmes de cette jeune Bergère.	21	0	15	0	0.0	[]	0.029411764705882353	0.021739130434782608	0.02564102564102564	0.0	0.031424324574090556
+Sacy_Amours	64	L'amour et les désirs peints dans les yeux, il l'approche, il lui dit qu'il l'adore.	21	1	19	1	0.0526315789473684	[['oeil']]	0.016129032258064516	0.016129032258064516	0.02564102564102564	0.0	0.031424324574090556
+Sacy_Amours	65	Les compagnes d'Amarillis ne pouvant souffrir un langage qui fait honte à leurs appas, l'abandonnent: elle veut les suivre, son amant s'oppose à sa fuite;	21	2	28	0	0.0	[]	0.03076923076923077	0.03076923076923077	0.02564102564102564	0.0	0.031424324574090556
+Sacy_Amours	66	elle essaye encore de s'éloigner, Mirtil l'appelle tendrement, et le charme de sa voix la retient.	21	3	18	1	0.0555555555555555	[['voix']]	0.012987012987012988	0.012987012987012988	0.02564102564102564	0.0	0.031424324574090556
+Sacy_Amours	67	Alors il lui adresse ce discours: „Amarillis, c'est vous qui la „première avez triomphé de mon „cœur, ce sont vos attraits qui ont „enchaîné ma liberté;	21	4	31	0	0.0	[]	0.029850746268656716	0.029850746268656716	0.02564102564102564	0.0	0.031424324574090556
+Sacy_Amours	68	je porte „avec joie des fers si précieux, „mais serez-vous sensible à mon „amour?	21	5	18	1	0.0555555555555555	[['de', 'fer']]	0.01639344262295082	0.01639344262295082	0.02564102564102564	0.0	0.031424324574090556
+Sacy_Amours	69	puis-je enfin espérer de „vous le sacrifice de mes rivaux?	21	6	12	0	0.0	[]	0.045454545454545456	0.045454545454545456	0.02564102564102564	0.0	0.031424324574090556
+Sacy_Amours	70	„Parlez, adorable Bergère, prononcez sur mon sort: ô Vénus, „soyez-moi propice!	21	7	14	1	0.0714285714285714	[['adorable']]	0.037037037037037035	0.037037037037037035	0.02564102564102564	0.0	0.031424324574090556
+Sacy_Amours	71	“	21	8	1	0	0.0	[]	0.06666666666666667	0.043478260869565216	0.02564102564102564	0.0	0.031424324574090556
+Sacy_Amours	72	Amarillis rougit, la Pudeur vole sur son visage;	22	0	8	0	0.0	[]	0.037037037037037035	0.03571428571428571	0.043478260869565216	0.0	0.0801660326933043
+Sacy_Amours	73	elle oppose en vain au discours séducteur du Berger ses traits les plus puissant, un soupir détruit son ouvrage.	22	1	19	1	0.0526315789473684	[['puissant']]	0.02631578947368421	0.02631578947368421	0.043478260869565216	0.0	0.0801660326933043
+Sacy_Amours	74	La Bergère n'a plus de ressource que dans la fuite;	22	2	11	0	0.0	[]	0.075	0.075	0.043478260869565216	0.0	0.0801660326933043
+Sacy_Amours	75	elle tâche de se dégager des bras de son amant;	22	3	10	2	0.2	[['dégager'], ['bras']]	0.05128205128205128	0.05128205128205128	0.043478260869565216	0.0	0.0801660326933043
+Sacy_Amours	76	l'amoureux Mirtil la retient par ses larmes, et bientôt l'Amour y mêle celles de la Bergère.	22	4	18	0	0.0	[]	0.06451612903225806	0.06451612903225806	0.043478260869565216	0.0	0.0801660326933043
+Sacy_Amours	77	O charme séduisant!	22	5	3	0	0.0	[]	0.0	0.0	0.043478260869565216	0.0	0.0801660326933043
+Sacy_Amours	78	jeunes amant	23	0	2	0	0.0	[]	0.09090909090909091	0.07142857142857142	0.08333333333333333	0.0769230769230769	0.056908787337430704
+Sacy_Amours	79	, vous goûtez les plus tendres plaisirs de l'amour;	23	1	9	1	0.1111111111111111	[['tendre']]	0.08333333333333333	0.08333333333333333	0.08333333333333333	0.0769230769230769	0.056908787337430704
+Sacy_Amours	80	coulez, heureuses larmes, tendres fruits du délire, vous exprimez l'ivresse des cœurs.	23	2	13	1	0.0769230769230769	[['tendre']]	0.09090909090909091	0.10204081632653061	0.08333333333333333	0.0769230769230769	0.056908787337430704
+Sacy_Amours	81	Telle qu'on voit une rose ouvrir son sein amoureux aux douces haleines des Zéphirs, telle et plus aisément encore Amarillis cède aux transports de son amant.	24	0	27	3	0.1111111111111111	[['rose'], ['sein'], ['douce']]	0.1111111111111111	0.09090909090909091	0.1111111111111111	0.1111111111111111	0.0
+Sacy_Amours	82	Cependant l'hôte divin de Thétis plongeait son char enflammé dans le sein des ondes;	25	0	15	1	0.0666666666666666	[['sein']]	0.038461538461538464	0.07547169811320754	0.047058823529411764	0.0333333333333333	0.044305337860837506
+Sacy_Amours	83	la plaintive Philomèle commençait dans les bois à déplorer ses malheurs;	25	1	11	0	0.0	[]	0.04878048780487805	0.04878048780487805	0.047058823529411764	0.0333333333333333	0.044305337860837506
+Sacy_Amours	84	la seule Fauvette osait mêler sa voix timide aux accords variés de ses chants harmonieux;	25	2	15	1	0.0666666666666666	[['voix']]	0.027777777777777776	0.027777777777777776	0.047058823529411764	0.0333333333333333	0.044305337860837506
+Sacy_Amours	85	déjà tous les Bergers ramenaient leurs troupeaux à la bergerie;	25	3	10	0	0.0	[]	0.02564102564102564	0.02564102564102564	0.047058823529411764	0.0333333333333333	0.044305337860837506
+Sacy_Amours	86	les hautbois sur lesquels ils avaient soupiré leurs amours, pendaient oisifs à leurs côtés.	25	4	14	0	0.0	[]	0.045454545454545456	0.045454545454545456	0.047058823529411764	0.0333333333333333	0.044305337860837506
+Sacy_Amours	87	Ils repassaient les plaisirs qu'ils avaient goûtés avec leurs amantes, et ce délicieux souvenir les consolait de leur absence.	25	5	20	2	0.1	[['délicieux'], ['consoler']]	0.058823529411764705	0.0784313725490196	0.047058823529411764	0.0333333333333333	0.044305337860837506
+Sacy_Amours	88	Nos deux amant, charmés l'un de l'autre, étaient encore dans les bras de l'amour;	26	0	17	2	0.1176470588235294	[['charmer'], ['bras']]	0.09615384615384616	0.09722222222222222	0.054187192118226604	0.06369047619047616	0.05644825842782338
+Sacy_Amours	89	ils oubliaient que bientôt la nuit allait jeter ses sombres voiles sur la surface de la terre, lorsque la sœur d'Amarillis, fatiguée d'avoir rassemblé seule un nombreux troupeau, vint troubler leur agréable retraite.	26	1	35	3	0.0857142857142857	[['sombre'], ['fatiguer'], ['agréable']]	0.08771929824561403	0.08771929824561403	0.054187192118226604	0.06369047619047616	0.05644825842782338
+Sacy_Amours	90	A son abord, Amarillis rougit;	26	2	5	0	0.0	[]	0.1	0.1	0.054187192118226604	0.06369047619047616	0.05644825842782338
+Sacy_Amours	91	un timide embarras se peint sur son visage, et que ce désordre la rend belle aux yeux de son amant!	26	3	20	3	0.15	[['visage'], ['bel'], ['oeil']]	0.07317073170731707	0.07317073170731707	0.054187192118226604	0.06369047619047616	0.05644825842782338
+Sacy_Amours	92	Psyché surprise par Vénus dans les embrassement de l'Amour, n'avait pas tant de grâces.	26	4	16	0	0.0	[]	0.05357142857142857	0.05357142857142857	0.054187192118226604	0.06369047619047616	0.05644825842782338
+Sacy_Amours	93	Mirtil ne peut se résoudre à la quitter, il l'embrasse cent et cent fois, il veut l'embrasser encore;	26	5	20	0	0.0	[]	0.02127659574468085	0.02127659574468085	0.054187192118226604	0.06369047619047616	0.05644825842782338
+Sacy_Amours	94	mais la Bergère s'arrache de ses bras, et s'éloigne.	26	6	11	1	0.0909090909090909	[['bras']]	0.047619047619047616	0.047619047619047616	0.054187192118226604	0.06369047619047616	0.05644825842782338
+Sacy_Amours	95	L'amoureux fils de Vénus la suit des yeux, elle disparaît;	26	7	11	1	0.0909090909090909	[['oeil']]	0.030303030303030304	0.030303030303030304	0.054187192118226604	0.06369047619047616	0.05644825842782338
+Sacy_Amours	96	il croit encore la voir, il l'appelle: la raison dissipe enfin l'épais nuage dont l'amour avait obscurci sa vue, il s'aperçoit, avec surprise, que de tous les Bergers il est resté seul dans la prairie, et rassemble promptement son troupeau.	26	8	44	0	0.0	[]	0.02531645569620253	0.02531645569620253	0.054187192118226604	0.06369047619047616	0.05644825842782338
+Sacy_Amours	97	Cependant avant que de partir, il se couronne de myrte, et tournant les yeux du côté d'Amathonte, il adresse cette prière à Vénus.	26	9	24	1	0.0416666666666666	[['oeil']]	0.014705882352941176	0.01282051282051282	0.054187192118226604	0.06369047619047616	0.05644825842782338
+Sacy_Amours	98	O ma Mère! quelles douceurs on goûte sous votre empire!	27	0	10	0	0.0	[]	0.09523809523809523	0.06666666666666667	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	99	Quels moment délicieux j'ai coulés auprès de la belle Amarillis!	27	1	11	2	0.1818181818181818	[['délicieux'], ['bel']]	0.07407407407407407	0.07407407407407407	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	100	mon cœur en est encore attendri...	27	2	6	0	0.0	[]	0.08333333333333333	0.08333333333333333	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	101	Mais quel trouble inconnu vient m'agiter...	27	3	7	0	0.0	[]	0.029411764705882353	0.029411764705882353	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	102	Si elle cessait de m'aimer, si..... Pardonnez, Amarillis, ces coupables soupçons: vous êtes trop belle, vous m'êtes trop chère;	27	4	21	1	0.0476190476190476	[['bel']]	0.022222222222222223	0.022222222222222223	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	103	tous les Bergers, jaloux de mon bonheur, vont redoubler leurs soins et leurs empressement pour vous plaire.	27	5	17	0	0.0	[]	0.023809523809523808	0.023809523809523808	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	104	O ma chère amante!	27	6	4	0	0.0	[]	0.0	0.0	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	105	soyez-moi toujours fidèle.	27	7	4	0	0.0	[]	0.0	0.0	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	106	Et vous, ma Mère! conservez-moi un cœur qui fait tout le bonheur de ma vie.	27	8	16	0	0.0	[]	0.019230769230769232	0.019230769230769232	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	107	A peine a-t-il fini ces paroles, qu'il voit voltiger dans les airs un Amour qui tient dans ses mains la flèche dont il a percé le cœur d'Amarillis;	27	9	32	1	0.03125	[['main']]	0.015151515151515152	0.015151515151515152	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	108	l'Amour vole auprès du Berger, et le regardant avec un souris vainqueur, il lui tient ce langage.	27	10	18	0	0.0	[]	0.016666666666666666	0.016666666666666666	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	109	La Reine d'Amathonte m'envoie pour calmer vos inquiétudes;	27	11	10	0	0.0	[]	0.02040816326530612	0.02040816326530612	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	110	voilà le trait qui vous a fait triompher de votre amante, conservez-le soigneusement, et vous serez sûr de son cœur.	27	12	21	1	0.0476190476190476	[['triompher']]	0.0784313725490196	0.0784313725490196	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	111	Il dit, et battant ses ailes d'or et d'azur, il laisse après lui un long sillon de lumière.	27	13	20	3	0.15	[['de', 'or'], ['long'], ['sillon']]	0.08771929824561403	0.08771929824561403	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	112	Le Berger admire le don précieux qu'il vient de recevoir des mains de l'Amour;	27	14	16	1	0.0625	[['main']]	0.09302325581395349	0.09302325581395349	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	113	il le baise mille et mille fois.	27	15	7	0	0.0	[]	0.023255813953488372	0.023255813953488372	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	114	Heureux instrument de mon bonheur, s'écrie-t-il avec transport, que les coups que tu as portés saient éternels!	27	16	20	0	0.0	[]	0.0	0.0	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	115	Mirtil rend de nouvelles grâces à sa Mère, et ayant suspendu sa couronne à un myrte, il regarde encore au loin s'il ne verra pas son amante.	27	17	28	0	0.0	[]	0.02197802197802198	0.02197802197802198	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	116	Ses sens enchantés lui retracent mille fois ce fantôme charmant, il disparaît enfin: Amarillis était déjà arrivée à son hameau, et la sombre nuit chassant de la prairie l'amoureux fils d'Adonis, il ramène à pas précipités son troupeau dans la bergerie.	27	18	43	2	0.0465116279069767	[['charmer'], ['sombre']]	0.028169014084507043	0.0273972602739726	0.03536977491961415	0.0	0.05280976853681573
+Sacy_Amours	117	CHANT SECOND.	28	0	2	0	0.0	[]	0.0	0.05660377358490566	0.0	0.0	0.0
+Sacy_Amours	118	Toute la Nature était dans un profond silence:	29	0	8	1	0.125	[['profond']]	0.12121212121212122	0.11428571428571428	0.05555555555555555	0.0666666666666666	0.050495112287726525
+Sacy_Amours	119	Morphée s'était emparé des traits de l'Amour; les amant fortunés, pleins d'une douce ivresse, reposaient mollement sur le sein de leurs amantes;	29	1	25	3	0.12	[['plein'], ['douce'], ['sein']]	0.10638297872340426	0.10638297872340426	0.05555555555555555	0.0666666666666666	0.050495112287726525
+Sacy_Amours	120	les fleurs ne brillaient pas encore des larmes que répand la mère de Memnon;	29	2	14	1	0.0714285714285714	[['briller']]	0.08571428571428572	0.08571428571428572	0.05555555555555555	0.0666666666666666	0.050495112287726525
+Sacy_Amours	121	les bois, les tranquilles bois ne résonnaient point du chant de leurs aimables habitants; mais le fils de Vénus, agité par les transports les plus doux, avait déjà quitté son hameau.	29	3	31	2	0.064516129032258	[['agité'], ['dou']]	0.04838709677419355	0.04838709677419355	0.05555555555555555	0.0666666666666666	0.050495112287726525
+Sacy_Amours	122	Il arrive dans la prairie, lorsque l'aurore commençait à peindre l'Orient de ses premières couleurs.	29	4	17	0	0.0	[]	0.025	0.025	0.05555555555555555	0.0666666666666666	0.050495112287726525
+Sacy_Amours	123	Mirtil élève à sa Bergère un trône de gazon, il lui prépare une couronne de fleurs, il veut la placer sur ce trône, il veut que les Bergers viennent adorer ses attraits.	29	5	32	0	0.0	[]	0.015625	0.015625	0.05555555555555555	0.0666666666666666	0.050495112287726525
+Sacy_Amours	124	Après avoir tout préparé, il retourne à son hameau, il court auprès de son amante	29	6	15	1	0.0666666666666666	[['court']]	0.037037037037037035	0.037037037037037035	0.05555555555555555	0.0666666666666666	0.050495112287726525
+Sacy_Amours	125	, il la voit plus belle que jamais;	29	7	7	1	0.1428571428571428	[['bel']]	0.08108108108108109	0.08108108108108109	0.05555555555555555	0.0666666666666666	0.050495112287726525
+Sacy_Amours	126	ses yeux, à qui le sommeil avait refusé ses pavots, brillaient d'une langueur enchanteresse;	29	8	15	1	0.0666666666666666	[['oeil']]	0.05263157894736842	0.05263157894736842	0.05555555555555555	0.0666666666666666	0.050495112287726525
+Sacy_Amours	127	on l'aurait prise ou pour Vénus, ou pour Aglaé, ou pour la fille de Tyndare.	29	9	16	0	0.0	[]	0.04081632653061224	0.04081632653061224	0.05555555555555555	0.0666666666666666	0.050495112287726525
+Sacy_Amours	128	L'amoureux Berger lui déclare son dessein: Amarillis lui sourit, elle l'aime trop pour lui rien refuser.	29	10	18	1	0.0555555555555555	[['sourire']]	0.029411764705882353	0.02040816326530612	0.05555555555555555	0.0666666666666666	0.050495112287726525
+Sacy_Amours	129	Déja les Bergers et les Bergères s'étaient rassemblés pour chanter les louanges de Vénus;	30	0	15	0	0.0	[]	0.0	0.023255813953488372	0.012987012987012988	0.0	0.03788595227761944
+Sacy_Amours	130	déjà tout le village retentissait de leurs chants d'allégresse.	30	1	10	0	0.0	[]	0.0	0.0	0.012987012987012988	0.0	0.03788595227761944
+Sacy_Amours	131	Mirtil y vole, et suspendant la cérémonie: O Bergers, dit-il, il y a dans la prairie une jeune Déesse, je l'ai vue;	30	2	24	0	0.0	[]	0.0	0.0	0.012987012987012988	0.0	0.03788595227761944
+Sacy_Amours	132	j'ai vu les Amours empressés, voltiger autour d'elle;	30	3	10	0	0.0	[]	0.0	0.0	0.012987012987012988	0.0	0.03788595227761944
+Sacy_Amours	133	les Graces prennent plaisir à se mirer dans ses yeux.	30	4	10	0	0.0	[]	0.0	0.0	0.012987012987012988	0.0	0.03788595227761944
+Sacy_Amours	134	Venez, venez tous adorer ses divins appas;	30	5	7	0	0.0	[]	0.0	0.0	0.012987012987012988	0.0	0.03788595227761944
+Sacy_Amours	135	apportez vos hautbois, et que tout retentisse de ses louanges: c'est sans doute Vénus qui vient habiter parmi nous.	30	6	20	0	0.0	[]	0.0	0.0	0.012987012987012988	0.0	0.03788595227761944
+Sacy_Amours	136	Il dit, et aussitôt il retourne auprès de sa maîtresse, il la conduit dans la prairie, il la place sur le trône qu'il a préparé, il la couronne de ses mains.	30	7	32	0	0.0	[]	0.014492753623188406	0.014492753623188406	0.012987012987012988	0.0	0.03788595227761944
+Sacy_Amours	137	Vénus voyant les innocent transports de son fils, répand sur la jeune Amarillis ses plus riches trésors;	30	8	17	1	0.0588235294117647	[['riche']]	0.034482758620689655	0.034482758620689655	0.012987012987012988	0.0	0.03788595227761944
+Sacy_Amours	138	elle la rend presque'aussi belle qu'elle même.	30	9	9	1	0.1111111111111111	[['bel']]	0.07692307692307693	0.04	0.012987012987012988	0.0	0.03788595227761944
+Sacy_Amours	139	Cependant les Bergers accourent en foule à la prairie, ils aperçoivent de loin le trône de la Divinité de Mirtil, ils se couronnent de myrte et de fleurs, et accordant leurs tendres hautbois à l'harmonie de leurs chants, ils font retentir les airs des accords les plus flatteurs.	31	0	49	1	0.0204081632653061	[['tendre']]	0.028985507246376812	0.038461538461538464	0.024390243902439025	0.01020408163265305	0.026807569857374203
+Sacy_Amours	140	Ces sons, portés sur les ailes légères des vents, viennent frapper les oreilles de la jeune Amarillis: ô douce illusion!	31	1	20	1	0.05	[['douce']]	0.02631578947368421	0.02631578947368421	0.024390243902439025	0.01020408163265305	0.026807569857374203
+Sacy_Amours	141	elle-même trompée se prend pour une immortelle.	31	2	7	0	0.0	[]	0.022222222222222223	0.022222222222222223	0.024390243902439025	0.01020408163265305	0.026807569857374203
+Sacy_Amours	142	Les Bergers avancent, ils environnent le trône de l'amante de Mirtil, ils sont éblouis de ses attraits;	31	3	18	0	0.0	[]	0.0	0.0	0.024390243902439025	0.01020408163265305	0.026807569857374203
+Sacy_Amours	143	(Vénus avait voilé Amarillis pour ne leur montrer qu'une beauté étrangère.	31	4	12	0	0.0	[]	0.02127659574468085	0.02127659574468085	0.024390243902439025	0.01020408163265305	0.026807569857374203
+Sacy_Amours	144	) Les Zéphirs abandonnent Flore, et viennent de leur souffle amoureux caresser le sein de la jeune Bergère.	31	5	17	1	0.0588235294117647	[['sein']]	0.034482758620689655	0.03125	0.024390243902439025	0.01020408163265305	0.026807569857374203
+Sacy_Amours	145	Le célèbre fleuve	32	0	3	0	0.0	[]	0.0	0.03571428571428571	0.02857142857142857	0.0	0.024390243902439
+Sacy_Amours	146	Amys roule dans la prairie ses flots argentés;	32	1	8	0	0.0	[]	0.038461538461538464	0.038461538461538464	0.02857142857142857	0.0	0.024390243902439
+Sacy_Amours	147	sur ses bords s'élève un petit bois de myrtes toujours fleuris, et au milieu du bosquet est une fontaine dont les eaux transparentes ne furent jamais troublées: c'est-là où les Bergères viennent corriger le défaut de leur parure;	32	2	41	2	0.048780487804878	[['petit'], ['transparent']]	0.029850746268656716	0.029850746268656716	0.02857142857142857	0.0	0.024390243902439
+Sacy_Amours	148	c'est dans ces fidèles ondes qu'elles apprennent à connaître les charmes dont la nature les embellit.	32	3	18	0	0.0	[]	0.03389830508474576	0.05	0.02857142857142857	0.0	0.024390243902439
+Sacy_Amours	149	La Déesse des fleurs s'était arrêtée dans ces lieux charmant: couronnée de pavots, elle reposait dans les bras du sommeil;	33	0	21	2	0.0952380952380952	[['charmer'], ['bras']]	0.05405405405405406	0.03636363636363636	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	150	auprès d'elle était couché le Printems, qu'elle avait enchaîné avec une guirlande de fleurs;	33	1	16	0	0.0	[]	0.05263157894736842	0.05263157894736842	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	151	on aurait vu les Zéphirs, s'ils ne l'avaient pas abandonnée, folâtrer et se jouer sur sa belle bouche.	33	2	20	1	0.05	[['bel']]	0.03571428571428571	0.03571428571428571	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	152	Une jeune Fauvette vole imprudemment sur le myrte qui couvrait la Déesse de son ombre, et commence ses tendres chansons.	33	3	20	1	0.05	[['tendre']]	0.044444444444444446	0.044444444444444446	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	153	Flore s'éveille, ô surprise!	33	4	5	0	0.0	[]	0.03225806451612903	0.03225806451612903	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	154	elle ne voit pas les Zéphirs;	33	5	6	0	0.0	[]	0.041666666666666664	0.041666666666666664	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	155	elle les appelle, mais en vain, sa voix se perd dans les airs;	33	6	13	1	0.0769230769230769	[['voix']]	0.03125	0.03125	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	156	transportée de courroux, elle se lève, et parcourt le bois pour les chercher;	33	7	13	0	0.0	[]	0.02857142857142857	0.02857142857142857	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	157	ne les trouvant pas, elle avance dans la prairie;	33	8	9	0	0.0	[]	0.0	0.0	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	158	elle y voit un trône, et aperçoit à l'entour les Zéphirs inconstans qui caressent les beautés d'une jeune Bergère.	33	9	21	0	0.0	[]	0.0	0.0	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	159	La Déesse, à cet aspect, éprouve les mouvement qu'inspire la cruelle jalousie;	33	10	13	0	0.0	[]	0.0	0.0	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	160	aussitôt elle attèle plusieurs Hirondelles à son char, et les rapides messagères du Printems fendent la voûte azurée.	33	11	18	0	0.0	[]	0.0	0.0	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	161	Flore dirige leur vol vers le séjour de la Vieillesse, et va implorer le secours de cette Divinité redoutable.	33	12	19	0	0.0	[]	0.0	0.0	0.02577319587628866	0.0	0.034508007756141906
+Sacy_Amours	162	Sur les bords toujours glacés du fleuve Siphax, s'élève un bois de chênes antiques;	34	0	15	0	0.0	[]	0.02631578947368421	0.017543859649122806	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	163	le Temps, lorsque le monde fut tiré du cahot, le planta de ses mains, et l'œil du jour n'y pénètre jamais.	34	1	23	1	0.0434782608695652	[['main']]	0.019230769230769232	0.019230769230769232	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	164	Ce lieu est en proie aux fougueux Aquilons, qui en éloignent les tranquilles Zéphirs;	34	2	14	0	0.0	[]	0.037037037037037035	0.037037037037037035	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	165	les humains effrayés ne l'abordent qu'en tremblant, et les timides Amours n'y voltigent jamais.	34	3	17	1	0.0588235294117647	[['trembler']]	0.02857142857142857	0.02857142857142857	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	166	Au milieu de cette affreuse forêt paraît le Temple de la Vieillesse: on l'y voit sur un trône chancelant, elle tient d'une main tremblante un sceptre prêt à lui échapper, de l'autre elle éloigne les Plaisirs.	34	4	39	1	0.0256410256410256	[['main']]	0.06578947368421052	0.06578947368421052	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	167	A ses côtés sont assis le cuisant Repentir, l'Avarice au teint livide, les funestes Maladies et la triste Impuissance.	34	5	20	3	0.15	[['teint'], ['livide'], ['triste']]	0.05194805194805195	0.05194805194805195	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	168	Flore s'ouvre un passage à travers ces spectres hideux: la Vieillesse l'aperçoit, et détourne la tête;	34	6	18	0	0.0	[]	0.1276595744680851	0.1276595744680851	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	169	ses faibles yeux sont fatigués d'un éclat importun;	34	7	9	3	0.3333333333333333	[['faible'], ['oeil'], ['fatiguer']]	0.07894736842105263	0.07894736842105263	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	170	mais Flore répandant une odeur divine, la contraint de l'entendre.	34	8	11	0	0.0	[]	0.13793103448275862	0.13793103448275862	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	171	La vieille Déesse, devenue plus facile, la fait approcher;	34	9	9	1	0.1111111111111111	[['vieux']]	0.03571428571428571	0.03571428571428571	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	172	elle lui demande le sujet de son voyage.	34	10	8	0	0.0	[]	0.05555555555555555	0.05555555555555555	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	173	Alors, déposant au pied de son trône une corbeille de fleurs, l'amante des Zéphirs lui adresse ces paroles!	34	11	19	1	0.0526315789473684	[['pied']]	0.037037037037037035	0.03125	0.054455445544554455	0.0345596432552954	0.09755203060569961
+Sacy_Amours	174	Puissante Divinité, redoutée des mortels!	35	0	5	0	0.0	[]	0.08333333333333333	0.06976744186046512	0.08333333333333333	0.0526315789473684	0.07443229275647865
+Sacy_Amours	175	ô vous qui d'une main pesante accablez du poids des années leurs corps chancellans, daignez exaucer mes vœux.	35	1	19	2	0.1052631578947368	[['main'], ['corps']]	0.08333333333333333	0.044444444444444446	0.08333333333333333	0.0526315789473684	0.07443229275647865
+Sacy_Amours	176	Non loin du Temple d'Amathonte respire une jeune Beauté, dont les attraits excitent l'admiration des Dieux et des mortels.	36	0	21	0	0.0	[]	0.0	0.0392156862745098	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	177	Les Zéphirs ont secoué, pour elle, le joug de mon empire;	36	1	11	0	0.0	[]	0.0196078431372549	0.0196078431372549	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	178	je les ai vu se jouer sur le sein de ma rivale, ils la caressaient de leur souffle amoureux.	36	2	19	1	0.0526315789473684	[['sein']]	0.02564102564102564	0.02564102564102564	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	179	Qui voudra désormais sacrifier à la Déesse des fleurs?	36	3	9	0	0.0	[]	0.02631578947368421	0.02631578947368421	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	180	Mon pouvoir, sans ces infidèles, ne peut conserver leur éclat;	36	4	10	0	0.0	[]	0.03225806451612903	0.03225806451612903	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	181	ce sont eux, ce sont leurs douces haleines qui les font épanouir.	36	5	12	1	0.0833333333333333	[['douce']]	0.043478260869565216	0.043478260869565216	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	182	O	36	6	1	0	0.0	[]	0.07142857142857142	0.07142857142857142	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	183	Déesse!	36	7	1	0	0.0	[]	0.0	0.0	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	184	si vous êtes sensible à l'outrage que l'on fait à une Immortelle;	36	8	14	0	0.0	[]	0.08888888888888889	0.08888888888888889	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	185	venez, quittez pour un moment votre redoutable empire, venez, et d'une main puissante portez sur le front orgueilleux de ma rivale les rides affreuses qui volent à votre suite.	36	9	30	4	0.1333333333333333	[['main'], ['puissant'], ['front'], ['ride']]	0.08888888888888889	0.08888888888888889	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	186	Aussi	36	10	1	0	0.0	[]	0.08928571428571429	0.08928571428571429	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	187	-tôt, secouant ses cheveux blancs, la Vieillesse s'appuie sur un bâton de cyprès, et monte sur le char de la jalouse amante des Zéphirs.	36	11	25	1	0.04	[['cheveux']]	0.038461538461538464	0.03636363636363636	0.045454545454545456	0.0	0.04381799989528513
+Sacy_Amours	188	Déja loin de son trône, abhorré des humains, elles découvrent le Temple superbe, que les habitants d'Amathuse ont consacré à leur Reine, et au malheureux fils de Cynire.	37	0	29	1	0.0344827586206896	[['superbe']]	0.0425531914893617	0.041666666666666664	0.03571428571428571	0.0172413793103448	0.032761803089638254
+Sacy_Amours	189	Bientôt arrivées dans la prairie, elles aperçoivent Amarillis: de vieux Bergers, prosternés devant son trône, adorent ses appas;	37	1	18	1	0.0555555555555555	[['vieux']]	0.038461538461538464	0.038461538461538464	0.03571428571428571	0.0172413793103448	0.032761803089638254
+Sacy_Amours	190	ils semblent oublier leur âge;	37	2	5	0	0.0	[]	0.04878048780487805	0.04878048780487805	0.03571428571428571	0.0172413793103448	0.032761803089638254
+Sacy_Amours	191	leurs regards, fixés amoureusement sur la jeune Bergère, rappellent dans leurs cœurs le feu qui les embrasait autrefois.	37	3	18	1	0.0555555555555555	[['regard']]	0.02631578947368421	0.02631578947368421	0.03571428571428571	0.0172413793103448	0.032761803089638254
+Sacy_Amours	192	A cet aspect, la Vieillesse même craint qu'Amarillis ne devienne fatale à son Empire;	37	4	15	0	0.0	[]	0.05714285714285714	0.05714285714285714	0.03571428571428571	0.0172413793103448	0.032761803089638254
+Sacy_Amours	193	elle approche, aussitôt les Bergers effrayés reculent avec horreur: la Bergère tremblante tombe évanouie sur son trône, et bientôt d'une main cruelle la Déesse porte les rides affreuses sur le front où brillaient tant de charmes.	37	5	37	3	0.081081081081081	[['main'], ['ride'], ['front']]	0.04477611940298507	0.04477611940298507	0.03571428571428571	0.0172413793103448	0.032761803089638254
+Sacy_Amours	194	Enfin, montant sur les ailes tardives des froides années, elle retourne dans son obscure retraite.	37	6	15	0	0.0	[]	0.03614457831325301	0.03614457831325301	0.03571428571428571	0.0172413793103448	0.032761803089638254
+Sacy_Amours	195	Flore qui voit alors sa rivale couverte des traits de la Vieillesse, s'applaudit et lui insulte: elle remonte sur son char, et ses rapides Hirondelles l'enlèvent dans les airs.	37	7	31	0	0.0	[]	0.0	0.0	0.03571428571428571	0.0172413793103448	0.032761803089638254
+Sacy_Amours	196	Cependant le Berger d'un pas timide s'approche d'Amarillis;	38	0	11	0	0.0	[]	0.0	0.0	0.02040816326530612	0.0	0.017131274600992046
+Sacy_Amours	197	mais, ô désespoir!	38	1	3	0	0.0	[]	0.0	0.0	0.02040816326530612	0.0	0.017131274600992046
+Sacy_Amours	198	il ne reconnaît plus son amante;	38	2	6	0	0.0	[]	0.02702702702702703	0.02702702702702703	0.02040816326530612	0.0	0.017131274600992046
+Sacy_Amours	199	il ne voit plus les divins attraits auxquels il éleva des autels: il recule épouvanté, la Bergère l'appelle tendrement, Mirtil cède aux doux sons de sa voix;	38	3	28	1	0.0357142857142857	[['dou']]	0.0196078431372549	0.0196078431372549	0.02040816326530612	0.0	0.017131274600992046
+Sacy_Amours	200	mais la trouvant encore plus affreuse, il fuit, et va déplorer son sort dans un bosquet voisin.	38	4	17	0	0.0	[]	0.02564102564102564	0.02564102564102564	0.02040816326530612	0.0	0.017131274600992046
+Sacy_Amours	201	Là, le souvenir flatteur des plaisirs qu'il avait goûtés avec Amarillis, rallume sa tendresse: il soupire, et levant au Ciel ses tremblantes mains, il adresse cette prière à la Mère des Amours.	38	5	33	1	0.0303030303030303	[['main']]	0.02	0.0196078431372549	0.02040816326530612	0.0	0.017131274600992046
+Sacy_Amours	202	O	39	0	1	0	0.0	[]	0.0	0.02857142857142857	0.07627118644067797	0.0263157894736842	0.053179363751807665
+Sacy_Amours	203	Déesse!	39	1	1	0	0.0	[]	0.0	0.0	0.07627118644067797	0.0263157894736842	0.053179363751807665
+Sacy_Amours	204	venez venger une injure faite à votre Empire;	39	2	8	0	0.0	[]	0.04	0.04	0.07627118644067797	0.0263157894736842	0.053179363751807665
+Sacy_Amours	205	venez voir le plus beau de vos ouvrages en proie aux fureurs de votre implacable ennemie;	39	3	16	1	0.0625	[['beau']]	0.046511627906976744	0.046511627906976744	0.07627118644067797	0.0263157894736842	0.053179363751807665
+Sacy_Amours	206	venez voir les horribles traces de la vieillesse imprimées sur le visage où vous aviez répandu tant de charmes.	39	4	19	1	0.0526315789473684	[['visage']]	0.09836065573770492	0.09836065573770492	0.07627118644067797	0.0263157894736842	0.053179363751807665
+Sacy_Amours	207	Venez, et de vos doigts de lis et de roses daignez seulement toucher son front: aussitôt, dociles à votre voix, les attraits revoleront sur son visage.	39	5	26	4	0.1538461538461538	[['doigt'], ['rose'], ['front'], ['voix']]	0.10869565217391304	0.10869565217391304	0.07627118644067797	0.0263157894736842	0.053179363751807665
+Sacy_Amours	208	O	39	6	1	0	0.0	[]	0.14285714285714285	0.14285714285714285	0.07627118644067797	0.0263157894736842	0.053179363751807665
+Sacy_Amours	209	puissante	39	7	1	0	0.0	[]	0.05405405405405406	0.05405405405405406	0.07627118644067797	0.0263157894736842	0.053179363751807665
+Sacy_Amours	210	Déesse, rendez à mon amour, rendez à mon cœur éperdu ma chère Amarillis: tous les jours, couronné de fleurs cueillies de sa main, je brûlerai sur vos autels des branches de myrte et d'oranger;	39	8	35	2	0.0571428571428571	[['main'], ['brûler']]	0.06521739130434782	0.06521739130434782	0.07627118644067797	0.0263157894736842	0.053179363751807665
+Sacy_Amours	211	je vous immolerai le plus tendre agneau de ma bergerie.	39	9	10	1	0.1	[['tendre']]	0.06666666666666667	0.05555555555555555	0.07627118644067797	0.0263157894736842	0.053179363751807665
+Sacy_Amours	212	Les vœux de Mirtil sont à l'instant exaucés.	40	0	9	0	0.0	[]	0.037037037037037035	0.05405405405405406	0.03982300884955752	0.0344827586206896	0.03258003416755801
+Sacy_Amours	213	Il voit descendre un char brillant d'or et d'azur, que deux cygnes traînent dans les airs.	40	1	18	1	0.0555555555555555	[['de', 'or']]	0.04838709677419355	0.04838709677419355	0.03982300884955752	0.0344827586206896	0.03258003416755801
+Sacy_Amours	214	Vénus vient rendre la beauté à l'amante de son fils: le char vole, Cythérée approche, les rides disparaissent, Amarillis renaît; et la Déesse, en jetant sur elle un souris charmant, remonte dans les Cieux.	40	2	35	2	0.0571428571428571	[['ride'], ['charmer']]	0.06349206349206349	0.06349206349206349	0.03982300884955752	0.0344827586206896	0.03258003416755801
+Sacy_Amours	215	La Bergère court précipitamment sur le bord d'un ruisseau;	40	3	10	1	0.1	[['court']]	0.056338028169014086	0.056338028169014086	0.03982300884955752	0.0344827586206896	0.03258003416755801
+Sacy_Amours	216	elle s'y voit plus belle que jamais, elle vole auprès de son amant, elle lui fait des reproches de ce qu'il l'a abandonnée.	40	4	26	1	0.0384615384615384	[['bel']]	0.05	0.05	0.03982300884955752	0.0344827586206896	0.03258003416755801
+Sacy_Amours	217	Mirtil l'embrasse amoureusement;	40	5	4	0	0.0	[]	0.0425531914893617	0.0425531914893617	0.03982300884955752	0.0344827586206896	0.03258003416755801
+Sacy_Amours	218	ses soupirs désarment sa Bergère, et la tendre Amarillis goûte de nouveau le plaisir d'être aimée.	40	6	17	1	0.0588235294117647	[['tendre']]	0.02857142857142857	0.02857142857142857	0.03982300884955752	0.0344827586206896	0.03258003416755801
+Sacy_Amours	219	Le Berger raconte à son amante les vœux qu'il a faits pour elle;	40	7	14	0	0.0	[]	0.02702702702702703	0.02702702702702703	0.03982300884955752	0.0344827586206896	0.03258003416755801
+Sacy_Amours	220	ils se couronnent mutuellement de fleurs.	40	8	6	0	0.0	[]	0.02564102564102564	0.02564102564102564	0.03982300884955752	0.0344827586206896	0.03258003416755801
+Sacy_Amours	221	Mirtil allume le feu sacré, et plonge le couteau dans les entrailles palpitantes de la victime: savant dans l'art des Aruspices, il découvre la flamme éternelle dont son amante doit brûler, il la fait connaître à la Bergère; mais elle n'y voit pas la constance de son Berger, et elle lui fait part de ses craintes.	40	9	58	2	0.0344827586206896	[['palpitant'], ['brûler']]	0.03225806451612903	0.03225806451612903	0.03982300884955752	0.0344827586206896	0.03258003416755801
+Sacy_Amours	222	Mirtil n'épargne ni les larmes, ni les soupirs, pour lui persuader qu'il l'aimera éternellement, et la tendre Amarillis le désir trop pour ne pas le croire.	40	10	29	1	0.0344827586206896	[['tendre']]	0.034482758620689655	0.029411764705882353	0.03982300884955752	0.0344827586206896	0.03258003416755801
+Sacy_Amours	223	Le Soleil, presque caché dans les ondes, ne doroit plus que le sommet des montagnes;	41	0	15	0	0.0	[]	0.0	0.016666666666666666	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	224	ses chevaux fatigués descendaient dans l'empire de Neptune: nos deux amant retournent à leur hameau.	41	1	16	0	0.0	[]	0.031746031746031744	0.031746031746031744	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	225	En traversant un petit bois de myrte, Amarillis aperçoit un Rossignol: il soulage par la douceur de ses chants l'ennui de sa chère compagne qui couve des petits à peine éclos.	41	2	32	2	0.0625	[['petit'], ['petit']]	0.03636363636363636	0.03636363636363636	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	226	La Bergère approche, le Rossignol alarmé gémit;	41	3	7	0	0.0	[]	0.058823529411764705	0.058823529411764705	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	227	sa tendre moitié n'ose pas abandonner le fruit de leurs amours.	41	4	12	1	0.0833333333333333	[['tendre']]	0.10714285714285714	0.10714285714285714	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	228	Amarillis porte une main délicate sur la mère épouvantée;	41	5	9	2	0.2222222222222222	[['main'], ['délicat']]	0.1	0.1	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	229	déjà elle est captive, déjà les petits, privés d'une chaleur utile, semblent, par leur agitation, redemander leur mère;	41	6	19	1	0.0526315789473684	[['petit']]	0.07547169811320754	0.07547169811320754	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	230	le Rossignol, s'abandonnant à toute sa douleur, vole et revole sans cesse autour d'Amarillis, il fait répéter aux échos les plus tristes accent;	41	7	25	1	0.04	[['triste']]	0.04081632653061224	0.04081632653061224	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	231	la Bergère en est touchée	41	8	5	0	0.0	[]	0.025	0.025	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	232	, elle baise l'oiseau chéri, et lui rend la liberté.	41	9	10	0	0.0	[]	0.0	0.0	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	233	Alors vous eussiez vu l'époux empressé battre les ailes, et contempler sa compagne;	41	10	14	0	0.0	[]	0.0	0.0	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	234	ses chants deviennent cent fois plus mélodieux.	41	11	7	0	0.0	[]	0.027777777777777776	0.027777777777777776	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	235	Amarillis fait remarquer à son amant la tendresse et la constance de ce petit animal;	41	12	15	1	0.0666666666666666	[['petit']]	0.030303030303030304	0.030303030303030304	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	236	rien, à son gré, n'est plus flatteur pour une amante.	41	13	11	0	0.0	[]	0.025	0.025	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	237	Le Berger lui jure encore de l'aimer éternellement, et ils arrivent au hameau.	41	14	14	0	0.0	[]	0.0	0.0	0.037914691943127965	0.0	0.060064133938072674
+Sacy_Amours	238	CHANT TROISIÉME.	42	0	2	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	239	L'Amoureux Mirtil goûtat tous les jours de nouveaux plaisirs auprès d'Amarillis;	43	0	13	0	0.0	[]	0.0	0.0	0.0196078431372549	0.0	0.01990862997205603
+Sacy_Amours	240	tous les jours ils faisaient paître ensemble leurs troupeaux.	43	1	9	0	0.0	[]	0.0196078431372549	0.0196078431372549	0.0196078431372549	0.0	0.01990862997205603
+Sacy_Amours	241	La Bergère voyait d'un œil satisfait la constance de son Berger, et le Berger sentait la flamme dont il brûlait pour Amarillis s'accroître tous les jours davantage.	43	2	29	1	0.0344827586206896	[['brûler']]	0.02631578947368421	0.03076923076923077	0.0196078431372549	0.0	0.01990862997205603
+Sacy_Amours	242	La belle Sylvanire, qui jusqu'alors avait disputé l'empire de la Beauté à la jeune Amarillis, tentait en vain de se soumettre le cœur de Mirtil;	44	0	27	1	0.037037037037037	[['bel']]	0.0975609756097561	0.07142857142857142	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	243	sa tête brillait inutilement des fleurs les plus belles, Mirtil en était peu touché.	44	1	14	3	0.2142857142857142	[['tête'], ['briller'], ['bel']]	0.09433962264150944	0.09433962264150944	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	244	Toujours fidèle, toujours constant, il n'avait des yeux que pour Amarillis.	44	2	12	1	0.0833333333333333	[['oeil']]	0.12962962962962962	0.12962962962962962	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	245	De son côté, la Bergère rejettoit les vœux de tous les autres Bergers: en vain soupiraient-ils sur leurs tendres hautbois les plus doux accent de l'amour;	44	3	28	3	0.1071428571428571	[['tendre'], ['dou'], ['accent']]	0.07407407407407407	0.07407407407407407	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	246	en vain lui offraient-ils mille présent champêtres, Amarillis ne respirait que pour Mirtil.	44	4	14	0	0.0	[]	0.056179775280898875	0.056179775280898875	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	247	Mais l'Amour, qui ne se plaît que dans le désordre et dans les alarmes, ne put voir long-temps la félicité de ces amant, sans en sentir une secrète jalousie: il n'était plus en son pouvoir d'éteindre les feux qu'il avait allumés lui-même;	44	5	47	2	0.0425531914893617	[['long'], ['éteindre']]	0.028985507246376812	0.028985507246376812	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	248	Vénus protégeait les plaisirs innocent de nos Bergers.	44	6	8	0	0.0	[]	0.03125	0.03125	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	249	Reconnoissant son impuissance, il vole auprès de sa Mère;	44	7	9	0	0.0	[]	0.0	0.0	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	250	elle le reçoit avec un souris enchanteur;	44	8	7	0	0.0	[]	0.0	0.0	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	251	il l'embrasse, et Vénus en devient plus belle.	44	9	9	0	0.0	[]	0.0	0.0	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	252	„O	44	10	2	0	0.0	[]	0.0	0.0	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	253	Déesse, lui dit-il, „à quoi me servent donc les „ailes qui me furent données par „le Destin?	44	11	21	0	0.0	[]	0.0	0.0	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	254	Je me vois arrêté par „deux Bergers, la Constance s'est „emparée de leurs cœurs, elle „m'enchaîne à sa suite;	44	12	24	0	0.0	[]	0.0	0.0	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	255	permettez-moi de me servir contr'elle des „armes que vous m'avez données.	44	13	15	0	0.0	[]	0.0	0.0	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	256	„Mirtil vous est cher, il sera toujours heureux;	44	14	9	0	0.0	[]	0.0	0.0	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	257	mais je veux qu'il „vole de Bergère en Bergère.	44	15	11	0	0.0	[]	0.038461538461538464	0.038461538461538464	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	258	“ Vénus lui sourit de nouveau:	44	16	6	1	0.1666666666666666	[['sourire']]	0.023255813953488372	0.023255813953488372	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	259	„Allez, mon fils, dit-elle à l'Amour, „livrez la guerre à la Constance, „vous la chasserez aisément de „dessus la terre.	44	17	26	0	0.0	[]	0.030303030303030304	0.030303030303030304	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	260	“	44	18	1	0	0.0	[]	0.0	0.0	0.03793103448275862	0.0	0.06368153994010699
+Sacy_Amours	261	Aussitôt ce Dieu quitte le Temple de sa Mère;	45	0	9	0	0.0	[]	0.038461538461538464	0.037037037037037035	0.018691588785046728	0.0	0.028098125925917018
+Sacy_Amours	262	ses ailes rapides le portent dans les lieux où nos amant goûtent encore ses plus douces faveurs;	45	1	17	1	0.0588235294117647	[['douce']]	0.027777777777777776	0.027777777777777776	0.018691588785046728	0.0	0.028098125925917018
+Sacy_Amours	263	il les voit, ils sont couchés sur l'herbe naissante;	45	2	10	0	0.0	[]	0.046511627906976744	0.046511627906976744	0.018691588785046728	0.0	0.028098125925917018
+Sacy_Amours	264	leurs regards, fixés amoureusement sur eux-mêmes, expriment les désirs qui s'élèvent dans leurs âmes;	45	3	16	1	0.0625	[['regard']]	0.027777777777777776	0.027777777777777776	0.018691588785046728	0.0	0.028098125925917018
+Sacy_Amours	265	ils soupirent, mais un cruel pressentiment vient alarmer la Bergère;	45	4	10	0	0.0	[]	0.022222222222222223	0.022222222222222223	0.018691588785046728	0.0	0.028098125925917018
+Sacy_Amours	266	elle craint que son amant ne se lasse de ses faveurs, elle lui fait jurer de lui être fidèle;	45	5	19	0	0.0	[]	0.0	0.0	0.018691588785046728	0.0	0.028098125925917018
+Sacy_Amours	267	le Berger le lui promet de bonne foi;	45	6	8	0	0.0	[]	0.0	0.0	0.018691588785046728	0.0	0.028098125925917018
+Sacy_Amours	268	il était trop heureux de la posséder, et il ne croyait pas que jamais il pût devenir inconstant.	45	7	18	0	0.0	[]	0.0	0.0	0.018691588785046728	0.0	0.028098125925917018
+Sacy_Amours	269	L'Amour, qui s'était laissé toucher par les caresses de ces amant, entendant les nouveaux serments du Berger, sent redoubler son courroux.	46	0	23	0	0.0	[]	0.02702702702702703	0.01818181818181818	0.012195121951219513	0.0	0.0357142857142857
+Sacy_Amours	270	Il tire de son carquois une flèche ajustée des mains de la Légèreté même;	46	1	14	1	0.0714285714285714	[['main']]	0.019230769230769232	0.019230769230769232	0.012195121951219513	0.0	0.0357142857142857
+Sacy_Amours	271	l'arc résonne, le trait vole, et vient frapper le cœur du fils d'Adonis;	46	2	15	0	0.0	[]	0.01694915254237288	0.01694915254237288	0.012195121951219513	0.0	0.0357142857142857
+Sacy_Amours	272	la Constance est blessée, elle fuit, elle emporte après elle tous les feux de l'Amour, et ne laisse dans le cœur de Mirtil que l'indifférence et les dégoûts.	46	3	30	0	0.0	[]	0.0	0.0	0.012195121951219513	0.0	0.0357142857142857
+Sacy_Amours	273	Le Berger interdit regarde son amante, il ne lui trouve plus les mêmes agrément, sa beauté s'évanouit à ses yeux.	47	0	21	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	274	L'Amour lui inspire soudain un désirs de plaire à Sylvanire, et cette nouvelle amante s'empare de son cœur.	47	1	20	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	275	Amarillis s'aperçoit de son trouble, elle lui en demande la cause: il est obligé, pour la satisfaire, de recourir à la feinte;	47	2	23	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	276	la Bergère ingénue le croit, elle ignore encore son malheur.	47	3	10	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	277	Dans le même bosquet où Mirtil aborda, pour la première fois, les Bergers de son hameau, était un lieu solitaire, qui n'était fréquenté que des amant malheureux;	48	0	28	0	0.0	[]	0.0	0.0	0.017391304347826087	0.0	0.023809523809523798
+Sacy_Amours	278	c'est dans ces lieux écartés qu'ils allaient se plaindre de la cruauté de leurs Bergères: mais comme Vénus fafavorisoit leurs amours, on les y voyait rarement.	48	1	28	0	0.0	[]	0.02040816326530612	0.02040816326530612	0.017391304347826087	0.0	0.023809523809523798
+Sacy_Amours	279	Le Soleil était au milieu de sa course, les Naïades étaient rentrées dans leurs grottes humides, les Faunes et les Sylvains s'étaient enfoncés dans le plus épais des forêts, lorsqu'Amarillis proposa à son amant d'aller dans le bosquet retiré;	48	2	42	2	0.0476190476190476	[['rentrer'], ['enfoncer']]	0.022988505747126436	0.022988505747126436	0.017391304347826087	0.0	0.023809523809523798
+Sacy_Amours	280	Mirtil ne peut le lui refuser, il affecte même un air empressé, et bientôt ils y arrivent.	48	3	17	0	0.0	[]	0.03389830508474576	0.027777777777777776	0.017391304347826087	0.0	0.023809523809523798
+Sacy_Amours	281	Sylvanire était venue dans ces mêmes lieux déplorer son désespoir et sa honte.	49	0	13	0	0.0	[]	0.03125	0.02040816326530612	0.07272727272727272	0.0666666666666666	0.05040141318296612
+Sacy_Amours	282	Le tendre Mopsus la cherche inutilement dans la prairie: Sylvanire se plaint aux Dieux de l'insensibilité de Mirtil;	49	1	19	1	0.0526315789473684	[['tendre']]	0.045454545454545456	0.045454545454545456	0.07272727272727272	0.0666666666666666	0.05040141318296612
+Sacy_Amours	283	elle n'aime pas moins le jeune Berger que la tendre Amarillis.	49	2	12	1	0.0833333333333333	[['tendre']]	0.09615384615384616	0.09615384615384616	0.07272727272727272	0.0666666666666666	0.05040141318296612
+Sacy_Amours	284	L'Amour qui suivait nos amant, fait pénétrer jusques dans le cœur de son frère la voix de la triste Sylvanire.	49	3	21	3	0.1428571428571428	[['pénétrer'], ['voix'], ['triste']]	0.10256410256410256	0.10256410256410256	0.07272727272727272	0.0666666666666666	0.05040141318296612
+Sacy_Amours	285	Le Berger ne peut y résister;	49	4	6	0	0.0	[]	0.09523809523809523	0.09523809523809523	0.07272727272727272	0.0666666666666666	0.05040141318296612
+Sacy_Amours	286	il quitte la fidèle Amarillis, et bientôt il vole aux pieds de sa nouvelle amante.	49	5	15	1	0.0666666666666666	[['pied']]	0.06666666666666667	0.06666666666666667	0.07272727272727272	0.0666666666666666	0.05040141318296612
+Sacy_Amours	287	Elle est assise au bord d'un antre obscur, ses beaux yeux sont mouillés de pleurs, elle murmure tendrement le nom de son Berger.	49	6	24	2	0.0833333333333333	[['oeil'], ['pleur']]	0.07692307692307693	0.09090909090909091	0.07272727272727272	0.0666666666666666	0.05040141318296612
+Sacy_Amours	288	Mirtil transporté se jette à ses genoux, il baise sa belle main qu'il mouille de ses larmes, il dit à la Bergère qu'il l'adore.	50	0	27	3	0.1111111111111111	[['genou'], ['bel'], ['main']]	0.058823529411764705	0.06666666666666667	0.041176470588235294	0.0	0.04995588883128957
+Sacy_Amours	289	Sylvanire le regarde avec surprise, elle craint que cet empressement ne soit un stratagème de sa rivale; mais l'amoureux Mirtil la détrompe bien-tôt.	50	1	24	0	0.0	[]	0.057692307692307696	0.057692307692307696	0.041176470588235294	0.0	0.04995588883128957
+Sacy_Amours	290	„	50	2	1	0	0.0	[]	0.044444444444444446	0.044444444444444446	0.041176470588235294	0.0	0.04995588883128957
+Sacy_Amours	291	Ce sont vos appas, dit-il, „ce sont vos puissant appas, qui „m'ont dégagé de ses fers;	50	3	20	2	0.1	[['puisser'], ['dégager']]	0.08163265306122448	0.08163265306122448	0.041176470588235294	0.0	0.04995588883128957
+Sacy_Amours	292	un „faible reste d'amour combattait „en vain pour elle au fond de mon „cœur, il a cédé aux doux sons de „votre voix.	50	4	28	2	0.0714285714285714	[['faible'], ['dou']]	0.06666666666666667	0.06666666666666667	0.041176470588235294	0.0	0.04995588883128957
+Sacy_Amours	293	J'ai laissé Amarillis „éperdue à l'entrée de ce bosquet.	50	5	12	0	0.0	[]	0.024390243902439025	0.024390243902439025	0.041176470588235294	0.0	0.04995588883128957
+Sacy_Amours	294	“ Sylvanire bénit les Dieux qui se sont enfin laissé toucher par ses larmes: fière de la victoire qu'elle vient de remporter sur sa rivale, et trop heureuse d'être aimée du Berger qu'elle adore, elle ne lui refuse rien;	50	6	42	0	0.0	[]	0.0	0.0	0.041176470588235294	0.0	0.04995588883128957
+Sacy_Amours	295	l'inconstant Mirtil lui prodigue des caresses qui n'étaient dues qu'à la fidèle Amarillis.	50	7	16	0	0.0	[]	0.0	0.0	0.041176470588235294	0.0	0.04995588883128957
+Sacy_Amours	296	Ariane délaissée dans l'Isle de Naxos par le volage Thésée, ne ressentit pas une aussi profonde	51	0	17	0	0.0	[]	0.0	0.0	0.05844155844155844	0.05	0.07320569065536882
+Sacy_Amours	297	douleur qu'Amarillis abandonnée de son amant.	51	1	7	0	0.0	[]	0.023809523809523808	0.023809523809523808	0.05844155844155844	0.05	0.07320569065536882
+Sacy_Amours	298	N'osant pas douter de son malheur, elle approche en tremblant des lieux où elle entend sa rivale.	51	2	18	1	0.0555555555555555	[['trembler']]	0.05263157894736842	0.05263157894736842	0.05844155844155844	0.05	0.07320569065536882
+Sacy_Amours	299	Mirtil est assis à côté d'elle, et la facile Sylvanire sourit agréablement.	51	3	13	1	0.0769230769230769	[['sourire']]	0.06060606060606061	0.06060606060606061	0.05844155844155844	0.05	0.07320569065536882
+Sacy_Amours	300	Quelle vue	51	4	2	0	0.0	[]	0.09523809523809523	0.09523809523809523	0.05844155844155844	0.05	0.07320569065536882
+Sacy_Amours	301	pour la plus tendre des amantes!	51	5	6	1	0.1666666666666666	[['tendre']]	0.058823529411764705	0.058823529411764705	0.05844155844155844	0.05	0.07320569065536882
+Sacy_Amours	302	Son esprit flotte entre le désespoir et la haine.	51	6	9	0	0.0	[]	0.03225806451612903	0.03225806451612903	0.05844155844155844	0.05	0.07320569065536882
+Sacy_Amours	303	Bientôt ne pouvant résister à tant d'agitations, son sang glacé s'arrête sur son cœur;	51	7	16	0	0.0	[]	0.03076923076923077	0.03076923076923077	0.05844155844155844	0.05	0.07320569065536882
+Sacy_Amours	304	elle tombe, ses beaux yeux sont couverts d'un voile épais: mais Vénus, à qui elle est toujours chère, détache de sa suite la plus jeune des Graces, qui vient répandre sur le visage de la Bergère une eau divine.	51	8	40	2	0.05	[['oeil'], ['visage']]	0.06060606060606061	0.06060606060606061	0.05844155844155844	0.05	0.07320569065536882
+Sacy_Amours	305	Aussitôt on voit fuir les pâles couleurs de la mort;	51	9	10	2	0.2	[['pâle'], ['couleur']]	0.09090909090909091	0.09090909090909091	0.05844155844155844	0.05	0.07320569065536882
+Sacy_Amours	306	son teint se ranime, ses yeux se r'ouvrent, et elle revait le jour qu'elle déteste.	51	10	16	2	0.125	[['teint'], ['oeil']]	0.15384615384615385	0.1	0.05844155844155844	0.05	0.07320569065536882
+Sacy_Amours	307	Alors elle a recours aux larmes et aux reproches, armes inutiles des amant abandonnés.	52	0	14	0	0.0	[]	0.0	0.06451612903225806	0.0	0.0	0.0
+Sacy_Amours	308	„	52	1	1	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	309	Ingrat!	52	2	1	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	310	S'écrie-t-elle, „comment peux	53	0	7	0	0.0	[]	0.0	0.0	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	311	-tu „délaisser une amante qui t'adore? „	53	1	9	0	0.0	[]	0.0	0.0	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	312	Comment peux	53	2	2	0	0.0	[]	0.0	0.0	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	313	-tu me laisser en „proie au désespoir qui m'agite?	53	3	11	0	0.0	[]	0.0	0.0	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	314	„	53	4	1	0	0.0	[]	0.0	0.0	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	315	Tu ne m'aimas donc jamais, „traître?	53	5	8	0	0.0	[]	0.0	0.0	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	316	Tu m'as donc toujours „trompée?	53	6	7	0	0.0	[]	0.08064516129032258	0.08064516129032258	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	317	Les larmes que j'ai vu „couler de tes yeux, les soupirs „que j'ai reçus dans mon sein, tes „serments tant de fois réitérés, tes „transports, ce feu qui brillait „dans tes yeux, tout n'était donc „que trahison, perfidie!	53	7	47	5	0.1063829787234042	[['oeil'], ['sein'], ['briller'], ['ton'], ['oeil']]	0.07462686567164178	0.07462686567164178	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	318	Tu as „donc abusé de la facilité d'une „innocente Bergère.	53	8	13	0	0.0	[]	0.08955223880597014	0.08955223880597014	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	319	Vénus, et „c'est ton fils?	53	9	7	1	0.1428571428571428	[['ton']]	0.05405405405405406	0.05405405405405406	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	320	Non, tu es trop „tendre pour avoir donné le jour „au plus cruel des humains.	53	10	17	1	0.0588235294117647	[['tendre']]	0.08	0.08	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	321	Mal-„heureuse!	53	11	1	0	0.0	[]	0.05555555555555555	0.041666666666666664	0.05384615384615385	0.0	0.049796958606714965
+Sacy_Amours	322	où m'emporte un aveugle désespoir?	54	0	6	0	0.0	[]	0.0	0.0	0.017241379310344827	0.0	0.023537557657892512
+Sacy_Amours	323	Non, non, mon „Berger m'aime encore.	54	1	8	0	0.0	[]	0.030303030303030304	0.030303030303030304	0.017241379310344827	0.0	0.023537557657892512
+Sacy_Amours	324	Viens, „cher amant, viens essuyer mes „larmes, fais cesser mes craintes: „Amarillis te tend les bras;	54	2	19	1	0.0526315789473684	[['tendre']]	0.02564102564102564	0.02564102564102564	0.017241379310344827	0.0	0.023537557657892512
+Sacy_Amours	325	ne „méprise pas un cœur qui ne respire que pour toi.	54	3	12	0	0.0	[]	0.022727272727272728	0.022727272727272728	0.017241379310344827	0.0	0.023537557657892512
+Sacy_Amours	326	“ A des discours si touchant, Mirtil ne répondit rien: il était infidèle.	54	4	13	0	0.0	[]	0.0	0.0	0.017241379310344827	0.0	0.023537557657892512
+Sacy_Amours	327	Amarillis retourne à son hameau, et se condamne à des larmes éternelles.	55	0	12	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	328	L'inconstant Mirtil et l'heureuse	56	0	6	0	0.0	[]	0.0	0.0	0.038461538461538464	0.0185185185185185	0.042987021329305396
+Sacy_Amours	329	Sylvanire goûtaient toutes les délices de l'amour.	56	1	8	0	0.0	[]	0.024390243902439025	0.024390243902439025	0.038461538461538464	0.0185185185185185	0.042987021329305396
+Sacy_Amours	330	Ce Dieu, content de sa victoire, leur prodiguait ses plus douces faveurs: il semblait au Berger qu'il n'avait pas été heureux avec sa première amante;	56	2	27	1	0.037037037037037	[['douce']]	0.043478260869565216	0.043478260869565216	0.038461538461538464	0.0185185185185185	0.042987021329305396
+Sacy_Amours	331	son cœur volage savourait à longs traits les douceurs du changement.	56	3	11	1	0.0909090909090909	[['long']]	0.05263157894736842	0.05	0.038461538461538464	0.0185185185185185	0.042987021329305396
+Sacy_Amours	332	Amour, quitte	57	0	2	0	0.0	[]	0.0	0.05263157894736842	0.045454545454545456	0.0	0.061500248950666386
+Sacy_Amours	333	pour un moment ces Amans fortunés	57	1	6	0	0.0	[]	0.06666666666666667	0.06666666666666667	0.045454545454545456	0.0	0.061500248950666386
+Sacy_Amours	334	; laisse-les dans les bras du délire.	57	2	7	1	0.1428571428571428	[['bras']]	0.03125	0.03125	0.045454545454545456	0.0	0.061500248950666386
+Sacy_Amours	335	Viens me crayonner les plaisirs divins qu'ils goûtent sous tes lois: dépeins-moi l'amoureux désordre de Sylvanire.	57	3	19	0	0.0	[]	0.06666666666666667	0.06666666666666667	0.045454545454545456	0.0	0.061500248950666386
+Sacy_Amours	336	Ah! je la vois, éperdue, agitée: la langueur et le feu dans les yeux, elle pousse un profond soupir;	57	4	19	2	0.1052631578947368	[['oeil'], ['profond']]	0.043478260869565216	0.043478260869565216	0.045454545454545456	0.0	0.061500248950666386
+Sacy_Amours	337	son amant..... déjà..... ô Pudeur, retiens ma plume!	57	5	8	0	0.0	[]	0.0625	0.0625	0.045454545454545456	0.0	0.061500248950666386
+Sacy_Amours	338	.... déjà son amant était heureux.	57	6	5	0	0.0	[]	0.0	0.0	0.045454545454545456	0.0	0.061500248950666386
+Sacy_Amours	339	Dieu des cœurs, que tes faveurs sont douces,	58	0	8	0	0.0	[]	0.0	0.0	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	340	mais qu'elles sont peu durables!	58	1	6	0	0.0	[]	0.0	0.0	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	341	Nos amant, n'étant plus remplis de ta Divinité, sont interdits et confus: à peine articulent-ils quelques mots;	58	2	19	0	0.0	[]	0.029411764705882353	0.029411764705882353	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	342	leurs regards timides n'osent plus se confondre ensemble.	58	3	9	1	0.1111111111111111	[['regard']]	0.05263157894736842	0.05263157894736842	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	343	Mais bientôt tu rallumes dans leur sein tes divines flammes;	58	4	10	1	0.1	[['sein']]	0.15384615384615385	0.15384615384615385	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	344	leurs yeux brillent d'un nouvel éclat;	58	5	7	2	0.2857142857142857	[['oeil'], ['briller']]	0.1724137931034483	0.1724137931034483	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	345	le Berger assis aux pieds de son amante, recommence de tendres propos.	58	6	12	2	0.1666666666666666	[['pied'], ['tendre']]	0.10526315789473684	0.10526315789473684	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	346	Sylvanire lui prodigue de légères faveurs: l'impatient Mirtil, déjà vivement renflammé, voudrait sur le champ sacrifier au Plaisir;	58	7	19	0	0.0	[]	0.05714285714285714	0.05714285714285714	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	347	Sylvanire s'y oppose;	58	8	4	0	0.0	[]	0.0	0.0	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	348	ses refus irritent encore l'ardeur de Mirtil.	58	9	8	0	0.0	[]	0.0	0.0	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	349	Sylvanire, ah!	58	10	2	0	0.0	[]	0.0	0.0	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	350	c'est vainement que tu crois, par ces feints refus, resserrer les liens qui l'attachent à toi!	58	11	18	0	0.0	[]	0.0	0.0	0.04918032786885246	0.0	0.09296674217563858
+Sacy_Amours	351	Ces amant étaient encore dans ces débats amoureux, lorsqu'ils entendirent un bruit confus à l'entrée du bois.	59	0	19	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	352	Les Bergers assemblés poursuivaient un animal féroce, la terreur de leurs chères brebis: il fuit précipitamment devant eux, il cherche dans le bois un asile.	59	1	25	0	0.0	[]	0.018518518518518517	0.018518518518518517	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	353	Le fils d'Adonis aperçoit de loin ses yeux enflammés;	59	2	10	1	0.1	[['oeil']]	0.02127659574468085	0.02127659574468085	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	354	aussitôt il saisit l'arc redoutable dont il hérita de son père;	59	3	12	0	0.0	[]	0.06451612903225806	0.06451612903225806	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	355	il choisit la plus forte flèche de son carquois.	59	4	9	1	0.1111111111111111	[['fort']]	0.03773584905660377	0.03773584905660377	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	356	La Bergère éperdue fait un vain effort pour le retenir: il court, l'arc part, le trait vole, l'animal est blessé, il fuit, et laisse après lui des traces de sang.	59	5	32	1	0.03125	[['court']]	0.043478260869565216	0.043478260869565216	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	357	Mirtil le poursuit sans relâche;	59	6	5	0	0.0	[]	0.022727272727272728	0.022727272727272728	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	358	il décoche une autre flèche, mais inutilement;	59	7	7	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	359	le monstre se jette dans une caverne obscure.	59	8	8	0	0.0	[]	0.05263157894736842	0.05263157894736842	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	360	Alors le Berger, armé d'un pieu, veut pénétrer dans le dangereux asile; mais la trop tendre Sylvanire s'oppose à sa témérité.	59	9	23	2	0.0869565217391304	[['pénétrer'], ['tendre']]	0.020618556701030927	0.020618556701030927	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	361	„O mon cher amant, s'écrie-t-elle, „je t'en conjure par l'amour que „j'ai pour toi, je t'en conjure par „les caresses que je viens de te „prodiguer, n'expose pas des jours „si précieux, cruel! ou si tu veux „périr, perces donc auparavant „ce cœur qui ne saurait vivre „sans toi.	59	10	66	0	0.0	[]	0.020202020202020204	0.020202020202020204	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	362	“ Son discours est suivi d'un torrent de larmes;	59	11	10	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	363	mais l'amour de la gloire s'était emparé du fils d'Adonis.	59	12	13	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	364	Il allait forcer la retraite du monstre, lorsque son amante se jette à ses genoux.	59	13	15	0	0.0	[]	0.014925373134328358	0.014925373134328358	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	365	„Barbare, lui dit-elle avec transport, „puisque mes larmes ne peuvent „arrêter ton aveugle valeur, attente „au moins que les Bergers saient „arrivés dans ces lieux, où ma „mort va précéder la tienne.	59	14	39	1	0.0256410256410256	[['ton']]	0.012345679012345678	0.012345679012345678	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	366	“ Son amant ne peut lui refuser cette grâce, il se tient à l'entrée de la caverne, résolu de combattre le monstre, s'il ose sortir.	59	15	27	0	0.0	[]	0.0136986301369863	0.0136986301369863	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	367	Cependant les Bergers entrent dans le bois;	59	16	7	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	368	ils vaient avec étonnement des vestiges ensanglantés, ils les suivent;	59	17	10	0	0.0	[]	0.02857142857142857	0.02857142857142857	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	369	mais leur surprise est bien plus grande encore de voir Mirtil armé à l'entrée d'une caverne.	59	18	18	1	0.0555555555555555	[['grand']]	0.023809523809523808	0.023809523809523808	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	370	Chacun en ressent d'abord une secrète jalousie, mais tous ensemble louent son courage.	59	19	14	0	0.0	[]	0.012658227848101266	0.012658227848101266	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	371	„Si je n'ai pas encore „arraché la vie à l'animal que vous „poursuivez, (leur dit le fils d'Adonis) „ne croyez pas que ce soit „un effet de la crainte, j'en jure „par le Dieu des combats;	59	20	47	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	372	son „aspect, quelque terrible qu'il soit, „loin de ralentir mon audace, n'a „fait qu'irriter mon courage.	59	21	22	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	373	Souffrez, Bergers, que j'entre dans la „caverne	59	22	9	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	374	, et vous verrez si j'ai dé-„généré des vertus de mon père.	59	23	12	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	375	“	59	24	1	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	376	Ce discours, loin de persuader les Bergers, rallume encore plus leur jalousie;	59	25	12	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	377	ils ne veulent pas céder en courage à un autre Berger, il faut que le sort en décide.	59	26	18	0	0.0	[]	0.05263157894736842	0.05263157894736842	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	378	On bande les yeux de la Bergère, on fait autour d'elle un grand cercle: celui sur qui elle portera ses mains incertaines ira combattre le monstre.	59	27	27	3	0.1111111111111111	[['oeil'], ['grand'], ['main']]	0.06060606060606061	0.06060606060606061	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	379	Sylvanire tremblante avance, et le cruel hasard conduit ses mains sur son cher Mirtil: aussitôt on lui ôte le fatal bandeau.	59	28	21	1	0.0476190476190476	[['main']]	0.06451612903225806	0.06451612903225806	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	380	Quel fut son désespoir, lorsqu'elle vit le danger où elle exposait son amant!	59	29	14	0	0.0	[]	0.025	0.025	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	381	Son cœur palpite de crainte.	59	30	5	0	0.0	[]	0.0625	0.0625	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	382	Mais l'intrépide Berger entre dans la grotte: il voit à la faveur de la lumière que répandent les yeux de son terrible ennemi, il voit sa gueule béante: elle est armée d'un triple rang de dents, une écume teinte de sang en découle.	59	31	45	4	0.0888888888888888	[['oeil'], ['triple'], ['dent'], ['teindre']]	0.07017543859649122	0.07017543859649122	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	383	Tout autre qu'un Héros aurait tremblé.	59	32	7	0	0.0	[]	0.04878048780487805	0.04878048780487805	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	384	Mirtil avance: le monstre, qui ne voit point d'issue, pousse des hurlement affreux, et s'élance impétueusement sur le Berger qui peut à peine soutenir la violence du choc.	59	33	30	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	385	Mais Vénus, attentive au danger de son fils, lui prête de nouvelles forces;	59	34	13	0	0.0	[]	0.019230769230769232	0.019230769230769232	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	386	il abat son ennemi d'un coup de massue;	59	35	9	1	0.1111111111111111	[['abattre']]	0.030303030303030304	0.030303030303030304	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	387	il redouble encore ses coups, et sort victorieux de la caverne.	59	36	11	0	0.0	[]	0.029411764705882353	0.029411764705882353	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	388	Les Bergers poussent mille cris de joie, et célèbrent par leurs chants sa victoire.	59	37	14	0	0.0	[]	0.022727272727272728	0.022727272727272728	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	389	La curiosité les conduit dans la grotte: les uns admirent les dents du monstre, les autres regardent ses blessures;	59	38	19	1	0.0526315789473684	[['dent']]	0.023255813953488372	0.023255813953488372	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	390	tous sont effrayés de sa grandeur et de sa difformité;	59	39	10	0	0.0	[]	0.025	0.025	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	391	jamais l'Isle de Chypre n'en avait nourri de semblable.	59	40	11	0	0.0	[]	0.05555555555555555	0.05555555555555555	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	392	Et toi, fortunée Sylvanire! la joie répandue dans les yeux, tu embrasses tendrement ton Berger;	59	41	15	2	0.1333333333333333	[['oeil'], ['ton']]	0.05128205128205128	0.05128205128205128	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	393	charmée de sa valeur, tu t'applaudis d'en avoir fait la conquête.	59	42	13	0	0.0	[]	0.045454545454545456	0.045454545454545456	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	394	Les Bergers, après avoir couronné de fleurs le valeureux Mirtil, le portent en triomphe au hameau;	59	43	16	0	0.0	[]	0.0	0.0	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	395	la Bergère les suit de loin;	59	44	6	0	0.0	[]	0.029411764705882353	0.029411764705882353	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	396	ses yeux sont continuellement attachés sur le digne objet de ses amours.	59	45	12	1	0.0833333333333333	[['oeil']]	0.046511627906976744	0.046511627906976744	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	397	Ils arrivent: les vieillards viennent féliciter le vainqueur, et Mirtil unissant sa voix à leurs chants, ils rendent grâces à Vénus, protectrice de leur hameau.	59	46	25	1	0.04	[['voix']]	0.05405405405405406	0.06	0.025830258302583026	0.0	0.040062435733731985
+Sacy_Amours	398	Notre Berger aima plus long-temps l'adroite Sylvanire que la simple Amarillis;	60	0	13	1	0.0769230769230769	[['long']]	0.038461538461538464	0.0392156862745098	0.011111111111111112	0.0	0.03440104580768907
+Sacy_Amours	399	mais enfin, dégoûté de ses faveurs, il songe à former d'autres nœuds.	60	1	13	0	0.0	[]	0.022222222222222223	0.022222222222222223	0.011111111111111112	0.0	0.03440104580768907
+Sacy_Amours	400	Après avoir aimé Amarillis et Sylvanire, les seuls ornement du pays, il rougirait d'y porter d'autres fers;	60	2	19	0	0.0	[]	0.0	0.0	0.011111111111111112	0.0	0.03440104580768907
+Sacy_Amours	401	il croit qu'il est dans des climats étrangers des Bergères encore plus aimables: son cœur volage brûle d'abandonner sa patrie.	60	3	22	0	0.0	[]	0.0	0.0	0.011111111111111112	0.0	0.03440104580768907
+Sacy_Amours	402	Non content de délaisser deux Bergères amantes, il veut encore aller porter la crainte et la jalousie dans le cœur des amoureux Bergers.	60	4	23	0	0.0	[]	0.0	0.0	0.011111111111111112	0.0	0.03440104580768907
+Sacy_Amours	403	Avant de quitter son hameau, Mirtil va consulter sa Mère.	61	0	10	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	404	Il mène avec lui le respectable Vieillard qui eut soin de ses premières années.	61	1	14	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	405	Le sanctuaire du Temple leur est ouvert, et ces deux mortels favorisés abordent la Déesse.	61	2	15	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	406	Dépouillée de son éclat, Vénus les reçoit avec bonté: son fils lui apprend le sujet de son voyage.	61	3	18	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	407	Vénus tremble pour ses jours;	61	4	5	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	408	elle sait que l'implacable Destin le condamne à périr dans ses courses;	61	5	13	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	409	elle employé en vain, pour le retenir, les prières et les larmes.	61	6	12	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	410	Son fils insensible la presse de consentir à son départ.	61	7	10	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	411	La Déesse, forcée par le Destin, cède enfin à ses vœux.	61	8	11	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	412	„Allez, mon fils, lui dit-elle, allez, „puisque c'est la volonté des Dieux: „soyez heureux dans vos amours;	61	9	22	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	413	„vous éprouverez cependant les „rigueurs d'une Bergère.	61	10	10	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	414	Il est bon „d'essuyer quelques revers dans la „vie: un bonheur trop constant „ennuie les humains;	61	11	20	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	415	au reste, je „préviendrai toujours vos désirs.	61	12	8	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	416	„	61	13	1	0	0.0	[]	0.0	0.0	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	417	Et vous, ô digne Vieillard!	61	14	5	0	0.0	[]	0.05714285714285714	0.05714285714285714	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	418	pour „récompenser votre zèle, vivez „encore de longues années, et „que les tristes maladies ne vous „atteignent point dans le cours „de votre carrière.	61	15	29	2	0.0689655172413793	[['long'], ['triste']]	0.04081632653061224	0.04081632653061224	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	419	“ Vénus dit, et un nuage épais la dérobe sur le champ à leurs yeux.	61	16	15	0	0.0	[]	0.045454545454545456	0.04	0.009174311926605505	0.0	0.016726594830091927
+Sacy_Amours	420	Les Bergers prosternés adorent sa puissance;	62	0	6	0	0.0	[]	0.0	0.0	0.02631578947368421	0.0	0.057911699352952324
+Sacy_Amours	421	les Prêtres les viennent chercher dans le sanctuaire.	62	1	8	0	0.0	[]	0.0	0.0	0.02631578947368421	0.0	0.057911699352952324
+Sacy_Amours	422	Palémon avait amené une génisse blanche;	62	2	6	0	0.0	[]	0.029411764705882353	0.029411764705882353	0.02631578947368421	0.0	0.057911699352952324
+Sacy_Amours	423	on allume le feu sacré sur l'autel, et le Prêtre plonge le couteau dans le sein de la victime.	62	3	20	1	0.05	[['sein']]	0.02857142857142857	0.02857142857142857	0.02631578947368421	0.0	0.057911699352952324
+Sacy_Amours	424	Après le sacrifice, les Bergers retournent à leur hameau.	62	4	9	0	0.0	[]	0.019230769230769232	0.019230769230769232	0.02631578947368421	0.0	0.057911699352952324
+Sacy_Amours	425	Le petit-fils de Myrrha dispose tout pour son voyage, et après avoir embrassé tendrement le Vieillard, il prend le chemin de l'Arcadie.	62	5	23	0	0.0	[]	0.046511627906976744	0.046511627906976744	0.02631578947368421	0.0	0.057911699352952324
+Sacy_Amours	426	Palémon, les yeux mouillés de pleurs, conduit en soupirant son Élève;	62	6	11	2	0.1818181818181818	[['oeil'], ['pleur']]	0.046511627906976744	0.046511627906976744	0.02631578947368421	0.0	0.057911699352952324
+Sacy_Amours	427	ils s'embrassent encore, et se séparent pour toujours.	62	7	9	0	0.0	[]	0.0625	0.0625	0.02631578947368421	0.0	0.057911699352952324
+Sacy_Amours	428	La nouvelle de ce départ imprévu se répand bientôt dans le hameau.	62	8	12	0	0.0	[]	0.0	0.0	0.02631578947368421	0.0	0.057911699352952324
+Sacy_Amours	429	Sylvanire au désespoir, unit ses plaintes à celles d'Amarillis.	62	9	10	0	0.0	[]	0.0	0.0	0.02631578947368421	0.0	0.057911699352952324
+Sacy_Amours	430	Ces rivales, également délaissées, sont réconciliées à l'instant par le sentiment de leur perte commune.	63	0	16	0	0.0	[]	0.0	0.0	0.014925373134328358	0.0	0.026997462357801934
+Sacy_Amours	431	Elles aiment à se confier leurs regrets, à les verser réciproquement dans un cœur éprouvé par les mêmes coups dont chacune ressent l'atteinte;	63	1	24	0	0.0	[]	0.0	0.0	0.014925373134328358	0.0	0.026997462357801934
+Sacy_Amours	432	leur douleur, ainsi partagée, n'en est que plus vive;	63	2	10	0	0.0	[]	0.0	0.0	0.014925373134328358	0.0	0.026997462357801934
+Sacy_Amours	433	elle prend chaque jour, en s'épanchant, de nouvelles forces.	63	3	10	0	0.0	[]	0.0	0.0	0.014925373134328358	0.0	0.026997462357801934
+Sacy_Amours	434	L'image du fils d'Adonis, retracée sans cesse à leur souvenir, emprunte encore de nouveaux charmes d'un amour malheureux qui, sans s'affaiblir, ne vit plus que de sa propre substance.	63	4	33	0	0.0	[]	0.0	0.0	0.014925373134328358	0.0	0.026997462357801934
+Sacy_Amours	435	Vénus prend enfin pitié de leurs peines, et leur rend leur première tranquillité.	63	5	13	0	0.0	[]	0.02702702702702703	0.02702702702702703	0.014925373134328358	0.0	0.026997462357801934
+Sacy_Amours	436	Les Bergères, en soupirant, jurent de n'être jamais sensibles, et l'Amour grave leur serment sur une feuille de rose qu'il donne en garde aux Zéphirs.	63	6	28	2	0.0714285714285714	[['grave'], ['rose']]	0.04878048780487805	0.046511627906976744	0.014925373134328358	0.0	0.026997462357801934
+Sacy_Amours	437	CHANT QUATRIÈME.	64	0	2	0	0.0	[]	0.0	0.06666666666666667	0.0	0.0	0.0
+Sacy_Amours	438	Sous l'heureux climat que le Dieu des forêts habite, le célèbre fleuve Ladon roule ses flots tumultueux: dans sa course rapide il arrose des Villes superbes, mais bien-tôt négligeant les Cités, ce fleuve, amant de la Nature, ne se plaît que dans les prairies.	65	0	45	3	0.0666666666666666	[['tumultueux'], ['superbe'], ['amer']]	0.07575757575757576	0.07352941176470588	0.04895104895104895	0.0277777777777777	0.037575954090560776
+Sacy_Amours	439	Là, son onde pure et tranquille est environnée de fleurs toujours fraîches, et souvent elle est consultée par les jeunes Bergères.	65	1	21	2	0.0952380952380952	[['pur'], ['frais']]	0.058823529411764705	0.058823529411764705	0.04895104895104895	0.0277777777777777	0.037575954090560776
+Sacy_Amours	440	Quelquefois même, lorsque l'ardente Canicule fait sécher les fleurs, elles vont se rafraîchir dans son sein: alors le fleuve amoureux tournant autour d'elles, semble, par de légères vagues, caresser la blancheur de leur corps;	65	2	36	1	0.0277777777777777	[['sein']]	0.05	0.05	0.04895104895104895	0.0277777777777777	0.037575954090560776
+Sacy_Amours	441	ses flots enchantés	65	3	3	0	0.0	[]	0.025974025974025976	0.025974025974025976	0.04895104895104895	0.0277777777777777	0.037575954090560776
+Sacy_Amours	442	suspendent leur cours pour admirer leurs divers attraits, et lorsqu'obligés de céder aux flots qui les poussent, ils cèdent la place, un long murmure annonce le déplaisir qu'ils ont de s'éloigner de tant de charmes.	65	4	38	1	0.0263157894736842	[['long']]	0.024390243902439025	0.029850746268656716	0.04895104895104895	0.0277777777777777	0.037575954090560776
+Sacy_Amours	443	C'est sur les bords de ce fleuve que le Dieu des forêts cueillit le léger roseau sur lequel il soupira le premier, ses tristes amours;	66	0	26	1	0.0384615384615384	[['triste']]	0.02702702702702703	0.02666666666666667	0.024096385542168676	0.01666666666666665	0.020830867704194744
+Sacy_Amours	444	souvent encore ce même roseau déplore la métamorphose de son amante;	66	1	11	0	0.0	[]	0.029850746268656716	0.029850746268656716	0.024096385542168676	0.01666666666666665	0.020830867704194744
+Sacy_Amours	445	les Bergers, attirés par ses airs, courent l'écouter, et Pan se plaît avec eux: il ne craint pas de mêler sa voix divine à la faiblesse de leurs chants;	66	2	30	1	0.0333333333333333	[['voix']]	0.017543859649122806	0.017543859649122806	0.024096385542168676	0.01666666666666665	0.020830867704194744
+Sacy_Amours	446	il leur apprend l'art de plaire aux jeunes Bergères, et de s'en faire aimer.	66	3	16	0	0.0	[]	0.021739130434782608	0.015873015873015872	0.024096385542168676	0.01666666666666665	0.020830867704194744
+Sacy_Amours	447	Entre tous les Bergers que Pan prenait soin de former, le jeune Amintas avait toute sa tendresse.	67	0	17	0	0.0	[]	0.06	0.045454545454545456	0.046153846153846156	0.0	0.05248638810814779
+Sacy_Amours	448	Il était beau, jeune, adroit: le Dieu des bois se plaisait à voir ses doigts agiles voltiger sur son hautbois, et sa réputation était répandue dans presque tous les hameaux de l'Arcadie.	67	1	33	3	0.0909090909090909	[['beau'], ['doigt'], ['agile']]	0.046153846153846156	0.046153846153846156	0.046153846153846156	0.0	0.05248638810814779
+Sacy_Amours	449	Depuis deux ans il aimait tendrement la jeune Florise, et il en était tendrement aimé.	67	2	15	0	0.0	[]	0.0625	0.05	0.046153846153846156	0.0	0.05248638810814779
+Sacy_Amours	450	Après avoir heureusement traversé les mers, Mirtil aborde dans ces lieux charmant.	68	0	12	0	0.0	[]	0.0	0.0	0.01652892561983471	0.0	0.031236638249564592
+Sacy_Amours	451	Il entend bien-tôt parler du jeune Amintas;	68	1	7	0	0.0	[]	0.0	0.0	0.01652892561983471	0.0	0.031236638249564592
+Sacy_Amours	452	il apprend que, favori du Dieu des forêts, ce Berger est le plus habile de tous ceux de l'Arcadie à tirer des sons touchant de son hautbois.	68	2	28	0	0.0	[]	0.020833333333333332	0.020833333333333332	0.01652892561983471	0.0	0.031236638249564592
+Sacy_Amours	453	Le fils de Vénus est charmé de trouver un rival digne de lui;	68	3	13	1	0.0769230769230769	[['charmer']]	0.014925373134328358	0.014925373134328358	0.01652892561983471	0.0	0.031236638249564592
+Sacy_Amours	454	il repasse les leçons que lui donna Palémon, et déjà sur sa flûte harmonieuse, qui est un présent de l'Amour, il essaye des airs champêtres;	68	4	26	0	0.0	[]	0.02702702702702703	0.02702702702702703	0.01652892561983471	0.0	0.031236638249564592
+Sacy_Amours	455	les oiseaux, attirés par la douceur de ses airs, voltigent autour de lui: alors, plein de confiance, il ne doute plus qu'aux jeux de Pan, il ne soit bien-tôt vainqueur du Berger d'Arcadie.	68	5	35	1	0.0285714285714285	[['plein']]	0.01639344262295082	0.013513513513513514	0.01652892561983471	0.0	0.031236638249564592
+Sacy_Amours	456	On le conduit à la prairie où Amintas faisait paître ordinairement ses troupeaux.	69	0	13	0	0.0	[]	0.0	0.01639344262295082	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	457	Il voit de loin une troupe de Bergers qui entouraient deux jeunes amant.	69	1	13	0	0.0	[]	0.02127659574468085	0.02127659574468085	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	458	Amintas couché mollement aux pieds de sa maîtresse, lui chantait le pouvoir de ses charmes, et tous prêtaient une oreille attentive.	69	2	21	1	0.0476190476190476	[['pied']]	0.02127659574468085	0.02127659574468085	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	459	Mirtil ne douta plus que ce ne fût là le Berger si vanté.	69	3	13	0	0.0	[]	0.03773584905660377	0.03773584905660377	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	460	Il approche, les Arcadiens admirent sa bonne mine, et les Bergères, en l'examinant, éprouvent la plus tendre émotion.	69	4	19	1	0.0526315789473684	[['tendre']]	0.021739130434782608	0.021739130434782608	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	461	Amintas, fier de ses talents, provoque le premier Mirtil au jeu de la flûte;	69	5	14	0	0.0	[]	0.0273972602739726	0.0273972602739726	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	462	le fils de Vénus feint d'abord de n'oser entrer en lice avec un si redoutable rival: le Berger d'Arcadie sourit, et prenant sa flûte des mains de son amante, il en tire les sons les plus doux.	69	6	40	1	0.025	[['main']]	0.029850746268656716	0.029850746268656716	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	463	Ensuite, défiant de nouveau Mirtil, il lui adresse ces paroles pleines de confiance.	69	7	13	1	0.0769230769230769	[['plein']]	0.037037037037037035	0.037037037037037035	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	464	„	69	8	1	0	0.0	[]	0.0625	0.0625	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	465	O vous	69	9	2	0	0.0	[]	0.0	0.0	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	466	, „Pasteur étranger!	69	10	3	0	0.0	[]	0.023255813953488372	0.023255813953488372	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	467	quel que soit „votre hameau, si vous connaissez „un Berger plus habile que moi à „tirer des sons de cet instrument, „qu'il vienne, je lui céderai le „cœur de la belle Florise.	69	11	38	1	0.0263157894736842	[['bel']]	0.021739130434782608	0.021739130434782608	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	468	“ Le fils d'Adonis,	69	12	5	0	0.0	[]	0.08064516129032258	0.08064516129032258	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	469	sans lui répondre, fait briller à ses yeux le magnifique hautbois qu'il reçut des mains de l'Amour;	69	13	19	4	0.2105263157894736	[['briller'], ['oeil'], ['magnifique'], ['main']]	0.12244897959183673	0.12244897959183673	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	470	il porte ses lèvres vermeilles à l'embouchure du divin instrument, et d'un souffle, ménagé avec art, il en fait résonner l'âme harmonieuse.	69	14	25	2	0.08	[['lèvre'], ['vermeil']]	0.1206896551724138	0.1206896551724138	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	471	A l'instant le hautbois, sous ses doigts mobiles, fait entendre des accords enchanteurs;	69	15	14	1	0.0714285714285714	[['doigt']]	0.08695652173913043	0.08695652173913043	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	472	tous les yeux sont fixés sur Mirtil;	69	16	7	1	0.1428571428571428	[['oeil']]	0.07692307692307693	0.07692307692307693	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	473	l'harmonie de ses sons permet à peine de respirer, et plonge les cœurs dans une douce extase.	69	17	18	1	0.0555555555555555	[['douce']]	0.05405405405405406	0.05405405405405406	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	474	Florise ne serait point fâchée d'être le prix de la victoire;	69	18	12	0	0.0	[]	0.043478260869565216	0.043478260869565216	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	475	Vénus a déjà fait glisser dans son sein un secret désirs de plaire à son fils.	69	19	16	1	0.0625	[['sein']]	0.03571428571428571	0.05263157894736842	0.049019607843137254	0.025657894736842102	0.055845697685009736
+Sacy_Amours	476	Amintas se sentant vaincu, a recours à ce faible stratagème.	70	0	10	1	0.1	[['faible']]	0.07142857142857142	0.06818181818181818	0.015384615384615385	0.0	0.04540625942600566
+Sacy_Amours	477	Sans donner aux Bergers le temps de prononcer en faveur de son rival, il lui adresse ces paroles:	70	1	18	1	0.0555555555555555	[['prononcer']]	0.04	0.04	0.015384615384615385	0.0	0.04540625942600566
+Sacy_Amours	478	„Sans „doute que favorisé comme moi „du Dieu de ces contrées, vous „en avez reçu les mêmes leçons;	70	2	22	0	0.0	[]	0.013888888888888888	0.013888888888888888	0.015384615384615385	0.0	0.04540625942600566
+Sacy_Amours	479	„j'avoue que vos airs ne sont pas „moins flatteurs que les miens, et „je crois qu'il n'est pas de mortels „capables de décider entre nous.	70	3	32	0	0.0	[]	0.0	0.0	0.015384615384615385	0.0	0.04540625942600566
+Sacy_Amours	480	„Mais voyons si vos chants égalent „la douceur de vos sons: si vous „êtes assez heureux pour l'emporter „sur moi, je le répète, je vous cède „le cœur de Florise, et j'irai cacher „ma honte dans le fond des forêts.	70	4	48	0	0.0	[]	0.0	0.0	0.015384615384615385	0.0	0.04540625942600566
+Sacy_Amours	481	Aglante, la plus illustre de nos Bergères, avait quitté son hameau pour aller à la Cour;	71	0	16	0	0.0	[]	0.0	0.0	0.015151515151515152	0.0	0.0172413793103448
+Sacy_Amours	482	après deux ans de séjour, elle revint dans nos prairies.	71	1	10	0	0.0	[]	0.0	0.0	0.015151515151515152	0.0	0.0172413793103448
+Sacy_Amours	483	J'étais allé avec Mélibée, écouter les leçons du Dieu Pan;	71	2	11	0	0.0	[]	0.02	0.02	0.015151515151515152	0.0	0.0172413793103448
+Sacy_Amours	484	il nous fit chanter cet heureux retour, et accordant sa voix à la nôtre, nous formâmes ensemble le Concert que je vais vous répéter: prêtez-moi une oreille attentive.	71	3	29	1	0.0344827586206896	[['voix']]	0.025	0.022727272727272728	0.015151515151515152	0.0	0.0172413793103448
+Sacy_Amours	485	LE RETOUR D'AGLANTE	72	0	4	0	0.0	[]	0.0	0.030303030303030304	0.0	0.0	0.0
+Sacy_Amours	486	.	72	1	0	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	487	PASTORALE.	73	0	1	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	488	Pan, Dieu des Bergers.	74	0	4	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	489	Amintas, ^#(GZG)	75	0	2	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	490	Bergers.	75	1	1	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	491	Mélibée, ^#(GZG) Bergers.	76	0	3	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	492	La Scène est sur les bords d'un ruisseau qui coule dans un bois planté de hêtres.	77	0	17	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	493	Pan.	78	0	1	0	0.0	[]	0.0	0.05555555555555555	0.0	0.0	0.0
+Sacy_Amours	494	Vous, à qui sur ces bords j'ai pris le soin d'apprendre A chanter les Amours sur le ton le plus tendre, Chantez, jeunes Bergers, accordez vos hautbois Aux sons harmonieux de vos touchantes voix.	79	0	36	3	0.0833333333333333	[['ton'], ['tendre'], ['harmonieux']]	0.08333333333333333	0.07894736842105263	0.08333333333333333	0.0833333333333333	0.0
+Sacy_Amours	495	Amintas.	80	0	1	0	0.0	[]	0.0	0.07272727272727272	0.0	0.0	0.0
+Sacy_Amours	496	Eh! quel sujet chanter? est-ce Zéphire et Flore, Ou les pleurs que répand la trop sensible Aurore?	81	0	18	1	0.0555555555555555	[['pleur']]	0.05555555555555555	0.05	0.05555555555555555	0.0555555555555555	0.0
+Sacy_Amours	497	Mélibée.	82	0	1	0	0.0	[]	0.0	0.05555555555555555	0.0	0.0	0.0
+Sacy_Amours	498	Chantons plutôt, Berger, les amours d'Adonis, Tu sais qu'il fut aimé de la belle Cypris.	83	0	17	1	0.0588235294117647	[['bel']]	0.058823529411764705	0.05263157894736842	0.058823529411764705	0.0588235294117647	0.0
+Sacy_Amours	499	Pan.	84	0	1	0	0.0	[]	0.0	0.045454545454545456	0.0	0.0	0.0
+Sacy_Amours	500	Vous pourrez à loisir,	85	0	4	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	501	assemblés sous ces hêtres	85	1	4	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	502	, Chanter l'amour des Dieux dans vos concerts champêtres;	85	2	9	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	503	Mais un sujet plus cher s'offre à vous en ce jour, Ignorez-vous, Bergers, qu'Aglante est de retour?	85	3	20	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	504	Amintas.	86	0	1	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	505	Aglante est de retour?	87	0	4	0	0.0	[]	0.0	0.0	0.027777777777777776	0.0	0.021383343303319452
+Sacy_Amours	506	ô jour rempli de charmes!	87	1	5	0	0.0	[]	0.027777777777777776	0.027777777777777776	0.027777777777777776	0.0	0.021383343303319452
+Sacy_Amours	507	De nos cœurs à jamais tu bannis les alarmes, Hélas! depuis deux ans dans le sein des grandeurs deurs, On croyait qu'elle avait oublié nos Pasteurs.	87	2	27	1	0.037037037037037	[['sein']]	0.03125	0.030303030303030304	0.027777777777777776	0.0	0.021383343303319452
+Sacy_Amours	508	Pan.	88	0	1	0	0.0	[]	0.0	0.022222222222222223	0.0	0.0	0.0
+Sacy_Amours	509	Non, non, Bergers, non, non, cette aimable Bergère, Quoiqu'au-dessus de vous, cherche encore à vous plaire;	89	0	17	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	510	Elle aime sa patrie, elle aime son hameau;	89	1	8	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	511	Je la vois, elle vient en suivant ce ruisseau.	89	2	9	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	512	Amintas.	90	0	1	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	513	Quoi, c'est Aglante, ô Dieux! quel air, quelle noblesse!	91	0	10	0	0.0	[]	0.0	0.0	0.03773584905660377	0.0	0.04133465606349138
+Sacy_Amours	514	O	91	1	1	0	0.0	[]	0.0	0.0	0.03773584905660377	0.0	0.04133465606349138
+Sacy_Amours	515	Pan!	91	2	1	0	0.0	[]	0.0	0.0	0.03773584905660377	0.0	0.04133465606349138
+Sacy_Amours	516	vous nous trompez: non	91	3	4	0	0.0	[]	0.0	0.0	0.03773584905660377	0.0	0.04133465606349138
+Sacy_Amours	517	, c'est une Déesse.	91	4	4	0	0.0	[]	0.038461538461538464	0.038461538461538464	0.03773584905660377	0.0	0.04133465606349138
+Sacy_Amours	518	C'est la belle Aurore, Ou la jeune Flore: Les fleurs sous ses pas S'empressent d'éclore.	91	5	18	1	0.0555555555555555	[['bel']]	0.03571428571428571	0.03571428571428571	0.03773584905660377	0.0	0.04133465606349138
+Sacy_Amours	519	Dieux, qu'elle a d'appas!	91	6	6	0	0.0	[]	0.06060606060606061	0.06060606060606061	0.03773584905660377	0.0	0.04133465606349138
+Sacy_Amours	520	C'est la belle Aurore, Ou la jeune Flore.	91	7	9	1	0.1111111111111111	[['bel']]	0.06666666666666667	0.0625	0.03773584905660377	0.0	0.04133465606349138
+Sacy_Amours	521	Mélibée.	92	0	1	0	0.0	[]	0.0	0.07142857142857142	0.0	0.0	0.0
+Sacy_Amours	522	Oiseaux, redoublez vos concerts;	93	0	4	0	0.0	[]	0.07142857142857142	0.06666666666666667	0.07142857142857142	0.0714285714285714	0.05150787536377127
+Sacy_Amours	523	Doux Zéphirs, caressez les airs, Et murmurez dans les feuillages.	93	1	10	1	0.1	[['dou']]	0.07142857142857142	0.07142857142857142	0.07142857142857142	0.0714285714285714	0.05150787536377127
+Sacy_Amours	524	Aglante vient sous ces ombrages: Oiseaux, redoublez vos concerts, Doux Zéphirs, caressez les airs.	93	2	14	1	0.0714285714285714	[['dou']]	0.08333333333333333	0.07407407407407407	0.07142857142857142	0.0714285714285714	0.05150787536377127
+Sacy_Amours	525	Pan, Amintas, Mélibée.	94	0	3	0	0.0	[]	0.0	0.08571428571428572	0.0	0.0	0.0
+Sacy_Amours	526	C'est la belle Aurore, Ou la jeune Flore: Oiseaux, redoublez vos concerts, Doux Zéphirs, caressez les airs.	95	0	18	2	0.1111111111111111	[['bel'], ['dou']]	0.1111111111111111	0.07407407407407407	0.1111111111111111	0.1111111111111111	0.0
+Sacy_Amours	527	Amintas finit, et tous lui applaudirent;	96	0	6	0	0.0	[]	0.05263157894736842	0.07142857142857142	0.030303030303030304	0.0	0.027950849718747377
+Sacy_Amours	528	il se flattait déjà de triompher de son rival, mais le modeste Mirtil, élevant doucement la voix, parle ainsi à l'Assemblée: „Écoutez, Bergers, je vais célébrer la métamorphose de Syrinx;	96	1	32	2	0.0625	[['triompher'], ['voix']]	0.03125	0.03125	0.030303030303030304	0.0	0.027950849718747377
+Sacy_Amours	529	„ce sujet vous est sans doute connu: le Dieu de vos contrées a „souvent fait retentir les forêts du „nom de cette Naïade.	96	2	26	0	0.0	[]	0.03389830508474576	0.03389830508474576	0.030303030303030304	0.0	0.027950849718747377
+Sacy_Amours	530	O	96	3	1	0	0.0	[]	0.0	0.0	0.030303030303030304	0.0	0.027950849718747377
+Sacy_Amours	531	Pan!	96	4	1	0	0.0	[]	0.0	0.0	0.030303030303030304	0.0	0.027950849718747377
+Sacy_Amours	532	„inspire-moi les accords les plus „doux.	97	0	9	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	533	“	97	1	1	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	534	Sur les bords fortunés du Ladon tortueux, Est un bois consacré par les amours des Dieux: C'est-là que de Vulcain la compagne infidèle, Couronna les amant qui soupiraient pour elle;	98	0	32	0	0.0	[]	0.019230769230769232	0.018867924528301886	0.05660377358490566	0.0769230769230769	0.051557309702865685
+Sacy_Amours	535	Et c'est-là que l'Amour, conduit par les désirs, Dans les bras de Psyché vint goûter les plaisirs.	98	1	20	1	0.05	[['bras']]	0.03125	0.03125	0.05660377358490566	0.0769230769230769	0.051557309702865685
+Sacy_Amours	536	Les oiseaux amoureux, sous ces épais feuillages, Chantaient la fin du jour;	98	2	12	1	0.0833333333333333	[['fin']]	0.06666666666666667	0.06666666666666667	0.05660377358490566	0.0769230769230769	0.051557309702865685
+Sacy_Amours	537	Ils semblaient appeler, par leurs tendres ramages ges, Le Repos et l'Amour.	98	3	13	1	0.0769230769230769	[['tendre']]	0.1	0.1	0.05660377358490566	0.0769230769230769	0.051557309702865685
+Sacy_Amours	538	Quand le Dieu des Bergers, qu'un doux espoir attire, Entra dans ces beaux lieux;	98	4	15	2	0.1333333333333333	[['dou'], ['beau']]	0.09090909090909091	0.09090909090909091	0.05660377358490566	0.0769230769230769	0.051557309702865685
+Sacy_Amours	539	Pan aussitôt cherche des yeux	98	5	5	0	0.0	[]	0.10344827586206896	0.10344827586206896	0.05660377358490566	0.0769230769230769	0.051557309702865685
+Sacy_Amours	540	Le jeune et bel objet pour lequel il soupire.	98	6	9	1	0.1111111111111111	[['bel']]	0.07142857142857142	0.05263157894736842	0.05660377358490566	0.0769230769230769	0.051557309702865685
+Sacy_Amours	541	Syrinx sommeille sur des fleurs;	99	0	5	0	0.0	[]	0.04	0.058823529411764705	0.04411764705882353	0.0435185185185185	0.04515502967475439
+Sacy_Amours	542	L'Amour, d'une main bienfaisante, Se plut à l'embellir de ces attraits flatteurs Qui rendent la beauté touchante;	99	1	20	1	0.05	[['main']]	0.038461538461538464	0.038461538461538464	0.04411764705882353	0.0435185185185185	0.04515502967475439
+Sacy_Amours	543	Lui	99	2	1	0	0.0	[]	0.06896551724137931	0.06896551724137931	0.04411764705882353	0.0435185185185185	0.04515502967475439
+Sacy_Amours	544	-même de son teint il broya la couleur;	99	3	8	1	0.125	[['teint']]	0.10526315789473684	0.10526315789473684	0.04411764705882353	0.0435185185185185	0.04515502967475439
+Sacy_Amours	545	Rien ne surpasse la blancheur De sa gorge encore naissante.	99	4	10	1	0.1	[['gorge']]	0.08108108108108109	0.08108108108108109	0.04411764705882353	0.0435185185185185	0.04515502967475439
+Sacy_Amours	546	Pan la voit, et soudain épris de tant d'appas, Il dévore des yeux la beauté qu'il adore;	99	5	19	1	0.0526315789473684	[['oeil']]	0.05357142857142857	0.05357142857142857	0.04411764705882353	0.0435185185185185	0.04515502967475439
+Sacy_Amours	547	Puis d'instant en instant, son feu croissant encore core, Il veut la prendre entre ses bras: Mais Syrinx s'éveillant, fuit avec tous ses charmes mes.	99	6	27	1	0.037037037037037	[['bras']]	0.037037037037037035	0.037037037037037035	0.04411764705882353	0.0435185185185185	0.04515502967475439
+Sacy_Amours	548	Le Dieu vole en vain sur ses pas,	99	7	8	0	0.0	[]	0.01694915254237288	0.01694915254237288	0.04411764705882353	0.0435185185185185	0.04515502967475439
+Sacy_Amours	549	La jeune Nymphe toute en larmes, A sa pressante ardeur préférant le trépas, Implore de ses sœurs la puissance invisible Contre un amant audacieux.	99	8	24	0	0.0	[]	0.021739130434782608	0.021739130434782608	0.04411764705882353	0.0435185185185185	0.04515502967475439
+Sacy_Amours	550	Déja, disparue à ses yeux, Pan surpris ne voit plus qu'une plante insensible.	99	9	14	1	0.0714285714285714	[['oeil']]	0.02631578947368421	0.018518518518518517	0.04411764705882353	0.0435185185185185	0.04515502967475439
+Sacy_Amours	551	Alors, s'abandonnant aux plus vives douleurs, Le dépit et l'amour firent couler ses pleurs.	100	0	16	0	0.0	[]	0.0	0.021739130434782608	0.02127659574468085	0.0	0.03849001794597501
+Sacy_Amours	552	Il cueille le roseau qui cache son amante, Il le baise, il soupire: ô merveille étonnante!	100	1	16	0	0.0	[]	0.02127659574468085	0.02127659574468085	0.02127659574468085	0.0	0.03849001794597501
+Sacy_Amours	553	Les soupirs de ce Dieu, rendus harmonieux, En sortant du roseau sont des airs gracieux.	100	2	15	1	0.0666666666666666	[['harmonieux']]	0.03225806451612903	0.023255813953488372	0.02127659574468085	0.0	0.03849001794597501
+Sacy_Amours	554	Les Bergers suspendus, n'osaient pas décider entre ces deux illustres rivaux;	101	0	12	0	0.0	[]	0.038461538461538464	0.04477611940298507	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	555	ils étaient également charmés de l'harmonie de leurs chants: les Bergères même qui se connaissent si bien en vers tendres, balançaient entre l'un et l'autre, lorsqu'un respectable vieillard se lève, et parle ainsi à l'assemblée:	101	1	40	2	0.05	[['charmer'], ['tendre']]	0.025	0.025	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	556	„Si „l'âge et l'expérience m'autorisent „à dire mon avis, j'ose avancer „que je préfère les vers du Pasteur „étranger.	101	2	28	0	0.0	[]	0.02666666666666667	0.02666666666666667	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	557	Ceux d'Amintas, à la „vérité	101	3	7	0	0.0	[]	0.0	0.0	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	558	, sont très-beaux;	101	4	3	0	0.0	[]	0.05263157894736842	0.05263157894736842	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	559	mais on „y voit briller trop d'art.	101	5	9	1	0.1111111111111111	[['briller']]	0.02564102564102564	0.02564102564102564	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	560	Il faut „que le chant des Bergers soit simple: c'est cette aimable simplicité „qui m'enchante dans les vers de „l'illustre inconnu;	101	6	27	0	0.0	[]	0.043478260869565216	0.043478260869565216	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	561	ses descriptions sont courtes, sa diction „tendre et naïve;	101	7	10	1	0.1	[['tendre']]	0.018518518518518517	0.018518518518518517	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	562	en un mot, „tout me plaît dans ses vers, et je „lui donne mon suffrage.	101	8	17	0	0.0	[]	0.03508771929824561	0.03508771929824561	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	563	“ Les partisans d'Amintas veulent en vain contrebalancer son avis: semblables à de faibles digues qui s'opposent au cours impétueux d'un torrent, ils sont obligés de céder.	101	9	30	1	0.0333333333333333	[['faible']]	0.015625	0.015625	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	564	Le Berger d'Arcadie vaincu, fuit et s'enfonce dans les bois, où il déplore sa honte.	101	10	17	0	0.0	[]	0.01639344262295082	0.01639344262295082	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	565	Pan est venu souvent le trouver pour tâcher de le rendre à son hameau;	101	11	14	0	0.0	[]	0.0	0.0	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	566	l'obstiné Amintas attend la mort dans ces lieux solitaires.	101	12	10	0	0.0	[]	0.0	0.0	0.022321428571428572	0.0	0.040091301308959444
+Sacy_Amours	567	Semblable à un athlète qui sort vainqueur de la carrière, ou plutôt au Dieu du Pinde lui-même, lorsqu'il eut vaincu l'imprudent Marsias, le fils d'Adonis est couvert d'une gloire immortelle: les Bergers le prennent pour un Dieu, ils craient que c'est Apollon lui-même qui est venu punir l'orgueil du présomptueux Amintas.	102	0	57	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	568	Florise le regarde avec attention, elle croit voir en lui quelque chose de divin, elle rougit;	102	1	16	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	569	l'amour et le désordre se peignent dans ses yeux.	102	2	10	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	570	Notre Héros, savant dans l'art d'aimer, connaît bientôt le progrès qu'il a fait sur son cœur;	102	3	19	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	571	il n'hésite point à se flatter d'une seconde victoire, moins éclatante, mais plus touchante que la première.	102	4	19	0	0.0	[]	0.0	0.0	0.0	0.0	0.0
+Sacy_Amours	572	Les Bergers et les Bergères se dispersent à leur gré dans la prairie.	103	0	13	0	0.0	[]	0.0	0.0	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	573	L'Amour conduit Mirtil et son amante sur les bords d'une onde pure.	103	1	14	0	0.0	[]	0.0	0.0	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	574	Florise ne peut résister aux transports de son Berger;	103	2	9	0	0.0	[]	0.0	0.0	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	575	ses charmes les plus touchant lui sont prodigués: tel autrefois le mont Ida vit la Nymphe Œnone couronner les feux du volage Berger de Phrygie.	103	3	25	0	0.0	[]	0.024390243902439025	0.024390243902439025	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	576	Heureux amant, que de plaisirs vous goûtez!	103	4	7	1	0.1428571428571428	[['amer']]	0.045454545454545456	0.045454545454545456	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	577	A votre imitation, la tendre tourterelle prodigue ses baisers à son époux;	103	5	12	1	0.0833333333333333	[['tendre']]	0.05714285714285714	0.05714285714285714	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	578	le Rossignol tâche, par la douceur de ses chants, d'enflammer le cœur de sa compagne;	103	6	16	0	0.0	[]	0.02564102564102564	0.02564102564102564	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	579	les soupirs des Naïades se mêlent au murmure de l'onde;	103	7	11	0	0.0	[]	0.025	0.025	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	580	le chant des oiseaux est plus harmonieux, et l'air est plus pur;	103	8	13	1	0.0769230769230769	[['harmonieux']]	0.03571428571428571	0.03571428571428571	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	581	le jeune Sylvain soupire;	103	9	4	0	0.0	[]	0.03333333333333333	0.03333333333333333	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	582	votre exemple allume dans son cœur un feu qu'il brûle d'éteindre;	103	10	13	0	0.0	[]	0.04	0.04	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	583	toute la Nature semble sourire à votre amour.	103	11	8	1	0.125	[['sourire']]	0.047619047619047616	0.04	0.027586206896551724	0.0	0.055285484650218424
+Sacy_Amours	584	Amintas est bientôt oublié.	104	0	4	0	0.0	[]	0.0	0.043478260869565216	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	585	Comment une Bergère aurait-elle résisté aux charmes de notre Héros!	104	1	11	0	0.0	[]	0.03571428571428571	0.03571428571428571	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	586	il joint à l'heureux don de plaire l'art séducteur du discours.	104	2	13	1	0.0769230769230769	[['joindre']]	0.03333333333333333	0.03333333333333333	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	587	Faut-il faire oublier un amant?	104	3	6	0	0.0	[]	0.06666666666666667	0.06666666666666667	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	588	sa mémoire lui fournit mille exemples des caprices de l'Amour.	104	4	11	1	0.0909090909090909	[['fournir']]	0.07407407407407407	0.07407407407407407	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	589	Ariane, dans les bras de Bacchus, oublia le volage Thésée;	104	5	10	1	0.1	[['bras']]	0.058823529411764705	0.058823529411764705	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	590	Céphale se console avec l'Aurore de la perte de sa chère Procris;	104	6	13	0	0.0	[]	0.03571428571428571	0.03571428571428571	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	591	Vénus quitta Mars pour Adonis;	104	7	5	0	0.0	[]	0.0	0.0	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	592	Jason, Médée pour Creuse.	104	8	4	0	0.0	[]	0.06666666666666667	0.06666666666666667	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	593	Il joint les soupirs aux paroles;	104	9	6	1	0.1666666666666666	[['joindre']]	0.058823529411764705	0.058823529411764705	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	594	il exagère la violence de ses feux;	104	10	7	0	0.0	[]	0.05	0.05	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	595	en un mot, il n'oublie rien pour détruire un faible souvenir, qui n'attend qu'à être effacé par la présence d'un objet plus aimable.	104	11	27	1	0.037037037037037	[['faible']]	0.024390243902439025	0.024390243902439025	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	596	Voilà les talents des favoris de Vénus;	104	12	7	0	0.0	[]	0.020833333333333332	0.020833333333333332	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	597	c'est avec de telles armes qu'il faut attaquer le cœur des Bergères.	104	13	14	0	0.0	[]	0.0	0.0	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	598	Bergers, imitez Mirtil, et vous serez toujours heureux;	104	14	8	0	0.0	[]	0.02631578947368421	0.02631578947368421	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	599	mais n'imitez pas son inconstance, vous avez vu quels en ont été les tristes effets.	104	15	16	1	0.0625	[['triste']]	0.02631578947368421	0.02631578947368421	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	600	Combien de beautés portent jusqu'au tombeau le premier trait qui les a blessées!	104	16	14	0	0.0	[]	0.027777777777777776	0.027777777777777776	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	601	Combien peu de Bergers leur ressemblent!	104	17	6	0	0.0	[]	0.0	0.0	0.03296703296703297	0.0	0.04934468444714985
+Sacy_Amours	602	CHANT CINQUIÈME.	105	0	2	0	0.0	[]	0.0	0.05	0.0	0.0	0.0
+Sacy_Amours	603	Les humains fatigués des travaux du jour, goûtaient les douceurs du sommeil;	106	0	12	1	0.0833333333333333	[['fatiguer']]	0.09090909090909091	0.08333333333333333	0.08163265306122448	0.0833333333333333	0.013138146082588164
+Sacy_Amours	604	ce Dieu bienfaisant répandait ses pavots sur leurs yeux accablés.	106	1	10	1	0.1	[['oeil']]	0.08163265306122448	0.08163265306122448	0.08163265306122448	0.0833333333333333	0.013138146082588164
+Sacy_Amours	605	Les songes légers voltigeaient sur la terre: tantôt terribles, ils agitaient cruellement les hommes trompés, et plus souvent encore agréables, ils les flattaient des plus douces illusions.	106	2	27	2	0.074074074074074	[['agréable'], ['douce']]	0.08108108108108109	0.058823529411764705	0.08163265306122448	0.0833333333333333	0.013138146082588164
+Sacy_Amours	606	Florise, sans cesse occupée de son amour, oppose le souvenir des délices qu'elle a goûtées aux douces attaques du sommeil; mais bientôt l'espoir d'un songe flatteur l'entraîne.	107	0	31	1	0.032258064516129	[['douce']]	0.025	0.04477611940298507	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	607	Elle se persuade que son imagination renouvellera ses plaisirs;	107	1	9	0	0.0	[]	0.023809523809523808	0.023809523809523808	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	608	vaine espérance!	107	2	2	0	0.0	[]	0.030303030303030304	0.030303030303030304	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	609	A peine ses yeux ont-ils cédé au poids des pavots assoupissans, qu'une cruelle image l'agite des plus violence transports.	107	3	22	1	0.0454545454545454	[['oeil']]	0.04081632653061224	0.04081632653061224	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	610	Elle voit Mirtil entre les bras d'une Bergere inconnue: le perfide brûle d'une flamme criminelle, il semble oublier que Florise lui fut chère;	107	4	25	1	0.04	[['bras']]	0.0392156862745098	0.0392156862745098	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	611	elle l'appelle inutilement;	107	5	4	0	0.0	[]	0.06976744186046512	0.06976744186046512	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	612	le volage, sourd à sa voix, continue ses soins auprès de sa nouvelle amante.	107	6	14	2	0.1428571428571428	[['sourd'], ['voix']]	0.10526315789473684	0.10526315789473684	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	613	Florise	107	7	1	0	0.0	[]	0.11764705882352941	0.11764705882352941	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	614	irritée court	107	8	2	0	0.0	[]	0.0	0.0	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	615	pour s'opposer à leurs plaisirs: le Berger rit de sa fureur.	107	9	12	0	0.0	[]	0.0	0.0	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	616	Florise désarmée a recours aux larmes;	107	10	6	0	0.0	[]	0.0	0.0	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	617	son amant insensible n'en est pas touché.	107	11	8	0	0.0	[]	0.0	0.0	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	618	Alors la Bergère abandonnée, suivant les aveugles mouvement que lui inspire sa jalousie, se jette sur sa rivale;	107	12	18	0	0.0	[]	0.0	0.0	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	619	elle voudrait.... mais libre des chaînes du sommeil, elle reconnaît son erreur, elle se reproche l'injure qu'elle faisait à son amant, et ses feux s'irritant davantage, Florise impatiente voudrait précipiter le cours de la nuit.	107	13	38	0	0.0	[]	0.0	0.0	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	620	„	107	14	1	0	0.0	[]	0.0	0.0	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	621	Aurore, s'écrie-t-elle, „paresseuse	107	15	7	0	0.0	[]	0.0	0.0	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	622	Aurore!	107	16	1	0	0.0	[]	0.07317073170731707	0.07317073170731707	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	623	si jamais tu sentis les impatiences „causées par l'amour, sois sensible „à mes tourments, parois sur ton „char de roses, dissipe les longues „ténèbres de la nuit, ton	107	17	33	3	0.0909090909090909	[['ton'], ['rose'], ['long']]	0.075	0.075	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	624	retour „me ramènera mon amant.	107	18	6	0	0.0	[]	0.06666666666666667	0.06666666666666667	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	625	Mais „je t'appelle en vain: dans les bras „de l'amoureux Titon, tu n'entends pas ma voix, tu ne veux „pas sacrifier tes plaisirs à ceux „d'une simple Bergère.	107	19	36	2	0.0555555555555555	[['bras'], ['voix']]	0.045454545454545456	0.045454545454545456	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	626	Amour, „	107	20	2	0	0.0	[]	0.047619047619047616	0.047619047619047616	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	627	pour l'en punir	107	21	4	0	0.0	[]	0.0	0.0	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	628	, agite	107	22	1	0	0.0	[]	0.0	0.0	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	629	-la des mêmes transports que j'éprouve!	107	23	7	0	0.0	[]	0.0	0.0	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	630	“	107	24	1	0	0.0	[]	0.0	0.02564102564102564	0.03436426116838488	0.0	0.03526014284856018
+Sacy_Amours	631	Tel qu'un tendre agneau, renfermé dans la bergerie, attend avec impatience l'heure qui doit lui ramener sa mère, telle et plus pétulante encore Florise attend l'arrivée du jour;	108	0	31	1	0.032258064516129	[['tendre']]	0.025	0.024390243902439025	0.04285714285714286	0.032258064516129	0.033339113847264436
+Sacy_Amours	632	elle s'agite, elle se tourne, elle s'impatiente.	108	1	9	0	0.0	[]	0.04285714285714286	0.04285714285714286	0.04285714285714286	0.032258064516129	0.033339113847264436
+Sacy_Amours	633	Tout-à-coup elle se lève; mais ne voyant paraître ni les couleurs brillantes de l'Aurore, ni même cette faible clarté qui la précède, elle recommence ses plaintes et ses murmures.	108	2	30	2	0.0666666666666666	[['couleur'], ['faible']]	0.05128205128205128	0.06666666666666667	0.04285714285714286	0.032258064516129	0.033339113847264436
+Sacy_Amours	634	Cependant la fille du Soleil ouvre avec ses doigts de rose les portes de l'Orient aux chevaux de son père.	109	0	21	2	0.0952380952380952	[['doigt'], ['rose']]	0.07894736842105263	0.07352941176470588	0.05660377358490566	0.0588235294117647	0.04805643037332499
+Sacy_Amours	635	Déja Éthon et Pirois, sortis du sein des ondes, annoncent à l'Univers le père du jour.	109	1	17	1	0.0588235294117647	[['sein']]	0.05660377358490566	0.05660377358490566	0.05660377358490566	0.0588235294117647	0.04805643037332499
+Sacy_Amours	636	L'Aurore fuit devant eux, comme le daim timide fuit devant les traits de Diane.	109	2	15	0	0.0	[]	0.03125	0.05084745762711865	0.05660377358490566	0.0588235294117647	0.04805643037332499
+Sacy_Amours	637	La Bergère aussitôt prend ses plus beaux atours: elle court dérober des fleurs aux prés naissant, elle en pare son sein, elle en mêle dans ses cheveux;	110	0	27	2	0.074074074074074	[['court'], ['sein']]	0.044444444444444446	0.03333333333333333	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	638	elle employé, pour s'embellir, tous les secours d'un art presque'aussi simple que la Nature même;	110	1	18	0	0.0	[]	0.03508771929824561	0.03508771929824561	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	639	elle regarde au loin si elle ne verra pas venir son Berger.	110	2	12	0	0.0	[]	0.03636363636363636	0.03636363636363636	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	640	„Quel soin plus pressant, dit-elle, „que celui de se rendre auprès de „son amante, peut le retenir si „long-temps?	110	3	25	2	0.08	[['presser'], ['long']]	0.045454545454545456	0.045454545454545456	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	641	L'inconstant m'aurait-il déjà quittée	110	4	7	0	0.0	[]	0.05405405405405406	0.05405405405405406	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	642	pour une autre „Bergère?	110	5	5	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	643	aurait-il oublié... j'en „frémis.	110	6	7	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	644	Mais quel trouble secret „	110	7	5	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	645	m'agite?	110	8	2	0	0.0	[]	0.04	0.04	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	646	En vain je me flatte du „doux espoir de le revoir, il ne „vient point! ....	110	9	18	1	0.0555555555555555	[['dou']]	0.037037037037037035	0.037037037037037035	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	647	Qui le retient „loin de moi?	110	10	7	0	0.0	[]	0.030303030303030304	0.030303030303030304	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	648	O Dieux! chaque „instant accroît mon trouble;	110	11	8	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	649	„	110	12	1	0	0.0	[]	0.08823529411764706	0.08823529411764706	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	650	toute la Nature change de face à „ma vue: mes yeux ne suivent „plus avec plaisir cette onde fugitive dans ses longues erreurs;	110	13	25	3	0.12	[['face'], ['oeil'], ['long']]	0.1	0.1	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	651	le „chant des oiseaux n'a plus rien „d'agréable pour moi;	110	14	14	1	0.0714285714285714	[['agréable']]	0.08333333333333333	0.08333333333333333	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	652	Zéphir ne „me caresse plus de son haleine.	110	15	9	0	0.0	[]	0.041666666666666664	0.041666666666666664	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	653	„	110	16	1	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	654	Ah!	110	17	1	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	655	c'est sans doute l'effet de la „crainte;	110	18	10	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	656	c'est peut-être même „l'effet de la jalousie.	110	19	10	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	657	Cruelles	110	20	1	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	658	„passions!	110	21	2	0	0.0	[]	0.05128205128205128	0.05128205128205128	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	659	fuyez loin de moi, „rendez-moi le calme doux et „paisible que vous m'avez enlevé, „comme les rayons du Soleil enlèvent les faibles vapeurs que la „nuit dépose sur les feuillages.	110	22	36	2	0.0555555555555555	[['calme'], ['faible']]	0.046511627906976744	0.046511627906976744	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	660	„Mais quelle tranquillité soudaine!	110	23	5	0	0.0	[]	0.03076923076923077	0.03076923076923077	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	661	Je sens mon âme se calmer, „mon amant va sans doute se ren-„dre en ces lieux: il ne m'a point „abandonnée.	110	24	24	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	662	La simplicité de „mon cœur le touche autant que „mes attraits;	110	25	13	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	663	il va paraître, j'en „dois croire les pressentiment de „ce même cœur.	110	26	15	0	0.0	[]	0.0	0.0	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	664	“ En effet, elle aperçoit Mirtil qui, ne s'attendant point à trouver sa Bergère si matin dans la prairie, venait cueillir des fleurs pour les lui offrir.	110	27	28	0	0.0	[]	0.0	0.03636363636363636	0.03273809523809524	0.0	0.03339747089280702
+Sacy_Amours	665	Une onde claire et pure coule dans un bosquet qu'elle arrose.	111	0	12	2	0.1666666666666666	[['clair'], ['pur']]	0.13333333333333333	0.06896551724137931	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	666	Florise qui n'avait pas été aperçu de son amant, y court, et se cache derrière un oranger.	111	1	18	2	0.1111111111111111	[['court'], ['derrière']]	0.0975609756097561	0.0975609756097561	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	667	Le Berger vient, il s'assait sur les bords du ruisseau;	111	2	11	0	0.0	[]	0.07894736842105263	0.07894736842105263	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	668	sa main, conduite par le Goût, assemble mille fleurs;	111	3	9	1	0.1111111111111111	[['main']]	0.05	0.05	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	669	ensuite, tournant les yeux du côté d'Amathonte, il adresse cette prière à Vénus: „O Vénus, ô ma Mère!	111	4	20	1	0.05	[['oeil']]	0.058823529411764705	0.058823529411764705	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	670	„soyez-moi toujours favorable.	111	5	5	0	0.0	[]	0.02857142857142857	0.02857142857142857	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	671	„C'est vous qui m'avez fait vaincre „	111	6	10	0	0.0	[]	0.0	0.0	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	672	le présomptueux Amintas	111	7	3	0	0.0	[]	0.041666666666666664	0.041666666666666664	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	673	, je „vous dois le cœur de la belle „Florise;	111	8	11	1	0.0909090909090909	[['bel']]	0.041666666666666664	0.041666666666666664	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	674	ma vie n'est qu'un enchaînement de vos bienfaits.	111	9	10	0	0.0	[]	0.045454545454545456	0.045454545454545456	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	675	O	111	10	1	0	0.0	[]	0.0	0.0	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	676	„puissante	111	11	2	0	0.0	[]	0.0	0.0	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	677	Déesse!	111	12	1	0	0.0	[]	0.0	0.0	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	678	ne vous lassez „pas du bonheur de votre fils.	111	13	10	0	0.0	[]	0.0	0.0	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	679	“ Mirtil soupire, et continue de s'entretenir ainsi: „Florise ne paraît „pas encore!	111	14	16	0	0.0	[]	0.0	0.0	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	680	Son cœur ne brûle	111	15	4	0	0.0	[]	0.0	0.0	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	681	„donc pas	111	16	3	0	0.0	[]	0.0625	0.0625	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	682	d'une flamme aussi vive „que la mienne?	111	17	9	1	0.1111111111111111	[['vif']]	0.05263157894736842	0.05263157894736842	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	683	La perfide serait-elle retournée chercher Amintas?	111	18	7	0	0.0	[]	0.0625	0.058823529411764705	0.04938271604938271	0.0	0.05475201435745365
+Sacy_Amours	684	„	112	0	1	0	0.0	[]	0.05263157894736842	0.038461538461538464	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	685	Non, non, je lui fais injure: elle „me donna hier les preuves du plus „tendre amour;	112	1	18	1	0.0555555555555555	[['tendre']]	0.03571428571428571	0.03571428571428571	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	686	peut-être qu'à „présent mon absence l'inquiète;	112	2	9	0	0.0	[]	0.03571428571428571	0.03571428571428571	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	687	„	112	3	1	0	0.0	[]	0.0	0.0	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	688	peut-être qu'elle me cherche dans „le hameau, volons	112	4	10	0	0.0	[]	0.0	0.0	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	689	-y.“ Il se levait en effet;	112	5	7	0	0.0	[]	0.03773584905660377	0.03773584905660377	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	690	mais la tendre Florise qui venait d'apprendre que son amant était le fils d'une Immortelle, et qu'elle en était sûrement aimée, sort de derrière l'arbre qui l'avait dérobée à ses yeux.	112	6	36	2	0.0555555555555555	[['tendre'], ['derrière']]	0.05172413793103448	0.05172413793103448	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	691	Mirtil la voyant fort parée, la prend pour la Nymphe de la fontaine: „O	112	7	15	1	0.0666666666666666	[['fort']]	0.057692307692307696	0.057692307692307696	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	692	Déesse!	112	8	1	0	0.0	[]	0.03571428571428571	0.03571428571428571	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	693	lui dit-il, „ne vous opposez point „à mes pas;	112	9	12	0	0.0	[]	0.0	0.0	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	694	je suis un Berger guidé „par l'Amour, souffrez que je vole „auprès de mon amante.	112	10	18	0	0.0	[]	0.025	0.025	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	695	“ La Bergère, souriant de la méprise, lui dit: „	112	11	10	1	0.1	[['sourire']]	0.02631578947368421	0.02631578947368421	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	696	Non, aimable Berger, vous ne l'irez pas chercher loin;	112	12	10	0	0.0	[]	0.06060606060606061	0.06060606060606061	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	697	il y a long-temps qu'elle vous attend en ces „lieux.	112	13	13	1	0.0769230769230769	[['long']]	0.05405405405405406	0.05405405405405406	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	698	“ Mirtil, à ces mots, regardant plus attentivement la Bergère, reconnaît la tendre Florise;	112	14	14	1	0.0714285714285714	[['tendre']]	0.058823529411764705	0.058823529411764705	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	699	il l'embrasse cent et cent fois.	112	15	7	0	0.0	[]	0.02631578947368421	0.02631578947368421	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	700	La Bergère veut en vain lui reprocher les alarmes qu'il lui a causées par son absence;	112	16	17	0	0.0	[]	0.0	0.0	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	701	auprès de son amant elle ne sait qu'être heureuse: rien n'est égal à ses transports, Psyché n'aimait pas si tendrement l'Amour.	112	17	25	0	0.0	[]	0.0	0.0	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	702	Mais, semblable à un homme qui, dans un songe flatteur, jouit délicieusement de l'objet qu'il a désiré tout le jour, elle ne prévoit pas que bientôt il ne lui restera plus que les regrets de l'illusion.	112	18	39	0	0.0	[]	0.0	0.0	0.026615969581749048	0.0	0.035023255359393546
+Sacy_Amours	703	O mortels, aimés des Dieux!	113	0	5	0	0.0	[]	0.045454545454545456	0.01639344262295082	0.027777777777777776	0.0	0.03396178054056622
+Sacy_Amours	704	l'ignorance de l'avenir est le plus grand bienfait que vous ayez reçu de leur bonté.	113	1	17	1	0.0588235294117647	[['grand']]	0.027777777777777776	0.027777777777777776	0.027777777777777776	0.0	0.03396178054056622
+Sacy_Amours	705	Sans elle, sûrs des maux qui vous attendent, vous seriez insensibles aux biens présent.	113	2	14	0	0.0	[]	0.03225806451612903	0.017857142857142856	0.027777777777777776	0.0	0.03396178054056622
+Sacy_Amours	706	La vindicative Flore ne pouvant bannir de son esprit l'injure qu'Amarillis avait faite à ses attraits, médite en secret de s'en venger.	114	0	25	0	0.0	[]	0.0	0.0	0.03076923076923077	0.0	0.07990899220962082
+Sacy_Amours	707	Elle veut punir l'innocent Berger qui lui a causé tant d'alarmes; mais le connaissant fils d'une Immortelle, elle employé l'artifice et la ruse.	114	1	27	0	0.0	[]	0.0	0.0	0.03076923076923077	0.0	0.07990899220962082
+Sacy_Amours	708	Après avoir enchaîné le Printems, les Zéphirs, et toute sa suite, elle en confie la garde au Dieu des bois;	114	2	20	0	0.0	[]	0.0	0.0	0.03076923076923077	0.0	0.07990899220962082
+Sacy_Amours	709	et sans déclarer son dessein, elle prend les habits d'une Bergère.	114	3	12	0	0.0	[]	0.025	0.025	0.03076923076923077	0.0	0.07990899220962082
+Sacy_Amours	710	Sa robe est plus blanche que la neige;	114	4	8	1	0.125	[['blanc']]	0.1	0.1	0.03076923076923077	0.0	0.07990899220962082
+Sacy_Amours	711	ses cheveux tombent à longs flots négligemment sur ses épaules;	114	5	10	2	0.2	[['cheveux'], ['long']]	0.08695652173913043	0.08695652173913043	0.03076923076923077	0.0	0.07990899220962082
+Sacy_Amours	712	elle tient dans sa main une houlette garnie de fleurs et de rubans: la Déesse, ainsi métamorphosée, se plaît sous cet habillement, et s'applaudit de son dessein.	114	6	28	1	0.0357142857142857	[['main']]	0.07894736842105263	0.06666666666666667	0.03076923076923077	0.0	0.07990899220962082
+Sacy_Amours	713	Nos amant éprouvaient encore ces tendres mouvement que l'Amour inspire aux cœurs bien enflammés, lorsque l'Immortelle les aperçut de loin.	115	0	22	1	0.0454545454545454	[['tendre']]	0.034482758620689655	0.03508771929824561	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	714	Elle feint de ne pas les voir;	115	1	7	0	0.0	[]	0.08196721311475409	0.08196721311475409	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	715	elle s'assied sur les bords du ruisseau, et plonge un pied délicat dans ses ondes argentées: sa gorge encore naissante n'est voilée que d'une gaze légère, elle la découvre;	115	2	32	4	0.125	[['pied'], ['délicat'], ['argenter'], ['gorge']]	0.09803921568627451	0.09803921568627451	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	716	elle affecte une pudeur enfantine qui rehausse l'éclat de son teint;	115	3	12	1	0.0833333333333333	[['enfantin']]	0.11764705882352941	0.11764705882352941	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	717	son moindre geste est plein de grâces.	115	4	7	1	0.1428571428571428	[['plein']]	0.06521739130434782	0.06521739130434782	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	718	Sans doute que, si sous cet habillement elle eut disputé la Pomme d'or aux trois Déesses, elle aurait été préférée par l'infidèle époux d'Œnone.	115	5	27	1	0.037037037037037	[['de', 'or']]	0.08064516129032258	0.08064516129032258	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	719	A la vue de tant de charmes, Florise rougit; mais déjà le volage Mirtil, brûlant d'amour pour un si charmant objet, court sur les bords du ruisseau.	115	6	28	3	0.1071428571428571	[['brûler'], ['charmer'], ['court']]	0.07894736842105263	0.07894736842105263	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	720	La fausse Bergère, feignant d'être épouvantée, retire précipitamment ses pieds hors de l'eau, et fuit plus prompte qu'Atalante.	115	7	21	2	0.0952380952380952	[['faux'], ['pied']]	0.08	0.08	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	721	L'amoureux Berger qui la suit de près, l'atteint dans le milieu du bois, se jette à ses genoux, et l'entretient de sa flamme.	115	8	26	1	0.0384615384615384	[['genou']]	0.046875	0.046875	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	722	La Bergère rougit: elle semble n'avoir jamais connu l'Amour, et n'entendre pas son langage;	115	9	17	0	0.0	[]	0.03225806451612903	0.03225806451612903	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	723	on dirait que son cœur ne brûla jamais des feux qu'il allume jusques dans le sein des Déesses;	115	10	19	1	0.0526315789473684	[['sein']]	0.023255813953488372	0.023255813953488372	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	724	jamais on ne déguisa mieux son âme.	115	11	7	0	0.0	[]	0.025	0.025	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	725	Elle affecte un air effrayé, elle veut fuir, Mirtil s'oppose à sa fuite;	115	12	14	0	0.0	[]	0.0	0.0	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	726	elle fait un nouvel effort pour lui échapper, et se débarrasse de lui.	115	13	13	0	0.0	[]	0.0	0.0	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	727	„Ne fuyez pas, lui crie le fils d'Adonis, „laissez-moi „le plaisir d'adorer vos attraits;	115	14	20	0	0.0	[]	0.0	0.0	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	728	„cruelle	115	15	2	0	0.0	[]	0.0	0.0	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	729	Beauté	115	16	1	0	0.0	[]	0.0	0.0	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	730	, si je vous perds, „je meurs.	115	17	7	0	0.0	[]	0.0	0.0	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	731	O ma Mère! retenez-la;	115	18	5	0	0.0	[]	0.0	0.0	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	732	„sans elle, je ne puis être heureux.	115	19	8	0	0.0	[]	0.0	0.0	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	733	“	115	20	1	0	0.0	[]	0.0	0.0	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	734	Tes prières sont vaines, Mirtil!	115	21	5	0	0.0	[]	0.0	0.0	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	735	Vénus ne peut rien contre le Destin.	115	22	7	0	0.0	[]	0.0	0.0	0.048701298701298704	0.0	0.04681944640448102
+Sacy_Amours	736	L'amoureux fils d'Adonis vole sur les traces de la Bergère inconnue;	116	0	13	0	0.0	[]	0.0	0.0	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	737	mais, ô désespoir!	116	1	3	0	0.0	[]	0.02564102564102564	0.02564102564102564	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	738	il ne la trouve plus: ni ses soupirs, ni ses larmes, ni la douleur peinte dans ses yeux, ne touchent l'inhumaine Déesse.	116	2	23	1	0.0434782608695652	[['oeil']]	0.01694915254237288	0.01694915254237288	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	739	Il parcourt cent fois le bois, il retourne à l'endroit où elle lui est échappée, il entre dans toutes les grottes qu'il rencontre, et n'y trouve point sa fugitive Bergère.	116	3	33	0	0.0	[]	0.016129032258064516	0.016129032258064516	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	740	Orphée, lorsqu'il vit sa chère	116	4	6	0	0.0	[]	0.03636363636363636	0.03636363636363636	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	741	Euridice rentrer pour jamais dans les gouffres profonds de l'Averne, ne fut pas plus désespéré;	116	5	16	2	0.125	[['rentrer'], ['profond']]	0.09302325581395349	0.09302325581395349	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	742	les sons qu'enfanta sa divine lyre, n'étaient ni plus tristes ni plus touchant que les plaintes du beau Mirtil.	116	6	21	2	0.0952380952380952	[['triste'], ['beau']]	0.09090909090909091	0.09090909090909091	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	743	„Amour, s'écrie-t-il, „	116	7	7	0	0.0	[]	0.06896551724137931	0.06896551724137931	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	744	Amour!	116	8	1	0	0.0	[]	0.0	0.0	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	745	prends pitié „de mes tourments;	116	9	6	0	0.0	[]	0.037037037037037035	0.037037037037037035	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	746	rends-moi la „Beauté que j'adore, je t'en conjure par les charmes de la belle „Psyché.	116	10	20	1	0.05	[['bel']]	0.029411764705882353	0.029411764705882353	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	747	Mais je t'appelle en vain, „perfide!	116	11	8	0	0.0	[]	0.0196078431372549	0.0196078431372549	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	748	Puisque tu ne voulais „pas me rendre heureux, pourquoi „allumois-tu dans mon cœur les „funestes feux de l'inconstance?	116	12	23	0	0.0	[]	0.0	0.0	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	749	„	116	13	1	0	0.0	[]	0.0	0.0	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	750	Pourquoi m'as-tu fait quitter Florise?	116	14	7	0	0.0	[]	0.0	0.0	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	751	“ A ces mots, le Berger soupira.	116	15	7	0	0.0	[]	0.0	0.0	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	752	„Florise, reprit-il, ô que „les Dieux t'ont bien vengée!	116	16	13	0	0.0	[]	0.0	0.0	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	753	je „t'ai quittée pour une cruelle Bergère qui me fuit.	116	17	12	0	0.0	[]	0.0	0.0	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	754	“	116	18	1	0	0.0	[]	0.0	0.038461538461538464	0.027149321266968326	0.0	0.03644307717949192
+Sacy_Amours	755	Il proférait ces tristes plaintes, lorsqu'il aperçut la Déesse dans la prairie.	117	0	13	1	0.0769230769230769	[['triste']]	0.03571428571428571	0.034482758620689655	0.02040816326530612	0.0	0.03846153846153845
+Sacy_Amours	756	Il part, il vole après elle, et déjà il est bien près de l'atteindre;	117	1	15	0	0.0	[]	0.02857142857142857	0.02857142857142857	0.02040816326530612	0.0	0.03846153846153845
+Sacy_Amours	757	mais tout-à-coup elle disparaît à ses yeux.	117	2	7	0	0.0	[]	0.0	0.0	0.02040816326530612	0.0	0.03846153846153845
+Sacy_Amours	758	Immobile, interdit, il croit que c'est une illusion: ainsi fuit un songe trompeur.	117	3	14	0	0.0	[]	0.0	0.0	0.02040816326530612	0.0	0.03846153846153845
+Sacy_Amours	759	Le Berger regarde au loin dans la prairie, s'il ne verra pas Florise;	118	0	14	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	760	mais elle ne paraît plus, elle est retournée à son hameau, où l'affreuse jalousie déchire son cœur.	118	1	18	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	761	Honteux de l'avoir abandonnée, il n'ose plus se présenter à sa vue, il la craint.	118	2	17	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	762	„Mais cependant, dit-il, elle m'aime;	118	3	8	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	763	son cœur est simple, elle est „indulgente;	118	4	8	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	764	elle me pardonnera „mon erreur.	118	5	6	0	0.0	[]	0.034482758620689655	0.034482758620689655	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	765	“ Dans cette confiance, il regagnait le hameau, lorsqu'il vit encore sa fausse Bergère.	118	6	15	1	0.0666666666666666	[['faux']]	0.03571428571428571	0.03571428571428571	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	766	Elle fuit, Mirtil la suit des yeux;	118	7	7	0	0.0	[]	0.02702702702702703	0.02702702702702703	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	767	elle se cache sur les bords du Ladon, et bientôt elle est suivie du Berger.	118	8	15	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	768	Trois fois il l'appelle, trois fois pour la trouver il écarte les roseaux;	118	9	14	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	769	l'inhumaine se plaît à jouir de son désespoir.	118	10	9	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	770	Alors succombant sous le poids de la douleur: „Amour!	118	11	10	0	0.0	[]	0.030303030303030304	0.030303030303030304	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	771	s'écrie encore le fils d'Adonis, „viens donc recevoir mes der-„niers soupirs, viens voir mourir „le plus tendre des amant; ou, si „c'est là le malheur que m'a prédit „ma Mère, vole, viens m'arracher „à mon cruel sort.	118	12	47	2	0.0425531914893617	[['mourir'], ['tendre']]	0.04597701149425287	0.04597701149425287	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	772	“ Ces tristes plaintes touchèrent l'Amour, il court vers sa Mère: „O Vénus, lui dit-il, „vous abandonnez votre „fils à l'excès de son désespoir!	118	13	30	2	0.0666666666666666	[['triste'], ['court']]	0.047058823529411764	0.047058823529411764	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	773	„permettez-moi d'aller à son secours.	118	14	8	0	0.0	[]	0.03389830508474576	0.03389830508474576	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	774	“ Volez, volez, mon fils, lui dit-elle: „allumez tous vos feux „dans le cœur de l'inhumaine Flore;	118	15	21	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	775	qu'elle brûle à son tour pour „votre frère;	118	16	10	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	776	le temps de son infortune est passé.	118	17	7	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	777	“	118	18	1	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	778	Aussitôt	118	19	1	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	779	l'Amour monte sur le char de sa Mère: ses ailes lui deviennent inutiles, deux cygnes plus rapides que les vents le transportent dans l'Arcadie.	118	20	26	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	780	Mirtil aperçoit le char de Vénus, et se prosterne en l'adorant.	118	21	12	0	0.0	[]	0.016129032258064516	0.016129032258064516	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	781	L'Amour descend, et il aborde d'un air riant le Berger: „Je viens, lui dit-il, „mettre fin à vos tourments.	118	22	24	1	0.0416666666666666	[['fin']]	0.017543859649122806	0.017543859649122806	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	782	Ne „vous y trompez pas, mon frère: ce „n'est point une Bergère qui vous attire sur ces bords;	118	23	21	0	0.0	[]	0.018518518518518517	0.018518518518518517	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	783	c'est une Déesse, „c'est Flore même.	118	24	9	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	784	Elle veut venger „l'injure que votre première amante fit à ses attraits: mais ne craignez rien, bientôt elle connaitre „mon pouvoir.	118	25	24	0	0.0	[]	0.02127659574468085	0.02127659574468085	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	785	“ Il dit, et secouant ses ailes agiles, il s'élève dans les airs.	118	26	14	1	0.0714285714285714	[['agile']]	0.031746031746031744	0.031746031746031744	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	786	Comme on voit le cruel vautour chercher d'un œil avide la timide colombe, ainsi l'Amour plane sur les roseaux qui cachent la Déesse.	118	27	25	1	0.04	[['avide']]	0.03508771929824561	0.03508771929824561	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	787	Son œil perçant la découvre bien-tôt: il prend son arc, et décoche un trait dont Flore est frappée.	118	28	18	0	0.0	[]	0.014084507042253521	0.014084507042253521	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	788	Elle ne sait d'où peut lui venir une atteinte si sensible; mais apercevant l'Amour, qui s'élève en riant vers le Ciel, elle déplore son imprudence.	118	29	28	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	789	„Inconsidérée, s'écrie-t-elle!	118	30	6	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	790	„pouvais-je ignorer que rien ne „résiste à l'Amour?	118	31	12	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	791	Vouloir jouer „avec ce Dieu, c'est se charger de „chaînes.	118	32	13	0	0.0	[]	0.022727272727272728	0.022727272727272728	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	792	“ Elle veut encore rester cachée aux yeux du Berger qu'elle aime déjà, mais sa passion l'emporte.	118	33	19	1	0.0526315789473684	[['oeil']]	0.02127659574468085	0.02127659574468085	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	793	Flore vole sur le rivage: elle quitte sa parure empruntée pour reprendre son habillement ordinaire;	118	34	15	0	0.0	[]	0.02127659574468085	0.02127659574468085	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	794	le Berger, ébloui de son éclat divin, ne la regarde qu'en tremblant;	118	35	13	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	795	il a toujours pour elle la même tendresse, et Flore n'a plus pour lui la même rigueur.	118	36	18	0	0.0	[]	0.0	0.0	0.015985790408525755	0.0	0.02234327270129895
+Sacy_Amours	796	Les Zéphirs, qui s'étaient soustraits à la garde du Dieu des bois, vaient avec étonnement leur fière Déesse se laisser approcher d'un mortel: leur présence importune irrite Flore.	119	0	30	0	0.0	[]	0.0	0.0	0.014285714285714285	0.0	0.02551551815399144
+Sacy_Amours	797	„	119	1	1	0	0.0	[]	0.02127659574468085	0.02127659574468085	0.014285714285714285	0.0	0.02551551815399144
+Sacy_Amours	798	Pourquoi, leur dit-elle d'un ton sévère, „pourquoi „avez-vous brisé vos liens?	119	2	16	1	0.0625	[['ton']]	0.038461538461538464	0.038461538461538464	0.014285714285714285	0.0	0.02551551815399144
+Sacy_Amours	799	Que „n'êtes-vous restés auprès du Printems?	119	3	9	0	0.0	[]	0.03225806451612903	0.03225806451612903	0.014285714285714285	0.0	0.02551551815399144
+Sacy_Amours	800	Vents indociles, redoutez „mon courroux.	119	4	6	0	0.0	[]	0.0	0.0	0.014285714285714285	0.0	0.02551551815399144
+Sacy_Amours	801	“ Les Zéphirs épouvantés retournent reprendre leurs chaînes.	119	5	8	0	0.0	[]	0.0	0.037037037037037035	0.014285714285714285	0.0	0.02551551815399144
+Sacy_Amours	802	Mirtil, enhardi par les regards enflammés de la Déesse, tombe à ses genoux;	120	0	13	1	0.0769230769230769	[['regard']]	0.058823529411764705	0.04	0.036231884057971016	0.0	0.03440024110420198
+Sacy_Amours	803	il les tient long	120	1	4	0	0.0	[]	0.058823529411764705	0.058823529411764705	0.036231884057971016	0.0	0.03440024110420198
+Sacy_Amours	804	-	120	2	0	0	0.0	[]	0.0	0.0	0.036231884057971016	0.0	0.03440024110420198
+Sacy_Amours	805	temps embrassés, il ne peut s'exprimer que par des soupirs.	120	3	11	0	0.0	[]	0.0	0.0	0.036231884057971016	0.0	0.03440024110420198
+Sacy_Amours	806	Flore lui fait l'accueil le plus tendre.	120	4	8	0	0.0	[]	0.0	0.0	0.036231884057971016	0.0	0.03440024110420198
+Sacy_Amours	807	„Levez-vous, „Berger, lui dit-elle, je ne vous „confonds pas avec les autres mortels;	120	5	18	0	0.0	[]	0.022222222222222223	0.022222222222222223	0.036231884057971016	0.0	0.03440024110420198
+Sacy_Amours	808	je sais que vous êtes issu „d'un sang plus noble: venez, „suivez-moi dans mon empire.	120	6	19	1	0.0526315789473684	[['noble']]	0.04838709677419355	0.04838709677419355	0.036231884057971016	0.0	0.03440024110420198
+Sacy_Amours	809	“ Le fils d'Adonis peut à peine concevoir l'excès de son bonheur: il ose porter sa bouche sur la main de la Déesse;	120	7	25	2	0.08	[['bouche'], ['main']]	0.06060606060606061	0.06060606060606061	0.036231884057971016	0.0	0.03440024110420198
+Sacy_Amours	810	elle le souffre, il l'a reporte encore, et Flore attache à l'instant sur lui des regards où l'amour éclate.	120	8	22	1	0.0454545454545454	[['regard']]	0.046153846153846156	0.046153846153846156	0.036231884057971016	0.0	0.03440024110420198
+Sacy_Amours	811	Le Berger se lève, il suit la Reine des fleurs, et bientôt ils arrivent dans ses jardins délicieux.	120	9	18	0	0.0	[]	0.025	0.023809523809523808	0.036231884057971016	0.0	0.03440024110420198
+Sacy_Amours	812	CHANT SIXIÈME.	121	0	2	0	0.0	[]	0.0	0.027777777777777776	0.0	0.0	0.0
+Sacy_Amours	813	Dans un bosquet planté de jasmins et de rosiers toujours fleuris, murmure agréablement un clair ruisseau;	122	0	16	1	0.0625	[['clair']]	0.0625	0.058823529411764705	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	814	son onde fugitive, qui semble quitter à regret un lieu si charmant, y fait mille détours.	122	1	16	1	0.0625	[['charmer']]	0.04878048780487805	0.04878048780487805	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	815	Flore choisit ce lieu, pour y conduire son Berger.	122	2	9	0	0.0	[]	0.029411764705882353	0.029411764705882353	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	816	Ils arrivent: aussitôt mille fleurs naissent sous leurs pas;	122	3	9	0	0.0	[]	0.0	0.0	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	817	un vent plus doux agite les feuillages;	122	4	7	0	0.0	[]	0.0	0.0	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	818	les Zéphirs, libres de leurs chaînes, folâtrent et jouent dans les airs.	122	5	12	0	0.0	[]	0.0	0.0	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	819	Le Printems prépare un lit de fleurs;	122	6	7	0	0.0	[]	0.0	0.0	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	820	Flore s'y place, et son amant se met à ses pieds.	122	7	12	0	0.0	[]	0.0	0.0	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	821	Alors, voulant éloigner sa Cour importune: volez, dit la Déesse aux Zéphirs, volez dans les jardins qui composent mon domaine, et répandez mes bien-faits; que toute la terre soit riante et fleurie: ma présence suffira pour embellir cet asile.	122	8	39	0	0.0	[]	0.014492753623188406	0.014492753623188406	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	822	Aussitôt, dociles à sa voix, les Zéphirs volent loin de la Déesse, le Printems les suit de près,	122	9	18	1	0.0555555555555555	[['voix']]	0.014705882352941176	0.014705882352941176	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	823	et leur présence répand par-tout la joie et l'allégresse.	122	10	11	0	0.0	[]	0.03773584905660377	0.03773584905660377	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	824	On entend de tous côtés des concerts enchanteurs: on voit les jeunes Bergères accorder leurs danses naïves aux sons des chalumeaux de leurs Bergers.	122	11	24	1	0.0416666666666666	[['naïf']]	0.025	0.025	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	825	Les fleurs embellissent les prairies;	122	12	5	0	0.0	[]	0.02631578947368421	0.02631578947368421	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	826	les oiseaux amoureux redoublent leurs caresses et leurs chants;	122	13	9	0	0.0	[]	0.037037037037037035	0.037037037037037035	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	827	l'air est plus pur, le murmure de l'onde est plus doux;	122	14	13	1	0.0769230769230769	[['pur']]	0.02857142857142857	0.02857142857142857	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	828	tout s'embellit dans la Nature, et semble ne respirer que l'Amour.	122	15	13	0	0.0	[]	0.038461538461538464	0.0625	0.022727272727272728	0.0	0.029392965431052232
+Sacy_Amours	829	Cependant Flore sourit à son amant.	123	0	6	1	0.1666666666666666	[['sourire']]	0.16666666666666666	0.0967741935483871	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	830	La plus vive émotion est peinte sur le visage de la Déesse;	123	1	12	2	0.1666666666666666	[['vif'], ['visage']]	0.0967741935483871	0.0967741935483871	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	831	elle refuse à son Berger une faveur, et lui en accorde mille autres;	123	2	13	0	0.0	[]	0.08823529411764706	0.08823529411764706	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	832	puis dans un long soupir elle exhale sa tendresse.	123	3	9	1	0.1111111111111111	[['long']]	0.034482758620689655	0.034482758620689655	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	833	Enfin l'immortelle cède à l'Amour;	123	4	7	0	0.0	[]	0.029411764705882353	0.029411764705882353	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	834	ce Dieu s'empare de son cœur, il se glisse dans ses veines, il pétille dans ses yeux.	123	5	18	0	0.0	[]	0.0	0.0	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	835	L'heureux Mirtil brûle des mêmes feux;	123	6	7	0	0.0	[]	0.030303030303030304	0.030303030303030304	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	836	leurs soupirs s'unissent, leurs regards se confondent	123	7	8	1	0.125	[['regard']]	0.08333333333333333	0.08333333333333333	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	837	, leurs âmes s'entremêlent, ils expirent dans les bras du Plaisir: mais bientôt une douce langueur succède aux transports du Berger.	123	8	21	2	0.0952380952380952	[['bras'], ['douce']]	0.08823529411764706	0.08823529411764706	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	838	La Déesse en est surprise;	123	9	5	0	0.0	[]	0.08108108108108109	0.08108108108108109	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	839	elle oublie que son amant n'est qu'un faible mortel.	123	10	11	1	0.0909090909090909	[['faible']]	0.030303030303030304	0.030303030303030304	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	840	Mirtil, en soupirant, lui rappelle les malheurs de sa condition, et Flore en soupire à son tour.	123	11	17	0	0.0	[]	0.03571428571428571	0.034482758620689655	0.05970149253731343	0.04545454545454545	0.06959913323044559
+Sacy_Amours	841	„	124	0	1	0	0.0	[]	0.0	0.0	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	842	Je vois, dit Flore à son amant, „un hautbois pendu à votre côté, „faites	124	1	16	0	0.0	[]	0.0	0.0	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	843	-lui célébrer nos amours.	124	2	4	0	0.0	[]	0.0	0.0	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	844	“ Aussitôt le fils d'Adonis en tire les accords les plus tendres;	124	3	13	0	0.0	[]	0.0	0.0	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	845	toute la rive paraît enchantée.	124	4	5	0	0.0	[]	0.034482758620689655	0.034482758620689655	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	846	Attirées par cette douce harmonie, les Naïades sortent de leurs grottes;	124	5	11	1	0.0909090909090909	[['douce']]	0.034482758620689655	0.034482758620689655	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	847	Philomèle jalouse veut en vain l'emporter par l'éclat de ses chants;	124	6	13	0	0.0	[]	0.03125	0.03125	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	848	bientôt confuse, elle est obligée de se taire.	124	7	8	0	0.0	[]	0.030303030303030304	0.030303030303030304	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	849	Flore, la sensible Flore, entraînée par cette agréable mélodie, pousse mille soupirs;	124	8	12	1	0.0833333333333333	[['agréable']]	0.09375	0.09375	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	850	un tendre feu s'allume dans ses yeux, elle respire à peine;	124	9	12	2	0.1666666666666666	[['tendre'], ['oeil']]	0.10526315789473684	0.10526315789473684	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	851	son âme semble voltiger sur sa bouche, elle semble appeler celle de son amant.	124	10	14	1	0.0714285714285714	[['bouche']]	0.075	0.075	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	852	Mirtil voit le trouble de son âme, et son hautbois lui tombe des mains.	124	11	14	0	0.0	[]	0.03333333333333333	0.03333333333333333	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	853	Dieux immortels!	124	12	2	0	0.0	[]	0.0	0.0	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	854	pouvez-vous goûter des plaisirs plus vifs?	124	13	7	0	0.0	[]	0.0	0.0	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	855	Que Mirtil en ce moment est cher à l'amoureuse Déesse!	124	14	11	0	0.0	[]	0.021739130434782608	0.021739130434782608	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	856	Non, jamais, ni les caresses du Printems, ni les transports de Zéphire, n'égalèrent, à son gré, les douceurs qu'elle goûte dans les bras du jeune Berger.	124	15	28	1	0.0357142857142857	[['bras']]	0.017241379310344827	0.017241379310344827	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	857	Flore bénit cent et cent fois la résolution qu'elle a prise de se venger du fils de Vénus.	124	16	19	0	0.0	[]	0.012658227848101266	0.012658227848101266	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	858	C'est à cette résolution qu'elle doit l'excès de son bonheur: sans l'idée de cette vengeance, elle n'eut jamais éprouvé des feux qu'elle préfère à son immortalité.	124	17	32	0	0.0	[]	0.0	0.014084507042253521	0.02702702702702703	0.0	0.047410242019443445
+Sacy_Amours	859	L'Amour l'a blessée d'un trait si puissant, que rien ne peut modérer la violence de son ardeur;	125	0	20	1	0.05	[['puissant']]	0.046511627906976744	0.02666666666666667	0.034482758620689655	0.0434782608695652	0.027181158454363842
+Sacy_Amours	860	elle brûle de l'amour le plus vif, et elle cherche encore à s'enflammer davantage: c'est ainsi qu'aiment les Déesses.	125	1	23	1	0.0434782608695652	[['vif']]	0.034482758620689655	0.034482758620689655	0.034482758620689655	0.0434782608695652	0.027181158454363842
+Sacy_Amours	861	Tel fut l'emportement de Vénus pour Adonis, et celui de l'amante de Céphale.	125	2	15	0	0.0	[]	0.02631578947368421	0.03409090909090909	0.034482758620689655	0.0434782608695652	0.027181158454363842
+Sacy_Amours	862	Jupiter, du haut de l'Olympe, voyant le désordre où l'Amour plongeait la Déesse des fleurs, craint que, pour plaire à son amant, elle ne néglige le soin de parer la terre de ses plus doux ornement: la Nature, privée de son secours, ne produirait que d'inutiles plantes.	126	0	50	2	0.04	[['haut'], ['dou']]	0.03125	0.02531645569620253	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	863	Il appelle le Messager des Cieux, et se fait apporter le Livre du Destin.	126	1	14	0	0.0	[]	0.05555555555555555	0.05555555555555555	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	864	Le Livre fatal est à l'instant ouvert à ses yeux: il lit sur ses feuillets de fer le triste sort du fils d'Adonis, qui doit, avant que le Soleil ait éclairé trois fois le Monde, descendre dans le sombre empire de Pluton.	126	2	44	4	0.0909090909090909	[['oeil'], ['de', 'fer'], ['triste'], ['sombre']]	0.045454545454545456	0.045454545454545456	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	865	Jupiter, qui prévoit le chagrin que ressentiront de sa perte et la Mère et l'amante du Berger, dit à Mercure: „Volez, mon fils, volez „auprès de Flore;	126	3	30	0	0.0	[]	0.0449438202247191	0.0449438202247191	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	866	dites-lui que le „Destin ordonne qu'elle se sépare „de son amant.	126	4	15	0	0.0	[]	0.011627906976744186	0.011627906976744186	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	867	Ensuite vous irez „dans l'Isle de Chypre, vous annoncerez à Vénus que son fils ne doit „pas voir la quatrième Aurore: „mais ajoutez, pour la consoler, „que je lui laisse le choix de sa „mort.	126	5	41	1	0.024390243902439	[['consoler']]	0.014492753623188406	0.014492753623188406	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	868	“ Aussitôt le fils de Maïa attache ses ailes, et prend son caducée.	126	6	13	0	0.0	[]	0.04	0.04	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	869	Déja loin du trône de son père, il parcourt le vaste espace des airs: il sourit en voyant les gras pâturages de la Thessalie, où il vola la lyre et le carquois d'Apollon, qui, dans ce temps, banni du Ciel, paissait les troupeaux d'Admète.	126	7	46	3	0.0652173913043478	[['vaste'], ['sourire'], ['gras']]	0.06329113924050633	0.06329113924050633	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	870	Il voit avec plus de plaisir encore, sur la queue d'un pan superbe, les yeux de l'incommode Argus;	126	8	20	2	0.1	[['superbe'], ['oeil']]	0.07246376811594203	0.07246376811594203	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	871	c'est lui	126	9	3	0	0.0	[]	0.075	0.075	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	872	qui l'ayant endormi par les doux sons de sa lyre, en délivra le Maître des Dieux.	126	10	17	1	0.0588235294117647	[['dou']]	0.03571428571428571	0.03571428571428571	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	873	Enfin il arrive dans l'empire de Flore.	126	11	8	0	0.0	[]	0.0425531914893617	0.0425531914893617	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	874	La Déesse promène mollement ses pas sur les bords du ruisseau, et Mirtil vient placer sur sa tête une couronne de roses.	126	12	22	1	0.0454545454545454	[['tête']]	0.04878048780487805	0.04878048780487805	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	875	Flore sourit, elle enchaîne son amant avec des guirlandes de fleurs;	126	13	11	1	0.0909090909090909	[['sourire']]	0.07142857142857142	0.07142857142857142	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	876	mais le Berger a bientôt brisé cette faible chaîne.	126	14	9	1	0.1111111111111111	[['faible']]	0.09523809523809523	0.09523809523809523	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	877	„	126	15	1	0	0.0	[]	0.07407407407407407	0.07407407407407407	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	878	Déesse, lui dit-il, „les liens de l'Amour sont plus „forts que les vôtres;	126	16	17	1	0.0588235294117647	[['fort']]	0.04081632653061224	0.04081632653061224	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	879	vous voyez „avec quelle facilité je me suis dégagé de ceux-ci; mais tous mes „efforts seraient vains pour briser „les nœuds qui vous attachent mon „cœur.	126	17	31	1	0.032258064516129	[['dégager']]	0.0392156862745098	0.0392156862745098	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	880	“ Mercure admire	126	18	3	0	0.0	[]	0.025	0.025	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	881	la galanterie du fils d'Adonis	126	19	6	0	0.0	[]	0.0	0.0	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	882	;	126	20	0	0	0.0	[]	0.0	0.0	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	883	il ne voudrait pas, en sa présence, s'acquitter de l'ordre fatal dont il est chargé.	126	21	17	0	0.0	[]	0.0	0.022727272727272728	0.0430622009569378	0.0121951219512195	0.03898946758604947
+Sacy_Amours	884	Le Soleil avait fini sa course: les chevaux de la Lune traînaient son char d'argent dans les airs, lorsque Mirtil s'endormit près de son amante.	127	0	27	1	0.037037037037037	[['de', 'argent']]	0.05263157894736842	0.03636363636363636	0.03125	0.0	0.038037057053076154
+Sacy_Amours	885	Tantôt, crainte de l'éveiller, Flore baise doucement sa belle bouche;	127	1	11	1	0.0909090909090909	[['bel']]	0.038461538461538464	0.038461538461538464	0.03125	0.0	0.038037057053076154
+Sacy_Amours	886	elle soupire, elle la baise encore, et son cœur s'abandonne à son ivresse.	127	2	14	0	0.0	[]	0.05263157894736842	0.05263157894736842	0.03125	0.0	0.038037057053076154
+Sacy_Amours	887	Elle était dans cette douce occupation, lorsqu'elle aperçut le Messager des Dieux.	127	3	13	1	0.0769230769230769	[['douce']]	0.02857142857142857	0.02857142857142857	0.03125	0.0	0.038037057053076154
+Sacy_Amours	888	A cette vue, son cœur palpite de crainte;	127	4	8	0	0.0	[]	0.03571428571428571	0.03571428571428571	0.03125	0.0	0.038037057053076154
+Sacy_Amours	889	un secret pressentiment lui annonce son malheur.	127	5	7	0	0.0	[]	0.034482758620689655	0.034482758620689655	0.03125	0.0	0.038037057053076154
+Sacy_Amours	890	Mercure l'aborde d'un air triste, et partageant sa douleur, il lui dit:	127	6	14	1	0.0714285714285714	[['triste']]	0.027777777777777776	0.027777777777777776	0.03125	0.0	0.038037057053076154
+Sacy_Amours	891	„Déesse, „le Maître des Dieux veut que „vous vous sépariez de Mirtil;	127	7	15	0	0.0	[]	0.02702702702702703	0.02702702702702703	0.03125	0.0	0.038037057053076154
+Sacy_Amours	892	„c'est l'ordre absolu du Destin.	127	8	8	0	0.0	[]	0.0	0.0	0.03125	0.0	0.038037057053076154
+Sacy_Amours	893	“ Il dit, et d'un vol rapide, il gagne Cythère.	127	9	11	0	0.0	[]	0.0	0.02631578947368421	0.03125	0.0	0.038037057053076154
+Sacy_Amours	894	Flore s'abandonne à la plus vive douleur: elle préférerait la mort à la seule idée de perdre Mirtil;	128	0	19	1	0.0526315789473684	[['vif']]	0.03333333333333333	0.024390243902439025	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	895	elle maudit l'inflexible puissance qui s'oppose à sa félicité.	128	1	11	0	0.0	[]	0.016666666666666666	0.016666666666666666	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	896	„Que Jupiter, s'écrie-t-elle, „règle à son gré „l'Univers; qu'il me ravisse même, „s'il lui plaît, mon empire, j'y consens;	128	2	30	0	0.0	[]	0.017543859649122806	0.017543859649122806	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	897	mais me séparer de mon „Berger! que plutôt la foudre „écrase ma tête rebelle.	128	3	16	1	0.0625	[['tête']]	0.020833333333333332	0.020833333333333332	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	898	Le cruel!	128	4	2	0	0.0	[]	0.03571428571428571	0.03571428571428571	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	899	„me suis-je jamais opposée à ses „amours?	128	5	10	0	0.0	[]	0.034482758620689655	0.034482758620689655	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	900	N'a-t-on pas vu mille „fois le front de ses amantes couronné de fleurs?	128	6	17	1	0.0588235294117647	[['front']]	0.029411764705882353	0.029411764705882353	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	901	“ Mirtil se réveille à ses cris;	128	7	7	0	0.0	[]	0.03225806451612903	0.03225806451612903	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	902	il voit avec surprise son amante éplorée:	128	8	7	0	0.0	[]	0.0	0.0	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	903	„Quel sujet, lui dit-il, „peut faire couler vos „larmes?	128	9	13	0	0.0	[]	0.0	0.0	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	904	Ah!	128	10	1	0	0.0	[]	0.0	0.0	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	905	Déesse!	128	11	1	0	0.0	[]	0.0	0.0	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	906	permettez-moi de les essuyer.	128	12	5	0	0.0	[]	0.0	0.0	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	907	„	128	13	1	0	0.0	[]	0.0	0.0	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	908	Flore le regarde en soupirant;	128	14	5	0	0.0	[]	0.07692307692307693	0.07692307692307693	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	909	ses yeux sont tristement attachés sur lui.	128	15	7	1	0.1428571428571428	[['oeil']]	0.025	0.025	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	910	Le fils d'Adonis la presse en vain de lui déclarer la cause de ses alarmes, Flore ne lui répond que par des soupirs et par des sanglots.	128	16	28	0	0.0	[]	0.02857142857142857	0.017543859649122806	0.022222222222222223	0.0	0.03924330053088614
+Sacy_Amours	911	Mercure était déjà dans le Temple d'Amathonte: la nouvelle qu'il y avait portée, avait répandu le deuil et la tristesse;	129	0	22	0	0.0	[]	0.0	0.0	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	912	Vénus pleurait la mort d'un fils aimé tendrement.	129	1	9	0	0.0	[]	0.0	0.0	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	913	„	129	2	1	0	0.0	[]	0.0	0.0	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	914	Barbare Destin, s'écriait-elle, tu „n'es donc pas content de m'avoir „enlevé le père?	129	3	19	0	0.0	[]	0.02564102564102564	0.02564102564102564	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	915	il faut que tu me „prive encore de la douce consolation de le voir revivre dans son fils.	129	4	19	1	0.0526315789473684	[['douce']]	0.017543859649122806	0.017543859649122806	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	916	Toute sa Cour partageait sa douleur: les Graces n'étaient occupées qu'à essuyer les larmes de la Déesse,	129	5	19	0	0.0	[]	0.04081632653061224	0.04081632653061224	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	917	et les Amours alarmés marquaient par leur empressement leur tendre inquiétude	129	6	11	1	0.0909090909090909	[['tendre']]	0.03333333333333333	0.03333333333333333	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	918	.	129	7	0	0	0.0	[]	0.09523809523809523	0.09523809523809523	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	919	Vénus, sensible à leurs soins, leur adresse ces tristes paroles.	129	8	10	1	0.1	[['triste']]	0.05405405405405406	0.05405405405405406	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	920	„O mes fils! le cruel Destin veut „la mort d'un Berger qui m'est „cher: cependant il me laisse une „faible consolation;	129	9	27	1	0.037037037037037	[['faible']]	0.04	0.04	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	921	je puis lui „choisir le genre de mort le plus „doux.	129	10	13	0	0.0	[]	0.03773584905660377	0.03773584905660377	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	922	Il faut donc qu'il expire sur „le sein de son amante.	129	11	13	1	0.0769230769230769	[['sein']]	0.02631578947368421	0.02631578947368421	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	923	Volez, „Amours, volez, emparez-vous „des ciseaux de la Parque;	129	12	12	0	0.0	[]	0.044444444444444446	0.044444444444444446	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	924	vous-mêmes, avec ceux que vous „prendrez des mains du Plaisir, „vous couperez le fil de ses jours.	129	13	20	1	0.05	[['main']]	0.030303030303030304	0.030303030303030304	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	925	“	129	14	1	0	0.0	[]	0.047619047619047616	0.06451612903225806	0.030612244897959183	0.0	0.03756231825164693
+Sacy_Amours	926	Vénus dit, et ses beaux yeux répandirent encore des larmes.	130	0	10	1	0.1	[['oeil']]	0.09090909090909091	0.08333333333333333	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	927	Aussi	130	1	1	0	0.0	[]	0.07692307692307693	0.07692307692307693	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	928	-tôt les Amours, prompts à la servir, volent dans les noirs gouffres de l'Averne.	130	2	15	1	0.0666666666666666	[['noir']]	0.03333333333333333	0.03333333333333333	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	929	Ils n'attendent pas, pour passer le Stix, la Barque de l'avare Caron;	130	3	14	0	0.0	[]	0.05263157894736842	0.05263157894736842	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	930	leurs ailes agiles les transportent au-delà du fleuve infernal.	130	4	9	1	0.1111111111111111	[['agile']]	0.02857142857142857	0.02857142857142857	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	931	Ils traversent les obscurs détours du Ténare: ils aperçoivent le malheureux Ixion;	130	5	12	0	0.0	[]	0.02040816326530612	0.02040816326530612	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	932	les cruelles Euménides, pour le punir de l'insulte qu'il osa faire à l'épouse de Jupiter, l'avaient attaché à une roue qui tourne sans cesse.	130	6	28	0	0.0	[]	0.0	0.0	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	933	Plus loin, ils aperçoivent le Brigand dont Thésée délivra l'Attique: il est couvert de sueur et de poussière;	130	7	19	0	0.0	[]	0.0	0.0	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	934	il remonte, avec effort, au sommet d'une montagne le fatal rocher qui doit sans cesse retomber sur lui.	130	8	19	0	0.0	[]	0.02127659574468085	0.02127659574468085	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	935	Tu frappas aussi leurs regards, père impie de Pélops;	130	9	9	1	0.1111111111111111	[['regard']]	0.02564102564102564	0.02564102564102564	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	936	la soif la plus ardente te tourmente au milieu des eaux.	130	10	11	0	0.0	[]	0.07142857142857142	0.07142857142857142	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	937	Enfin ils parviennent au sombre séjour de Pluton.	130	11	8	1	0.125	[['sombre']]	0.05555555555555555	0.05555555555555555	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	938	Le Dieu des Ombres est assis sur un trône de fer, et Proserpine est à ses côtés.	130	12	17	1	0.0588235294117647	[['de', 'fer']]	0.04081632653061224	0.04081632653061224	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	939	Ce n'est plus cette jeune Nymphe qui cueillait des fleurs dans les campagnes de la Sicile: c'est la plus cruelle des Divinités.	130	13	24	0	0.0	[]	0.0425531914893617	0.0425531914893617	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	940	Ses yeux sont enflammés de fureur;	130	14	6	1	0.1666666666666666	[['oeil']]	0.05405405405405406	0.05405405405405406	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	941	d'horribles serpent sifflent sur sa tête.	130	15	7	1	0.1428571428571428	[['siffler']]	0.08695652173913043	0.08695652173913043	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	942	Les Amours timides, effrayés, reculent d'abord à son aspect;	130	16	10	0	0.0	[]	0.03571428571428571	0.03571428571428571	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	943	mais ensuite, devenus plus hardis, ils s'approchent de la Déesse.	130	17	11	0	0.0	[]	0.030303030303030304	0.030303030303030304	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	944	Déja Proserpine est moins farouche: rien ne s'oppose à leur passage;	130	18	12	1	0.0833333333333333	[['farouche']]	0.03571428571428571	0.03571428571428571	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	945	les Furies baissent leurs flambeaux.	130	19	5	0	0.0	[]	0.018518518518518517	0.018518518518518517	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	946	Ils vont arracher des soupirs à l'inflexible Atropos; et l'un d'eux, tenant le fatal Ciseau que Vénus lui a fait remettre, attend, pour couper la trame de Mirtil, l'heure marquée par le Destin.	130	20	37	0	0.0	[]	0.0	0.015384615384615385	0.03169014084507042	0.0	0.05871753874263671
+Sacy_Amours	947	Depuis l'ordre que Flore avait reçu de se séparer de son amant, le Soleil était trois fois sorti du sein de Thétis.	131	0	23	1	0.0434782608695652	[['sein']]	0.043478260869565216	0.024096385542168676	0.06741573033707865	0.0434782608695652	0.07936989727713023
+Sacy_Amours	948	La Déesse, toujours plus alarmée, s'abandonnait à la plus vive douleur: elle ne prévoyait pourtant pas la mort prochaine de son amant.	131	1	23	1	0.0434782608695652	[['vif']]	0.03076923076923077	0.03076923076923077	0.06741573033707865	0.0434782608695652	0.07936989727713023
+Sacy_Amours	949	Noire fille du Sommeil et de la Nuit, Mort cruelle, laissetoi toucher par les larmes des deux plus aimables	131	2	19	0	0.0	[]	0.023255813953488372	0.023255813953488372	0.06741573033707865	0.0434782608695652	0.07936989727713023
+Sacy_Amours	950	Déesses.	131	3	1	0	0.0	[]	0.0	0.0	0.06741573033707865	0.0434782608695652	0.07936989727713023
+Sacy_Amours	951	Ah!	131	4	1	0	0.0	[]	0.1111111111111111	0.1111111111111111	0.06741573033707865	0.0434782608695652	0.07936989727713023
+Sacy_Amours	952	si leur désespoir pouvait t'attendrir! ....	131	5	7	1	0.1428571428571428	[['attendrir']]	0.17391304347826086	0.17391304347826086	0.06741573033707865	0.0434782608695652	0.07936989727713023
+Sacy_Amours	953	Mais non, ta main barbare moissonne indistinctement tous ceux qui se trouvent sous ta faux.	131	6	15	3	0.2	[['ton'], ['main'], ['ton']]	0.18181818181818182	0.1111111111111111	0.06741573033707865	0.0434782608695652	0.07936989727713023
+Sacy_Amours	954	Le fils d'Adonis, ignorant son malheur, pressait toujours de plus en plus la Déesse de lui déclarer le sujet de ses alarmes.	132	0	23	1	0.0434782608695652	[['presser']]	0.041666666666666664	0.10256410256410256	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	955	„	132	1	1	0	0.0	[]	0.0196078431372549	0.0196078431372549	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	956	Chère Flore, disait-il, „pouvez-vous craindre de „confier les secrets de votre cœur à „un amant qui ne respire que pour „vous?	132	2	27	0	0.0	[]	0.0	0.0	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	957	Ingrate!	132	3	1	0	0.0	[]	0.0	0.0	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	958	je n'entrevois que „trop la cause de votre douleur:	132	4	11	0	0.0	[]	0.0	0.0	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	959	„vous ne m'aimez plus, ou vous „rougissez de m'avoir aimé.	132	5	14	0	0.0	[]	0.0	0.0	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	960	„	132	6	1	0	0.0	[]	0.0	0.0	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	961	Cher „amant! reprit vivement la Déesse, „jamais amour ne fut égal au mien:	132	7	15	0	0.0	[]	0.0	0.0	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	962	„le Ciel, qui est témoin de mes larmes, sait si mon cœur est changé.	132	8	15	0	0.0	[]	0.017241379310344827	0.017241379310344827	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	963	Mirtil, rassuré par le discours de son amante immortelle, veut lui donner de nouvelles preuves de sa tendresse: elle le reçoit dans ses bras, elle le serre étroitement.	132	9	28	1	0.0357142857142857	[['bras']]	0.04225352112676056	0.04225352112676056	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	964	L'Amour saisit cet instant pour couper le fil des jours de Mirtil: ce Berger pousse un profond soupir, et il expire sur le sein de la Déesse.	132	10	28	2	0.0714285714285714	[['profond'], ['sein']]	0.043478260869565216	0.043478260869565216	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	965	Flore, voyant Mirtil sans mouvement, soupçonne, mais trop tard, la cruauté du Destin.	132	11	13	0	0.0	[]	0.05454545454545454	0.05454545454545454	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	966	Pour s'en assurer davantage, elle porte ses lèvres sur celles de son amant.	132	12	14	1	0.0714285714285714	[['lèvre']]	0.03333333333333333	0.03333333333333333	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	967	Mais, ô désespoir!	132	13	3	0	0.0	[]	0.08823529411764706	0.08823529411764706	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	968	elle n'y sent plus cette douce chaleur qui les animait: un froid mortel lui a succédé.	132	14	17	2	0.1176470588235294	[['douce'], ['froid']]	0.058823529411764705	0.058823529411764705	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	969	Aussitôt, s'abandonnant aux plus violence transports, l'Immortelle veut faire éclater ses cris;	132	15	14	0	0.0	[]	0.04081632653061224	0.04081632653061224	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	970	mais un morne silence, enfant du désespoir et de l'abattement, fait expirer ses paroles sur ses lèvres.	132	16	18	0	0.0	[]	0.0	0.0	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	971	Son cœur est trop serré;	132	17	5	0	0.0	[]	0.016666666666666666	0.016666666666666666	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	972	ses yeux ne versent point encore de larmes; mais comme on voit un torrent impétueux rompre, en bouillonnant, les digues qui s'opposent à son cours, de même la douleur de Flore s'ouvre bientôt un passage.	132	18	37	1	0.027027027027027	[['oeil']]	0.015625	0.015625	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	973	„O mon cher amant, s'écrie-t-elle, „je ne pourrai donc „plus ni te voir ni t'entendre;	132	19	22	0	0.0	[]	0.025	0.025	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	974	je „t'ai perdu, je t'ai vu mourir, „cher Mirtil, et il faut que je te „survive!	132	20	21	1	0.0476190476190476	[['mourir']]	0.018518518518518517	0.018518518518518517	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	975	Non, non, je veux te „suivre au tombeau, Ombre chérie!	132	21	11	0	0.0	[]	0.02702702702702703	0.02702702702702703	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	976	je ne te quitterai jamais.	132	22	5	0	0.0	[]	0.0	0.0	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	977	„	132	23	1	0	0.0	[]	0.0	0.0	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	978	Reçois encore ce baiser, reçois „mon dernier soupir, ou plutôt „reviens au jour, réveille	132	24	16	0	0.0	[]	0.0	0.0	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	979	-toi à la „	132	25	4	0	0.0	[]	0.08333333333333333	0.08333333333333333	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	980	voix de ton amante.	132	26	4	2	0.5	[['voix'], ['ton']]	0.2222222222222222	0.2222222222222222	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	981	Malheureuse!	132	27	1	0	0.0	[]	0.2	0.2	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	982	je l'appelle en vain;	132	28	5	0	0.0	[]	0.0625	0.0625	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	983	sa belle „âme a déjà passé la fatale Barque.	132	29	10	1	0.1	[['bel']]	0.047619047619047616	0.047619047619047616	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	984	„Dieux, jaloux de mon bonheur!	132	30	6	0	0.0	[]	0.045454545454545456	0.045454545454545456	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	985	„anéantissez-moi dans l'instant;	132	31	6	0	0.0	[]	0.0	0.0	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	986	„ôtez-moi l'immortalité que je déteste, puisqu'elle me sépare à jamais du plus aimable des mortels.	132	32	19	0	0.0	[]	0.0	0.023255813953488372	0.028846153846153848	0.0	0.08997053149640004
+Sacy_Amours	987	Tandis que Flore exhalait ainsi sa fureur, Vénus, occupée de soins maternels, fait enlever le corps de Mirtil.	133	0	18	1	0.0555555555555555	[['corps']]	0.037037037037037035	0.021739130434782608	0.04430379746835443	0.0454545454545454	0.02529237786253945
+Sacy_Amours	988	On élève un bucher près du Temple d'Amathonte;	133	1	9	0	0.0	[]	0.0392156862745098	0.0392156862745098	0.04430379746835443	0.0454545454545454	0.02529237786253945
+Sacy_Amours	989	on y place le corps du malheureux fils d'Adonis: la fumée, en tourbillon, s'élance dans les airs, la flamme commence à briller.	133	2	24	1	0.0416666666666666	[['corps']]	0.038461538461538464	0.038461538461538464	0.04430379746835443	0.0454545454545454	0.02529237786253945
+Sacy_Amours	990	Les Amours avancent d'un pas lent et lugubre, leurs arcs sont renversés, leurs yeux sont mouillés de larmes.	133	3	19	1	0.0526315789473684	[['oeil']]	0.05263157894736842	0.05263157894736842	0.04430379746835443	0.0454545454545454	0.02529237786253945
+Sacy_Amours	991	Les Ris et les Jeux, couronnés de noirs cyprès, pleurent pour la première fois.	133	4	14	1	0.0714285714285714	[['noir']]	0.05454545454545454	0.05454545454545454	0.04430379746835443	0.0454545454545454	0.02529237786253945
+Sacy_Amours	992	A leur suite, les Graces, couvertes d'un habit de deuil, et la tristesse peinte sur le visage, soutiennent leur Reine désolée.	133	5	22	1	0.0454545454545454	[['visage']]	0.041666666666666664	0.041666666666666664	0.04430379746835443	0.0454545454545454	0.02529237786253945
+Sacy_Amours	993	Bientôt toute la dépouille mortelle de Mirtil est consumée par les flammes.	133	6	12	0	0.0	[]	0.04	0.04	0.04430379746835443	0.0454545454545454	0.02529237786253945
+Sacy_Amours	994	Vénus, en pleurant, arrose de la plus pure ambroisie les cendres encore fumantes de son fils.	133	7	16	1	0.0625	[['pur']]	0.038461538461538464	0.038461538461538464	0.04430379746835443	0.0454545454545454	0.02529237786253945
+Sacy_Amours	995	Ces cendres chéries sont recueillies par les Graces, renfermées dans une Urne d'or, et placées par le Grand-Prêtre dans le sanctuaire du Temple.	133	8	24	1	0.0416666666666666	[['de', 'or']]	0.05	0.04878048780487805	0.04430379746835443	0.0454545454545454	0.02529237786253945
+Sacy_Amours	996	FIN.	134	0	1	0	0.0	[]	0.0	0.04	0.0	0.0	0.0
