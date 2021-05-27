@@ -201,6 +201,7 @@ def paragraph_dataframe(data):
     paragraphs_nr = data[config.h_paragraph_nr]
     if config.h_paragraph_median(False) not in data.columns:
         median_density_per_paragraph(data)
+    filenames = []
     paragraphs = []
     sentences = []
     words = []
@@ -209,6 +210,7 @@ def paragraph_dataframe(data):
     medians = []
     stds = []
     for i in range(paragraphs_nr[len(paragraphs_nr)-1] + 1):
+        filenames.append(data[config.h_filename][0])
         paragraphs.append(i)
         sentences.append(max(data[config.h_sentence_nr_paragraph][data[config.h_paragraph_nr] == i]) + 1)
         w = sum(data[config.h_words][data[config.h_paragraph_nr] == i])
@@ -219,7 +221,7 @@ def paragraph_dataframe(data):
         medians.append(max(data[config.h_paragraph_median(False)][data[config.h_paragraph_nr] == i]))
         stds.append(max(data[config.h_paragraph_std(False)][data[config.h_paragraph_nr] == i]))
     df = pd.DataFrame()
-    df[config.h_filename] = data[config.h_filename][0]
+    df[config.h_filename] = filenames
     df[config.h_paragraph_nr] = paragraphs
     df[config.h_sentences] = sentences
     df[config.h_words] = words
