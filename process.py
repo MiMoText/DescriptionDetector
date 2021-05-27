@@ -102,7 +102,7 @@ def compute_density(vocab, text):
             results.append(sentence_result)
             total_sentence_count += 1
             s_index_written += 1
-        if len(sentences) > 0:
+        if s_index_written > 0:
             p_index_written += 1
     return results_header, results
 
