@@ -80,3 +80,16 @@ Header | Typ | Erläuterung
 `paragraph density` | `float` | Dichte-Score (`matches` / `words`)
 `paragraph density median` | `float` | Median der Dichte-Scores je Satz
 `paragraph density std` | `float` | Standardabweichung der Dichte-Scores je Satz
+
+## sentence_tagger.py
+Mit dem Skript *sentence_tagger.py* soll es möglich sein durch das Kombinieren mehrerer Analysen zu entscheiden, ob es sich bei einem Satz, um eine Figurenbeschreibung handelt.
+
+Dazu werden für festgelegte Spalte der [sentences.tsv](https://github.com/MiMoText/DescriptionDetector/blob/main/data/analysis/sentences.tsv) (erstellt durch *analyze.py*) Thresholds von Hand erstellt. Für jede Spalte/jeden Threshold wird eine obere und untere Grenze angegeben. Jeder Satz wird nun anhand der Thresholds klassifiziert. Die Klassen haben dabei folgende Bedeutung:
+
+Label/Klasse | Bedeutung
+---|---
+`1.0` | **Ja**, es handelt sich um eine Figurenbeschreibung.
+`0.5` | **Vielleicht**, es handelt sich vielleicht um eine Figurenbeschreibung.
+`0.0` | **Nein**, es handelt sich um keine Figurenbeschreibung.
+
+Liegt der Satz bei allen Thresholds *unter* den jeweiligen *unteren* Grenzen, erhält dieser das Label 0. Das Label 1 erhalten die Sätze, die bei allen Thresholds jeweils *über* dem Wert der *oberen* Grenze liegen. Alle anderen Sätze erhalten das Label 0,5. Die Labels der Sätze werden in einer weiteren Spalte `Figurenbeschreibung` einem neuen DataFrame hinzugefügt und als [sentences_tagged.tsv](https://github.com/MiMoText/DescriptionDetector/blob/main/data/analysis/sentences_tagged.tsv) gespeichert.

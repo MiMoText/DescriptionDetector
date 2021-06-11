@@ -248,8 +248,8 @@ if __name__ == '__main__':
 
     df_all_sentences = concat_dataframes(dataframes)
     df_all_paragraphs = concat_dataframes(paragraphs_dfs)
-    save_data(df_all_sentences, filepath=os.path.join(config.fp_analysis_dir, 'sentences.tsv'))
-    save_data(df_all_paragraphs, filepath=os.path.join(config.fp_analysis_dir, 'paragraphs.tsv'))
+    save_data(df_all_sentences, filepath=config.fp_analysis_sentences_tsv)
+    save_data(df_all_paragraphs, filepath=config.fp_analysis_paragraphs_tsv)
 
     create_boxplot(config.h_paragraph_median(False), df_all_paragraphs,
                 os.path.join(config.fp_analysis_dir, 'paragraphs_median_boxplot.png'))

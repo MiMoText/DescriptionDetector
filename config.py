@@ -5,7 +5,7 @@ import os
 # processed-Header (bei Änderung muss entweder process.py neu ausgeführt oder die Header in den processed-Files angepasst werden)
 h_sentence_nr = 'sentence nr'
 h_sentence = 'sentence'
-h_paragraph_nr ='paragraph nr'
+h_paragraph_nr = 'paragraph nr'
 h_sentence_nr_paragraph = 'sentence nr in paragraph'
 h_words = 'words'
 h_matches = 'matches'
@@ -15,6 +15,8 @@ h_voc_matches = 'vocabulary words matched'
 h_filename = 'filename'
 h_sentences = 'sentences'
 h_paragraph_density = 'paragraph density'
+
+h_tag = 'Figurenbeschreibung'
 
 
 def h_density_range(range, same_paragraph):
@@ -41,3 +43,12 @@ fp_processed_dir = os.path.join('data', 'processed', 'files')
 fp_analysis_dir = os.path.join('data', 'analysis')
 fp_analysis_files_dir = os.path.join(fp_analysis_dir, 'files')
 fp_analysis_paragraphs_dir = os.path.join(fp_analysis_dir, 'paragraphs')
+fp_analysis_sentences_tsv = os.path.join(fp_analysis_dir, 'sentences.tsv')
+fp_analysis_paragraphs_tsv = os.path.join(fp_analysis_dir, 'paragraphs.tsv')
+fp_analysis_sentences_tagged_tsv = os.path.join(fp_analysis_dir, 'sentences_tagged.tsv')
+
+
+# Sonstige Konstanten
+tag_threshold_low = 'th_low'
+tag_threshold_high = 'th_high'
+tag_threshold_header = 'th_header'
