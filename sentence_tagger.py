@@ -37,6 +37,7 @@ def tag(df):
         df[h_low] = df[h_low] & (df[threshold[config.tag_threshold_header]] < threshold[config.tag_threshold_low])
     df[config.h_tag] = np.where(df[h_high], 1, np.where(df[h_low], 0, 0.5))
     df.drop(labels=[h_high, h_low], axis=1, inplace=True)
+    df.sort_values(by=[config.h_tag, config.h_matches, config.h_sentence_density], ascending=False, inplace=True)
 
 
 if __name__ == '__main__':
